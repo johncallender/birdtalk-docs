@@ -1,0 +1,18 @@
+site_name: BirdTalk Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Installation Guide: installation.md
+  - Quick Start: quickstart.md
+  - User Guide:
+    - Basic Commands: commands/basic.md
+    - Advanced Features: commands/advanced.md
+    - Hardware Setup: hardware/setup.md
