@@ -10,9 +10,30 @@ theme:
 
 nav:
   - Home: index.md
-  - Installation Guide: installation.md
-  - Quick Start: quickstart.md
-  - User Guide:
+  - Installation:
+    - Overview: installation/index.md
+    - Requirements: installation/requirements.md
+    - Setup Process: installation/setup.md
+    - Troubleshooting: installation/troubleshooting.md
+  - Quick Start:
+    - Overview: quickstart/index.md
+    - First Session: quickstart/first-session.md
+    - Essential Commands: quickstart/basic-commands.md
+  - User Guides:
+    - Overview: guides/index.md
+    - Working with Checklists: guides/checklists.md
+    - Entering Species: guides/species-entry.md
+    - Breeding Codes: guides/breeding-codes.md
+  - Commands:
+    - Overview: commands/index.md
     - Basic Commands: commands/basic.md
-    - Advanced Features: commands/advanced.md
-    - Hardware Setup: hardware/setup.md
+    - Advanced Commands: commands/advanced.md
+    - Command Reference: commands/reference.md
+  - Hardware:
+    - Overview: hardware/index.md
+    - Bluetooth Setup: hardware/bluetooth.md
+    - External Speakers: hardware/speakers.md
+  - Advanced Features:
+    - Overview: advanced/index.md
+    - Multiple Checklists: advanced/multiple-checklists.md
+    - Location Management: advanced/location-management.md
