@@ -3,7 +3,7 @@
 The installation process has several steps:
 
 1. **Prerequisites**
-    - An iPhone running iOS [version]
+    - An iPhone running iOS [version?]
     - An Apple ID account
     - An eBird account
     - [View detailed requirements](requirements.md)
