@@ -9,31 +9,15 @@ BirdTalk is a voice-controlled iOS app that makes it easy to record bird observa
 - GPS tracking
 - Bluetooth device compatibility
 
-## Getting Started
+## Documentation
 
-- **[Installation Guide](installation/index.md)**: System requirements and setup instructions
-- **[Quick Start Guide](quickstart/index.md)**: Essential commands for your first birding session
-
-## Detailed Documentation
-
-### [User Guides](guides/index.md)
-Step-by-step instructions for common tasks like creating checklists, entering species, and using breeding codes.
-
-### [Command Reference](commands/index.md)
-Complete reference for all BirdTalk voice commands, from basic to advanced.
-
-### [Hardware Setup](hardware/index.md)
-Information about compatible devices and how to set up Bluetooth accessories.
-
-### [Advanced Features](advanced/index.md)
-Detailed guides for experienced users, including managing multiple checklists and location management.
-
-## Need Help?
-
-- Check the [Installation Troubleshooting](installation/troubleshooting.md) guide for common setup issues
-- Review the [Quick Start Guide](quickstart/first-session.md) for essential commands
-- For additional support, contact the developer at [steve@membot.com](mailto:steve@membot.com)
+- **[Requirements and Installation](installation/requirements-and-setup.md)**: Everything you need to get started with BirdTalk
+- **[Quick Start Guide](quickstart/first-session.md)**: Essential commands for your first birding session
+- **[Command Reference](commands/reference.md)**: Complete reference for all BirdTalk voice commands
+- **[Tips and Tricks](tips-and-tricks.md)**: Helpful advice for getting the most out of BirdTalk
 
 ## About BirdTalk
 
 BirdTalk is developed by Steve Colwell and is currently in beta testing through TestFlight. The app is designed to enhance the birding experience by allowing birders to maintain their focus on birds while easily recording their observations.
+
+For support or feedback, contact the developer at [steve@membot.com](mailto:steve@membot.com).

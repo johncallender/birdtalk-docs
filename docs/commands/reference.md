@@ -15,9 +15,9 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 - `[Number] [Species]` - Record birds (e.g., "three mockingbirds")
 - `[Species]` - Record one bird (number defaults to 1)
 - Shorthand examples:
-  - "cal quail" → California Quail
-  - "slope" → Pacific-slope Flycatcher
-  - "yellow-crown" → Yellow-crowned Night-heron
+    - "cal quail" → California Quail
+    - "slope" → Pacific-slope Flycatcher
+    - "yellow-crown" → Yellow-crowned Night-heron
 
 ## Location Management
 
@@ -125,17 +125,18 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 
 ## Tips for Better Recognition
 
-1. In noisy environments:
-   - Speak more clearly and slightly louder
-   - Repeat exact phrase if not recognized
-   - Wait for quiet moments
+### In noisy environments:
+- Speak more clearly and slightly louder
+- Repeat exact phrase if not recognized
+- Wait for quiet moments
+- Try cupping your hand around the microphone
 
-2. For better accuracy:
-   - Use complete phrases
-   - Maintain consistent volume
-   - Speak at normal pace
+### For better accuracy:
+- Use complete phrases
+- Maintain consistent volume
+- Speak at normal pace
 
-3. When using shorthand:
-   - Ensure phrase is unique in your region
-   - Use distinctive parts of names
-   - Check recognition with "Choose" command
+### When using shorthand:
+- Ensure phrase is unique in your region
+- Use distinctive parts of names
+- Check recognition with "Choose" command

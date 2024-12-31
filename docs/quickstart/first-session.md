@@ -2,12 +2,6 @@
 
 This guide walks you through your first birding session with BirdTalk, focusing on the most essential commands you'll need.
 
-## Before You Start
-
-1. Ensure you're wearing your Bluetooth headset (if using one)
-2. Be outdoors with GPS visibility
-3. Have your eBird credentials ready
-
 ## Essential Commands Tutorial
 
 ### 1. Starting BirdTalk
@@ -41,6 +35,7 @@ Examples:
 ```
 
 Tips:
+
 - If no number is specified, BirdTalk assumes "one"
 - You can use shortened species names if they're unique in your area
 - If BirdTalk doesn't recognize a name the first time, repeat the exact same phrase - it will try harder to understand
@@ -48,10 +43,12 @@ Tips:
 ### 4. Reviewing and Adjusting Counts
 
 To check current count:
+
 - Say: "How many robins" (or any species)
 - BirdTalk will tell you the total count
 
 To adjust counts:
+
 - To change the last entry: "No, three" (changes to 3)
 - To add one: "One more"
 - To subtract one: "One fewer"
@@ -85,13 +82,13 @@ To adjust counts:
 ## Next Steps
 
 Once you're comfortable with these basic commands, explore:
+
 - Adding comments with "Memo"
 - Using breeding codes
 - Managing multiple checklists
-- [View all commands](../commands/index.md)
+- [View all commands](../commands/reference.md)
 
 ## Need Help?
 
 - Say "Help" at any time to see available commands
 - Say "Back" to return to the main screen
-- Check our [troubleshooting guide](../installation/troubleshooting.md) if you encounter issues
