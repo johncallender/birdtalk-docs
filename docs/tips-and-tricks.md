@@ -43,7 +43,7 @@
 - Records location for each observation (Steve to confirm)
 - Can stop/resume tracking within same checklist
 - Add location notes if GPS signal is weak
-- BirdTalk automatically computes total distince covered with backtracking removed, per eBird guidelines
+- BirdTalk automatically computes total distance covered with backtracking removed, per eBird guidelines
 
 ## Using with Other Apps
 
