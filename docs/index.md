@@ -18,6 +18,6 @@ BirdTalk is a voice-controlled iOS app that makes it easy to record bird observa
 
 ## About BirdTalk
 
-BirdTalk is developed by Steve Colwell and is currently in beta testing through TestFlight. The app is designed to enhance the birding experience by allowing birders to maintain their focus on birds while easily recording their observations.
+BirdTalk is developed by Steve Colwell and Lee Hasiuk, and is currently in beta testing through TestFlight. The app is designed to enhance the birding experience by allowing birders to maintain their focus on birds while easily recording their observations.
 
 For support or feedback, contact the developer at [steve@membot.com](mailto:steve@membot.com).
