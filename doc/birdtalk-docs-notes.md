@@ -49,9 +49,11 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
 - Removed Merlin section and updated compatibility info
 - Updated internet requirements about hotspot caching
 - Added wind muffs recommendation to hardware section
+- Updated GPS tracking references to reflect current functionality
+- Created screenshots list for field documentation (doc/screenshots-list.md)
 
 Remaining tasks:
-1. Add screenshots for UI elements (placeholders added in first-session.md)
+1. Take and add screenshots (list in doc/screenshots-list.md)
 2. Add Tutorial document with example session
 3. Replace abstract wildcards with concrete examples in command reference
 4. Add more examples throughout the documentation

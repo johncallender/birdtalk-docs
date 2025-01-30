@@ -12,8 +12,9 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 - Say `Shut down` - Turn off BirdTalk completely (note: app remains running but won't respond to voice commands)
 
 ### Basic Bird Entry
-- Say `[Number] [Species]` - Record birds (for example, say "three mockingbirds")
-- Say `[Species]` - Record one bird (number defaults to 1)
+- Say `three mockingbirds` - Record multiple birds of a species
+- Say `one robin` - Record a single bird
+- Say `mockingbird` - Record one bird (number defaults to 1)
 - Shorthand examples:
     - "cal quail" → California Quail
     - "slope" → Pacific-slope Flycatcher
@@ -29,16 +30,16 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 
 ### Reviewing Counts
 - Say `How many species` - BirdTalk says back total species count for checklist
-- Say `How many [species]` - BirdTalk says back total count for that species
+- Say `How many robins` - BirdTalk says back total count for that species
 - Say `How many species today` - BirdTalk says back species count across all today's checklists
 - Say `Choose [species]` - Select most recent entry of specified species
 
 ### Adjusting Counts
-- Say `No, [number]` - Change count of last entry
+- Say `No, three` - Change count of last entry (e.g., from 2 to 3)
 - Say `One more` - Add one to current count
 - Say `One fewer` - Subtract one from current count
-- Say `No, [species]` - Change species of last entry
-- Say `Make that [number] total` - Adjust to reach specific total
+- Say `No, towhee` - Change species of last entry
+- Say `Make that five total` - Adjust to reach specific total
 
 ### Corrections
 - Say `Scratch that` - Remove last entry or memo
@@ -50,10 +51,10 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 ## Comments and Memos
 
 ### Adding Comments
-- Say `Memo [text]` - Add comment to selected entry
-- Say `Memo from scratch [text]` - Replace existing memo
-- Say `Memo [text] coordinates` - Include GPS coordinates
-- Say `Memo [text] current coordinates` - Include current GPS position
+- Say `Memo singing from oak tree` - Add comment to selected entry
+- Say `Memo from scratch carrying nesting material` - Replace existing memo
+- Say `Memo nest 10 meters north of coordinates` - Include coordinates from when bird was first entered
+- Say `Memo nest at current coordinates` - Include coordinates of your current position
 
 ### Reading Comments
 - Say `Read back` - BirdTalk says back current entry's memo
@@ -94,28 +95,28 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 ## Breeding Codes
 
 ### Basic Codes
-- Say `[species] singing`
-- Say `[species] carrying food`
-- Say `[species] feeding`
-- Say `[species] nest with young`
-- Say `[species] nest with eggs`
-- Say `[species] carrying nesting material`
+- Say `robin singing`
+- Say `bluebird carrying food`
+- Say `chickadee feeding`
+- Say `wren nest with young`
+- Say `dove nest with eggs`
+- Say `towhee carrying nesting material`
 
 ### Advanced Codes
-- Say `[species] physiological`
-- Say `[species] territorial`
-- Say `[species] courtship`
-- Say `[species] visiting probable nest`
-- Say `[species] agitated behavior`
-- Say `[species] pair in suitable habitat`
+- Say `warbler physiological`
+- Say `flicker territorial`
+- Say `junco courtship`
+- Say `nuthatch visiting probable nest`
+- Say `jay agitated behavior`
+- Say `grosbeak pair in suitable habitat`
 
 ### Santa Barbara Study Codes
-- Say `[species] nestling`
-- Say `[species] feeding fledgling`
-- Say `[species] family group`
-- Say `[species] independent juvenile`
-- Say `[species] cavity nester attending cavity`
-- Say `[species] male singing on territory`
+- Say `woodpecker nestling`
+- Say `chickadee feeding fledgling`
+- Say `quail family group`
+- Say `sparrow independent juvenile`
+- Say `swallow cavity nester attending cavity`
+- Say `towhee male singing on territory`
 
 ## Tips for Better Recognition
 
