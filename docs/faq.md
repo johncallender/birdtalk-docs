@@ -16,13 +16,11 @@ BirdTalk is a voice-controlled interface for creating and submitting eBird check
 - Not required for:
   - Creating checklists in the field
   - Recording observations
-  - GPS tracking
+  - Location recording
 
-### How does BirdTalk handle GPS tracking?
-- Automatically tracks your route during active checklists
+### How does BirdTalk handle location information?
 - Records location for each observation
-- Can stop/resume tracking within the same checklist
-- Shows total distance traveled
+- Location data helps with hotspot detection and checklist organization
 
 ## Voice Recognition
 
@@ -48,17 +46,12 @@ BirdTalk is a voice-controlled interface for creating and submitting eBird check
 
 ## Using with Other Apps
 
-### Can I use Merlin Sound ID simultaneously with BirdTalk?
-Yes, but with some considerations:
-1. Start BirdTalk before Merlin for optimal audio control
-2. Both apps share the same microphone input
-3. Headset microphone may reduce Merlin's effectiveness
-4. Use "Switch" command to change to phone microphone if needed
+### Note About Merlin Sound ID
+Due to a recent update, Merlin Sound ID is no longer compatible with BirdTalk. The apps cannot run simultaneously.
 
 ### Will I hear notifications while using BirdTalk?
-- iPhone automatically silences notifications when Merlin Sound ID is active
-- Solution: Use an Apple Watch to receive notifications
 - BirdTalk itself doesn't affect notifications
+- Use an Apple Watch to receive notifications
 
 ## Hardware and Audio
 
@@ -103,7 +96,7 @@ Yes:
 ### What information does BirdTalk collect?
 - Logs voice recognition attempts for improvement
 - Stores phonetic format of commands (not readable text)
-- Uses GPS data for tracking and hotspot detection
+- Uses GPS data for hotspot detection and location recording
 - All data is used solely for app functionality and debugging
 
 ### Can I opt out of data collection?
@@ -130,4 +123,3 @@ Common reasons:
 - BirdTalk continues recording observations
 - Location data may be less accurate
 - Consider adding location notes in memos
-- GPS track will resume when signal returns

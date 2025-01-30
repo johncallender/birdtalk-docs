@@ -6,7 +6,7 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 
 ### Starting and Stopping
 - Say `Start checklist` - Begin a new checklist at current location
-- Say `Stop checklist` - End current checklist and GPS tracking
+- Say `Stop checklist` - End current checklist
 - Say `Resume` - Resume a stopped checklist
 - Say `Upload later` - Save current checklist for later upload to eBird
 - Say `Shut down` - Turn off BirdTalk completely (note: app remains running but won't respond to voice commands)

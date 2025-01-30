@@ -38,13 +38,6 @@
 - "Insert checklist" splits observations into separate lists
 - "Scratch" removes headers to combine lists
 
-### GPS and Location
-- GPS tracks your route during active checklists
-- Records location for each observation (Steve to confirm)
-- Can stop/resume tracking within same checklist
-- Add location notes if GPS signal is weak
-- BirdTalk automatically computes total distance covered with backtracking removed, per eBird guidelines
-
 ## Using with Other Apps
 
 ### Notifications
@@ -87,7 +80,6 @@ Due to a recent update, Merlin Sound ID is no longer compatible with BirdTalk. T
 ### What Works Offline
 - Creating new checklists
 - Recording observations
-- GPS tracking
 - Adding comments and counts
 
 ### What Needs Internet
@@ -107,11 +99,6 @@ Due to a recent update, Merlin Sound ID is no longer compatible with BirdTalk. T
 3. Check Bluetooth connections in Settings
 4. Ensure headset is recently connected
 
-### GPS Problems
-- Continue recording observations
-- Add location notes if needed
-- GPS track resumes when signal returns
-- Consider moving to clearer area
 
 ### Recognition Issues
 1. Try exact same phrase again

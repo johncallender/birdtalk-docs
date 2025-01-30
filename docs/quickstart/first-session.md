@@ -58,7 +58,7 @@ To adjust counts:
 
 1. When finished observing:
     - Say: "Stop checklist"
-    - This stops GPS tracking
+    - This ends the current checklist
 
 2. Review your checklist:
     - Look over the entries on screen
