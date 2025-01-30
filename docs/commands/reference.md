@@ -5,15 +5,15 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 ## Essential Commands
 
 ### Starting and Stopping
-- `Start checklist` - Begin a new checklist at current location
-- `Stop checklist` - End current checklist and GPS tracking
-- `Resume` - Resume a stopped checklist
-- `Submit checklist` - Submit the current checklist to eBird
-- `Shut down` - Turn off BirdTalk completely
+- Say `Start checklist` - Begin a new checklist at current location
+- Say `Stop checklist` - End current checklist and GPS tracking
+- Say `Resume` - Resume a stopped checklist
+- Say `Upload later` - Save current checklist for later upload to eBird
+- Say `Shut down` - Turn off BirdTalk completely (note: app remains running but won't respond to voice commands)
 
 ### Basic Bird Entry
-- `[Number] [Species]` - Record birds (e.g., "three mockingbirds")
-- `[Species]` - Record one bird (number defaults to 1)
+- Say `[Number] [Species]` - Record birds (for example, say "three mockingbirds")
+- Say `[Species]` - Record one bird (number defaults to 1)
 - Shorthand examples:
     - "cal quail" → California Quail
     - "slope" → Pacific-slope Flycatcher
@@ -22,106 +22,100 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 ## Location Management
 
 ### Hotspot Selection
-- `Next` - Switch to next nearby hotspot in list
-- `Edit location` - Edit name of personal location
-- `Insert checklist` - Create new checklist header at current position
-
-### Personal Locations
-- Tap "New location" when starting checklist
-- `Edit location` to name the location
+- Say `Next` - Switch to next nearby hotspot in list
+- Say `Insert checklist` - Create new checklist header at current position
 
 ## Species and Count Management
 
 ### Reviewing Counts
-- `How many [species]` - Get total count for a species
-- `How many species` - Get total species count for checklist
-- `How many species today` - Get species count across all today's checklists
-- `Choose [species]` - Select most recent entry of specified species
+- Say `How many species` - BirdTalk says back total species count for checklist
+- Say `How many [species]` - BirdTalk says back total count for that species
+- Say `How many species today` - BirdTalk says back species count across all today's checklists
+- Say `Choose [species]` - Select most recent entry of specified species
 
 ### Adjusting Counts
-- `No, [number]` - Change count of last entry
-- `One more` - Add one to current count
-- `One fewer` - Subtract one from current count
-- `No, [species]` - Change species of last entry
-- `Make that [number] total` - Adjust to reach specific total
+- Say `No, [number]` - Change count of last entry
+- Say `One more` - Add one to current count
+- Say `One fewer` - Subtract one from current count
+- Say `No, [species]` - Change species of last entry
+- Say `Make that [number] total` - Adjust to reach specific total
 
 ### Corrections
-- `Scratch that` - Remove last entry or memo
-- `Restore` - Restore last removed entry
-- `Mark that` - Mark entry for review (turns red)
-- `Unmark that` - Remove review mark
-- `Unmark entire checklist` - Remove all review marks
+- Say `Scratch that` - Remove last entry or memo
+- Say `Restore` - Restore last removed entry
+- Say `Mark that` - Mark entry for review (turns red)
+- Say `Unmark that` - Remove review mark
+- Say `Unmark entire checklist` - Remove all review marks
 
 ## Comments and Memos
 
 ### Adding Comments
-- `Memo [text]` - Add comment to selected entry
-- `Memo from scratch [text]` - Replace existing memo
-- `Memo [text] coordinates` - Include GPS coordinates
-- `Memo [text] current coordinates` - Include current GPS position
+- Say `Memo [text]` - Add comment to selected entry
+- Say `Memo from scratch [text]` - Replace existing memo
+- Say `Memo [text] coordinates` - Include GPS coordinates
+- Say `Memo [text] current coordinates` - Include current GPS position
 
 ### Reading Comments
-- `Read back` - Read current entry's memo
-- `Read entire` - Read all memos for current species
+- Say `Read back` - BirdTalk says back current entry's memo
+- Say `Read entire` - BirdTalk says back all memos for current species
 
 ### Editing Comments
-- `Edit memo` - Open memo editor
-- `Scratch that` - Remove last added memo text
+- Say `Edit memo` - Open memo editor
+- Say `Scratch that` - Remove last added memo text
 
 ## Checklist Management
 
 ### Navigation
-- `Choose newest` - Select most recent entry
-- `Sort by family` - Group entries by species
-- `Sort by time` - Show entries chronologically
-- `Show coordinates` - Display GPS coordinates
+- Say `Choose newest` - Select most recent entry
+- Say `Sort by family` - Group entries by species
+- Say `Sort by time` - Show entries chronologically
+- Say `Show coordinates` - Display GPS coordinates
 
 ### Information
-- `How far` - Show distance traveled
-- `How long` - Show elapsed time
-- `Time` - Show current time
+- Say `How far` - BirdTalk says back distance traveled
+- Say `How long` - BirdTalk says back elapsed time
+- Say `Time` - BirdTalk says back current time
 
 ## Audio and Device Control
 
 ### Device Management
-- `Switch` - Toggle between phone and Bluetooth audio
-- `Mute` or `Ignore` - Stop listening for commands
-- `Resume` or `Listen` or `Unmute` - Resume listening
+- Say `Mute` or `Ignore` - Stop listening for commands
+- Say `Resume` or `Listen` or `Unmute` - Resume listening
 
 ## Help and Information
 
 ### System Commands
-- `Help` - Show command list
-- `Back` - Return to main screen
-- `Time` - Check if BirdTalk is listening
-- `Feedback [text]` - Send feedback to developer
-- `Send feedback` - Submit stored feedback
+- Say `Help` - Show command list
+- Say `Back` - Return to main screen
+- Say `Time` - BirdTalk says back current time (also confirms it's listening)
+- Say `Feedback [text]` - Store feedback for later transmission
+- Say `Send feedback` - Submit stored feedback to developer
 
 ## Breeding Codes
 
 ### Basic Codes
-- `[species] singing`
-- `[species] carrying food`
-- `[species] feeding`
-- `[species] nest with young`
-- `[species] nest with eggs`
-- `[species] carrying nesting material`
+- Say `[species] singing`
+- Say `[species] carrying food`
+- Say `[species] feeding`
+- Say `[species] nest with young`
+- Say `[species] nest with eggs`
+- Say `[species] carrying nesting material`
 
 ### Advanced Codes
-- `[species] physiological`
-- `[species] territorial`
-- `[species] courtship`
-- `[species] visiting probable nest`
-- `[species] agitated behavior`
-- `[species] pair in suitable habitat`
+- Say `[species] physiological`
+- Say `[species] territorial`
+- Say `[species] courtship`
+- Say `[species] visiting probable nest`
+- Say `[species] agitated behavior`
+- Say `[species] pair in suitable habitat`
 
 ### Santa Barbara Study Codes
-- `[species] nestling`
-- `[species] feeding fledgling`
-- `[species] family group`
-- `[species] independent juvenile`
-- `[species] cavity nester attending cavity`
-- `[species] male singing on territory`
+- Say `[species] nestling`
+- Say `[species] feeding fledgling`
+- Say `[species] family group`
+- Say `[species] independent juvenile`
+- Say `[species] cavity nester attending cavity`
+- Say `[species] male singing on territory`
 
 ## Tips for Better Recognition
 

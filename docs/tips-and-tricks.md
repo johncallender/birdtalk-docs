@@ -47,16 +47,12 @@
 
 ## Using with Other Apps
 
-### Merlin Sound ID Integration
-1. Start BirdTalk before Merlin
-2. Both apps share microphone input
-3. Use "Switch" command to change to phone microphone if needed
-4. Headset might reduce Merlin's effectiveness
-
 ### Notifications
-- iPhone silences notifications when Merlin is active
-- Use Apple Watch for important notifications
 - BirdTalk itself doesn't affect notifications
+- Use Apple Watch for important notifications
+
+### Note About Merlin Sound ID
+Due to a recent update, Merlin Sound ID is no longer compatible with BirdTalk. The apps cannot run simultaneously.
 
 ## Audio Equipment Tips
 
@@ -98,7 +94,10 @@
 - Initial installation
 - Regional bird data download
 - Checklist submission
-- Hotspot detection
+- Initial hotspot detection (remains cached for future use)
+
+### Audio Issues
+- Say "Time" to check which device is handling the audio
 
 ## Troubleshooting Quick Fixes
 

@@ -20,11 +20,18 @@ Key features:
 * Bone conduction keeps ears unobstructed for birding
 * Good noise isolation for the microphone
 
+**Optional Accessory**: For improved voice recognition in windy conditions, some users report a good experience with using wind muffs (small furry covers) for the microphone:
+
+[Lavalier Wind Muff 2 Pack](https://www.amazon.com/dp/B0C88R9FHG) - These small foam covers significantly improve recognition accuracy in windy environments.
+
 ## Installation Process
 
 ### 1. Getting Beta Access
-1. Email your request to [steve@membot.com](mailto:steve@membot.com)
-2. Include your Apple ID email address
+1. Email your request to [stevebt@membot.com](mailto:stevebt@membot.com)
+2. Include:
+    - Your Apple ID email address
+    - Your phone number (required for configuration)
+    - Confirmation that you're willing to provide regular feedback to help improve the product
 3. Wait for confirmation that you've been added as a beta tester
 
 ### 2. Installing TestFlight
@@ -42,7 +49,7 @@ Key features:
 ### 4. Initial Configuration
 1. Open BirdTalk
 2. Enter your eBird account credentials when prompted
-3. Contact [steve@membot.com](mailto:steve@membot.com) to complete installation
+3. Contact [stevebt@membot.com](mailto:stevebt@membot.com) to complete installation
 4. Click the configuration link you'll receive via text message to set up API access
 
 ## Preparing for Field Use
@@ -94,4 +101,4 @@ After successful installation:
 - Practice basic commands in a quiet environment
 - Try a test checklist before going into the field
 
-For installation support, contact the developer at [steve@membot.com](mailto:steve@membot.com)
+For installation support, contact the developer at [stevebt@membot.com](mailto:stevebt@membot.com)

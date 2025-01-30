@@ -39,12 +39,22 @@ Create comprehensive documentation for the Birdtalk project using MkDocs, includ
 - Fixed typos (bdf12aa)
 
 ## Current Status
-Documentation version 1.0 is complete and ready for review. The project includes:
-- Complete installation guide with requirements and setup instructions
-- Quickstart guide for first-time users
-- Command reference documentation
-- FAQ and tips/tricks sections
-- Built documentation site in the 'site' directory
+Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback. Completed changes:
+- Updated index.md to clarify spoken instructions focus and add acknowledgments
+- Updated command reference to use "Say" prefix and clarify spoken responses
+- Updated Steve's email to stevebt@membot.com throughout
+- Added beta testing commitment and phone number requirement to setup guide
+- Removed obsolete Personal Locations section
+- Added "upload later" command and upload button documentation
+- Removed Merlin section and updated compatibility info
+- Updated internet requirements about hotspot caching
+- Added wind muffs recommendation to hardware section
+
+Remaining tasks:
+1. Add screenshots for UI elements (placeholders added in first-session.md)
+2. Add Tutorial document with example session
+3. Replace abstract wildcards with concrete examples in command reference
+4. Add more examples throughout the documentation
 
 ## Project Structure
 ```

@@ -54,7 +54,7 @@ To adjust counts:
 - To subtract one: "One fewer"
 - To change species: "No, towhee"
 
-### 5. Ending and Submitting
+### 5. Ending and Uploading
 
 1. When finished observing:
     - Say: "Stop checklist"
@@ -64,9 +64,21 @@ To adjust counts:
     - Look over the entries on screen
     - Say: "How many species" to get total species count
 
-3. To submit:
-    - Tap the checklist header (or say "Select checklist")
-    - Say: "Submit checklist"
+3. To upload to eBird:
+    - First, select the checklist:
+        - Tap the checklist header (the gray bar at the top of your checklist, shown below) or say: "Select checklist"
+
+        ![Checklist Header](../images/checklist-header.png)
+
+    - Then choose one of these options:
+        - Option 1 - Upload now:
+            - Tap the upload button (looks like an up arrow pointing at a cloud)
+
+            ![Upload Button](../images/upload-button.png)
+
+        - Option 2 - Upload later:
+            - Say: "Upload later"
+            - Your checklist will be saved and can be uploaded when you have internet connectivity
 
 ## Common Issues and Solutions
 
