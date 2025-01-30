@@ -13,9 +13,12 @@
 
 ### Bird Names
 - Use unique parts of names for faster recognition
+- Try using just part of the name (e.g., say "shrike" instead of "loggerhead shrike")
+- Shorter names often work better as they're less likely to be misheard
 - Once a species is in your checklist, its name gets priority
 - Check the [Command Reference](commands/reference.md) for shorthand options
 - Repeat the exact same phrase if not recognized initially
+- Experiment with different shorthands to find what works best for problematic species
 
 ### Response Times
 - Normal response: within 1 second in quiet conditions
