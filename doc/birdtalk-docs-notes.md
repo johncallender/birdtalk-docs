@@ -7,6 +7,7 @@ Create comprehensive documentation for the Birdtalk project using MkDocs, includ
 - Command reference
 - FAQ and tips/tricks
 - Troubleshooting information
+- Personal testimonial (doc/jbc_testimonial.md)
 
 ## Solution Design
 - Documentation platform: MkDocs
@@ -59,11 +60,20 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
 Remaining tasks:
 1. Take and add screenshots (list in doc/screenshots-list.md)
 2. Update minimum iPhone model requirements once Conor provides specs
+3. Complete personal testimonial document:
+   - Expand each section with detailed experiences
+   - Add specific examples and memorable moments
+   - Include practical tips from regular use
+   - Consider adding quotes from birding companions
 
 ## Project Structure
 ```
 birdtalk-docs/
 ├── mkdocs.yml           # MkDocs configuration
+├── doc/                 # Project notes and background info
+│   ├── birdtalk-docs-notes.md  # Project status and history
+│   ├── screenshots-list.md     # Planned screenshots
+│   └── jbc_testimonial.md      # Personal experience testimonial
 ├── docs/                # Documentation source files
 │   ├── index.md        # Landing page
 │   ├── faq.md          # Frequently Asked Questions
