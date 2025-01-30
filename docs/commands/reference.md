@@ -5,16 +5,16 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 ## Essential Commands
 
 ### Starting and Stopping
-- Say `Start checklist` - Begin a new checklist at current location
-- Say `Stop checklist` - End current checklist
-- Say `Resume` - Resume a stopped checklist
-- Say `Upload later` - Save current checklist for later upload to eBird
-- Say `Shut down` - Turn off BirdTalk completely (note: app remains running but won't respond to voice commands)
+- Say `Start checklist` - Begins a new checklist at current location
+- Say `Stop checklist` - Ends current checklist
+- Say `Resume` - Resumes a stopped checklist
+- Say `Upload later` - Saves current checklist for later upload to eBird
+- Say `Shut down` - Turns off BirdTalk completely (note: app remains running but won't respond to voice commands)
 
 ### Basic Bird Entry
-- Say `three mockingbirds` - Record multiple birds of a species
-- Say `one robin` - Record a single bird
-- Say `mockingbird` - Record one bird (number defaults to 1)
+- Say `three mockingbirds` - Records multiple birds of a species
+- Say `one robin` - Records a single bird
+- Say `mockingbird` - Records one bird (number defaults to 1)
 - Shorthand examples:
     - "cal quail" → California Quail
     - "slope" → Pacific-slope Flycatcher
@@ -23,8 +23,8 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 ## Location Management
 
 ### Hotspot Selection
-- Say `Next` - Switch to next nearby hotspot in list
-- Say `Insert checklist` - Create new checklist header at current position
+- Say `Next` - Switches to next nearby hotspot in list
+- Say `Insert checklist` - Creates new checklist header at current position
 
 ## Species and Count Management
 
@@ -35,42 +35,42 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 - Say `Choose [species]` - Select most recent entry of specified species
 
 ### Adjusting Counts
-- Say `No, three` - Change count of last entry (e.g., from 2 to 3)
-- Say `One more` - Add one to current count
-- Say `One fewer` - Subtract one from current count
-- Say `No, towhee` - Change species of last entry
-- Say `Make that five total` - Adjust to reach specific total
+- Say `No, three` - Changes count of last entry (e.g., from 2 to 3)
+- Say `One more` - Adds one to current count
+- Say `One fewer` - Subtracts one from current count
+- Say `No, towhee` - Changes species of last entry
+- Say `Make that five total` - Adjusts to reach specific total
 
 ### Corrections
-- Say `Scratch that` - Remove last entry or memo
-- Say `Restore` - Restore last removed entry
-- Say `Mark that` - Mark entry for review (turns red)
-- Say `Unmark that` - Remove review mark
-- Say `Unmark entire checklist` - Remove all review marks
+- Say `Scratch that` - Removes last entry or memo
+- Say `Restore` - Restores last removed entry
+- Say `Mark that` - Marks entry for review (turns red)
+- Say `Unmark that` - Removes review mark
+- Say `Unmark entire checklist` - Removes all review marks
 
 ## Comments and Memos
 
 ### Adding Comments
-- Say `Memo singing from oak tree` - Add comment to selected entry
-- Say `Memo from scratch carrying nesting material` - Replace existing memo
-- Say `Memo nest 10 meters north of coordinates` - Include coordinates from when bird was first entered
-- Say `Memo nest at current coordinates` - Include coordinates of your current position
+- Say `Memo singing from oak tree` - Adds comment to selected entry
+- Say `Memo from scratch carrying nesting material` - Replaces existing memo
+- Say `Memo nest 10 meters north of coordinates` - Includes coordinates from when bird was first entered
+- Say `Memo nest at current coordinates` - Includes coordinates of your current position
 
 ### Reading Comments
 - Say `Read back` - BirdTalk says back current entry's memo
 - Say `Read entire` - BirdTalk says back all memos for current species
 
 ### Editing Comments
-- Say `Edit memo` - Open memo editor
-- Say `Scratch that` - Remove last added memo text
+- Say `Edit memo` - Opens memo editor
+- Say `Scratch that` - Removes last added memo text
 
 ## Checklist Management
 
 ### Navigation
-- Say `Choose newest` - Select most recent entry
-- Say `Sort by family` - Group entries by species
-- Say `Sort by time` - Show entries chronologically
-- Say `Show coordinates` - Display GPS coordinates
+- Say `Choose newest` - Selects most recent entry
+- Say `Sort by family` - Groups entries by species
+- Say `Sort by time` - Shows entries chronologically
+- Say `Show coordinates` - Displays GPS coordinates
 
 ### Information
 - Say `How far` - BirdTalk says back distance traveled
@@ -80,17 +80,17 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 ## Audio and Device Control
 
 ### Device Management
-- Say `Mute` or `Ignore` - Stop listening for commands
-- Say `Resume` or `Listen` or `Unmute` - Resume listening
+- Say `Mute` or `Ignore` - Stops listening for commands
+- Say `Resume` or `Listen` or `Unmute` - Resumes listening
 
 ## Help and Information
 
 ### System Commands
-- Say `Help` - Show command list
-- Say `Back` - Return to main screen
+- Say `Help` - Shows command list
+- Say `Back` - Returns to main screen
 - Say `Time` - BirdTalk says back current time (also confirms it's listening)
-- Say `Feedback [text]` - Store feedback for later transmission
-- Say `Send feedback` - Submit stored feedback to developer
+- Say `Feedback [text]` - Stores feedback for later transmission
+- Say `Send feedback` - Submits stored feedback to developer
 
 ## Breeding Codes
 
@@ -135,3 +135,5 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 - Ensure phrase is unique in your region
 - Use distinctive parts of names
 - Check recognition with "Choose" command
+
+For more detailed advice on voice recognition, shorthand names, and troubleshooting, see the [Tips and Tricks](../tips-and-tricks.md) guide.
