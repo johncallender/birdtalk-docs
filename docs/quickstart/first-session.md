@@ -11,8 +11,9 @@ This guide walks you through your first birding session with BirdTalk, focusing 
     - Say: "Time"
     - BirdTalk should respond with the current time
 3. If using a Bluetooth headset:
-    - Say: "Switch"
-    - This ensures audio is routing through your headset
+    - Turn on your headset before starting BirdTalk
+    - BirdTalk will automatically use the headset for audio
+    - If you have any audio issues, see [Tips and Tricks](../tips-and-tricks.md#audio-equipment-tips)
 
 ### 2. Starting a Checklist
 
@@ -89,14 +90,11 @@ To adjust counts:
     - Say "Scratch that" to remove the last entry
     - Say "Restore" if you remove something by mistake
 
+For more troubleshooting tips and solutions, see the [Tips and Tricks](../tips-and-tricks.md) guide.
+
 ## Next Steps
 
-Once you're comfortable with these basic commands, explore:
-
-- Adding comments with "Memo"
-- Using breeding codes
-- Managing multiple checklists
-- [View all commands](../commands/reference.md)
+When you're ready to learn more, check out the complete [Command Reference](../commands/reference.md) for all available commands and features.
 
 ## Need Help?
 
