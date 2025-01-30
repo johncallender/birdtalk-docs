@@ -66,15 +66,13 @@ To adjust counts:
 
 3. To upload to eBird:
     - First, select the checklist:
-        - Tap the checklist header (the gray bar at the top of your checklist, shown below) or say: "Select checklist"
-
-        ![Checklist Header](../images/checklist-header.png)
+        - Tap the checklist header (the gray bar at the top of your checklist) or say: "Select checklist"
+        <!-- Screenshot to be added: checklist header -->
 
     - Then choose one of these options:
         - Option 1 - Upload now:
             - Tap the upload button (looks like an up arrow pointing at a cloud)
-
-            ![Upload Button](../images/upload-button.png)
+            <!-- Screenshot to be added: upload button -->
 
         - Option 2 - Upload later:
             - Say: "Upload later"
