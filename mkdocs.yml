@@ -12,6 +12,7 @@ nav:
   - Home: index.md
   - Requirements and Setup: installation/requirements-and-setup.md
   - Quick Start Guide: quickstart/first-session.md
+  - Tutorial: tutorial/example-session.md
   - Command Reference: commands/reference.md
   - Tips and Tricks: tips-and-tricks.md
   - FAQ: faq.md

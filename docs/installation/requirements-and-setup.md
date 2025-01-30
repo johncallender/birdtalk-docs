@@ -60,21 +60,22 @@ Key features:
 - Need cellular connectivity to download regional bird data in new locations
 
 ### Audio Setup
-1. Connect your Bluetooth headset (if using one)
-2. Start BirdTalk
-3. Use the "Switch" command to select your preferred microphone
-4. Test in both quiet and noisy environments
+1. If using a Bluetooth headset:
+    - Turn on your headset before starting BirdTalk
+    - BirdTalk will automatically use the headset for audio
+2. Test voice recognition in both quiet and noisy environments
+3. For detailed audio troubleshooting, see [Tips and Tricks](../tips-and-tricks.md#audio-equipment-tips)
 
 ### Voice Recognition Tips
 - Speak normally in quiet environments
 - Speak more clearly and loudly in noisy conditions
-- Use "Switch" command to change between phone and headset microphones
 - Repeat commands exactly if not recognized the first time
+- Try using shorter bird names for better recognition (e.g., "shrike" instead of "loggerhead shrike")
 
 ### Location Services
 - Enable GPS for automatic hotspot detection
-- Allows track recording during checklists
-- Used for location stamping of observations
+- Used for location recording with observations
+- Helps with checklist organization
 
 ## Verifying Installation
 
