@@ -51,12 +51,14 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
 - Added wind muffs recommendation to hardware section
 - Updated GPS tracking references to reflect current functionality
 - Created screenshots list for field documentation (doc/screenshots-list.md)
+- Added Tutorial with detailed example birding session
+- Replaced abstract wildcards with concrete examples in command reference
+- Added more examples throughout the documentation
+- Updated audio setup instructions to remove "switch" command confusion
 
 Remaining tasks:
 1. Take and add screenshots (list in doc/screenshots-list.md)
-2. Add Tutorial document with example session
-3. Replace abstract wildcards with concrete examples in command reference
-4. Add more examples throughout the documentation
+2. Update minimum iPhone model requirements once Conor provides specs
 
 ## Project Structure
 ```
@@ -70,6 +72,9 @@ birdtalk-docs/
 │   │   └── reference.md
 │   ├── installation/   # Installation guides
 │   │   └── requirements-and-setup.md
-│   └── quickstart/     # Getting started guides
-│       └── first-session.md
+│   ├── quickstart/     # Getting started guides
+│   │   └── first-session.md
+│   ├── tutorial/       # Detailed examples
+│   │   └── example-session.md
+│   └── images/         # Screenshots and images
 └── site/               # Generated documentation site
