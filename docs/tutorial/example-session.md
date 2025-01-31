@@ -106,6 +106,7 @@ This tutorial walks you through a complete birding session with BirdTalk, showin
         - Option 2 - Upload later:
             - Say "upload later"
             - Your checklist will be saved
+            - When you're ready to upload, just tap the upload button (up arrow pointing to cloud)
             - Useful when you want to:
                 - Review details more carefully at home
                 - Continue birding and create more checklists
