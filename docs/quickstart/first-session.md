@@ -7,6 +7,9 @@ This guide walks you through your first birding session with BirdTalk, focusing 
 ### 1. Starting BirdTalk
 
 1. Open the BirdTalk app
+
+![BirdTalk starting screen](../images/01_starting_screen.png)
+
 2. Test voice recognition:
     - Say: "Time"
     - BirdTalk should respond with the current time
@@ -20,6 +23,9 @@ This guide walks you through your first birding session with BirdTalk, focusing 
 1. Say: "Start checklist"
     - BirdTalk will find your location
     - It will suggest the nearest eBird hotspot
+
+![Location selection screen](../images/02_select_location.png)
+
 2. If the suggested hotspot isn't correct:
     - Say: "Next" to see other nearby options
     - Or tap a different hotspot on the screen
@@ -35,6 +41,8 @@ Examples:
 "Two cal quail"    (shorthand for California Quail)
 ```
 
+![Adding observations screen](../images/03_adding_observations.png)
+
 Tips:
 
 - If no number is specified, BirdTalk assumes "one"
@@ -47,6 +55,11 @@ To check current count:
 
 - Say: "How many robins" (or any species)
 - BirdTalk will tell you the total count
+
+You can sort your observations by family or species name:
+
+![Sort by family view](../images/04_sort_by_family.png)
+![Sort by species view](../images/06_sort_by_species.png)
 
 To adjust counts:
 
@@ -68,16 +81,24 @@ To adjust counts:
 3. To upload to eBird:
     - First, select the checklist:
         - Tap the checklist header (the gray bar at the top of your checklist) or say: "Select checklist"
-        <!-- Screenshot to be added: checklist header -->
+
+    For detailed instructions with screenshots of the entire upload process, see the [Uploading Checklists](../uploading-checklists.md) guide.
 
     - Then choose one of these options:
         - Option 1 - Upload now:
-            - Tap the upload button (looks like an up arrow pointing at a cloud)
-            <!-- Screenshot to be added: upload button -->
+            - Tap the upload button (up arrow pointing to cloud)
+            - Follow the prompts to complete the upload
+
+            ![Upload form](../images/11_upload_ebird_form.png)
+            ![Upload confirmation](../images/18_upload_confirmation.png)
 
         - Option 2 - Upload later:
             - Say: "Upload later"
-            - Your checklist will be saved and can be uploaded when you have internet connectivity
+            - Your checklist will be saved
+            - When you're ready to upload, select the checklist and tap the upload button
+
+            ![Select checklist to upload later](../images/07_select_checklist_to_upload_later.png)
+            ![Checklist marked for later upload](../images/08_checklist_marked_to_upload_later.png)
 
 ## Common Issues and Solutions
 
@@ -100,3 +121,5 @@ When you're ready to learn more, check out the complete [Command Reference](../c
 
 - Say "Help" at any time to see available commands
 - Say "Back" to return to the main screen
+
+![Help screen](../images/05_help_screen.png)

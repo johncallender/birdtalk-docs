@@ -100,7 +100,10 @@ This tutorial walks you through a complete birding session with BirdTalk, showin
 2. Submitting to eBird:
     - Say "stop checklist"
     - Say "select checklist"
-    - Then choose:
+
+    For a complete walkthrough of the upload process with screenshots, see the [Uploading Checklists](../uploading-checklists.md) guide.
+
+    Then choose:
         - Option 1 - Upload now:
             - Tap the upload button (up arrow pointing to cloud)
         - Option 2 - Upload later:
