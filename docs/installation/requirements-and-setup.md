@@ -3,9 +3,9 @@
 ## System Requirements
 
 ### Essential Requirements
-- iPhone 6s or newer [Steve to confirm]
-- iOS 15.0 or later [Steve to confirm]
-- At least 100MB of free storage space [Steve to confirm]
+- iPhone 11 or newer
+- iOS 18.0 or later
+- At least 250MB of free storage space
 - Apple ID for TestFlight access
 - eBird account (create one at [eBird.org](https://ebird.org) if needed)
 
@@ -46,18 +46,12 @@ Key features:
 3. Tap "Install" next to BirdTalk
 4. Wait for installation to complete
 
-### 4. Initial Configuration
-1. Open BirdTalk
-2. Enter your eBird account credentials when prompted
-3. Contact [stevebt@membot.com](mailto:stevebt@membot.com) to complete installation
-4. Click the configuration link you'll receive via text message to set up API access
-
 ## Preparing for Field Use
 
 ### Internet Connectivity
 - Required for initial setup and checklist submission
 - Works offline in the field after initial setup
-- Need cellular connectivity to download regional bird data in new locations
+- Need cellular connectivity to upload checklists
 
 ### Audio Setup
 1. If using a Bluetooth headset:
