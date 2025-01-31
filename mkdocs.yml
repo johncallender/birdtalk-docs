@@ -1,19 +1,40 @@
 site_name: BirdTalk Documentation
+markdown_extensions:
+  - attr_list
+  - md_in_html
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
     - toc.integrate
     - search.suggest
     - search.highlight
+    - header.autohide
+  font:
+    text: Roboto
+  palette:
+    scheme: default
+    primary: indigo
+    accent: blue
+  icon:
+    logo: material/book-open-variant
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md
-  - Requirements and Setup: installation/requirements-and-setup.md
+  - Installation: installation/requirements-and-setup.md
   - Quick Start Guide: quickstart/first-session.md
   - Tutorial: tutorial/example-session.md
   - Uploading Checklists: uploading-checklists.md
   - Command Reference: commands/reference.md
   - Tips and Tricks: tips-and-tricks.md
   - FAQ: faq.md
+
+repo_url: ""  # Hide GitHub link
+edit_uri: ""  # Hide edit button
+
+extra:
+  generator: false  # Hide "Made with Material for MkDocs"

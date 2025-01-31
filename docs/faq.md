@@ -8,13 +8,16 @@ BirdTalk is a voice-controlled interface for creating and uploading eBird checkl
 
 ### Do I need an internet connection?
 
-- Required for:
-  - Initial installation and first-time setup
-  - Uploading checklists
-- Not required for:
-  - Creating checklists in the field
-  - Recording observations
-  - Location recording
+Required for:
+
+- Initial installation and first-time setup
+- Uploading checklists
+
+Not required for:
+
+- Creating checklists in the field
+- Recording observations
+- Location recording
 
 ### How does BirdTalk handle location information?
 
@@ -35,6 +38,7 @@ BirdTalk is a voice-controlled interface for creating and uploading eBird checkl
 1. Speak clearly and consistently
 2. If a command isn't recognized, repeat the exact same phrase
 3. In noisy conditions:
+
    - Speak slightly louder
    - Position microphone closer
    - Wait for quieter moments
@@ -70,9 +74,13 @@ We recommend the OpenComm2 Bone Conduction Headset because:
 
 ### How do I manage multiple Bluetooth devices?
 
-- iPhone can handle two audio devices:
-  - Internal mic/speaker
-  - One Bluetooth device
+iPhone can handle two audio devices:
+
+- Internal mic/speaker
+- One Bluetooth device
+
+Additional information:
+
 - Most recently connected device takes control
 - Use "Switch" command to toggle between devices
 - Power cycle headset or use Settings/Bluetooth to change control

@@ -6,93 +6,117 @@ This guide walks you through the complete process of uploading your BirdTalk che
 
 ### Option 1: Upload Immediately
 
-When you finish a checklist, you can upload it right away:
+When you finish a checklist, you can upload it right away. The process is straightforward:
 
 1. Select your checklist by tapping the header or saying "Select checklist"
 2. Tap the upload button (up arrow pointing to cloud)
-3. Follow the upload process:
+3. Follow the prompts to complete the upload
 
-![Upload form](images/11_upload_ebird_form.png)
+<figure markdown>
+  ![Upload form](images/11_upload_ebird_form.png){ .screenshot }
+  <figcaption>The upload form where you'll enter your eBird credentials</figcaption>
+</figure>
 
-*The upload form where you'll enter your eBird credentials*
+The upload form provides all the necessary fields for submitting your checklist to eBird. Take a moment to review the details before submitting.
 
-![Zoomed upload form](images/12_zoomed_in_upload_form.png)
-
-*A closer look at the form fields*
+<figure markdown>
+  ![Zoomed upload form](images/12_zoomed_in_upload_form.png){ .screenshot }
+  <figcaption>A closer look at the form fields</figcaption>
+</figure>
 
 ### Option 2: Save for Later Upload
 
-You can save checklists to upload them later:
+Sometimes you might want to save checklists to upload them later. This is useful when you want to:
+
+- Review your observations more carefully
+- Wait for a better internet connection
+- Upload multiple checklists at once
+- Continue birding without interruption
+
+<figure markdown>
+  ![Select checklist](images/07_select_checklist_to_upload_later.png){ .screenshot }
+  <figcaption>Selecting a checklist to mark for later upload</figcaption>
+</figure>
+
+To save a checklist for later:
 
 1. Select your checklist
 2. Say "Upload later" or use the menu options
 
-![Select checklist](images/07_select_checklist_to_upload_later.png)
+<figure markdown>
+  ![Marked for upload](images/08_checklist_marked_to_upload_later.png){ .screenshot }
+  <figcaption>The checklist is now marked for later upload</figcaption>
+</figure>
 
-*Selecting a checklist to mark for later upload*
+You can mark multiple checklists for later upload, which is particularly useful when you're doing several short counts in one area.
 
-![Marked for upload](images/08_checklist_marked_to_upload_later.png)
-
-*The checklist is now marked for later upload*
-
-You can mark multiple checklists for later upload:
-
-![Multiple checklists](images/09_all_checklists_marked_to_upload_later.png)
-
-*Multiple checklists marked for upload*
+<figure markdown>
+  ![Multiple checklists](images/09_all_checklists_marked_to_upload_later.png){ .screenshot }
+  <figcaption>Multiple checklists marked for upload</figcaption>
+</figure>
 
 ## Upload Process
 
-1. When you're ready to upload, tap the upload button
-2. The upload help page will guide you through the process:
+When you're ready to upload your saved checklists, BirdTalk provides clear guidance through each step.
 
-![Upload help](images/10_upload_help_page.png)
+<figure markdown>
+  ![Upload help](images/10_upload_help_page.png){ .screenshot }
+  <figcaption>Upload help page with instructions</figcaption>
+</figure>
 
-*Upload help page with instructions*
+The file selection process is straightforward:
 
-3. Choose the checklist file when prompted:
+<figure markdown>
+  ![File selection popup](images/13_choose_file_popup.png){ .screenshot }
+  <figcaption>The file selection popup</figcaption>
+</figure>
 
-![File selection popup](images/13_choose_file_popup.png)
+<figure markdown>
+  ![File selection screen](images/14_choose_file_selection_screen.png){ .screenshot }
+  <figcaption>Selecting your checklist file</figcaption>
+</figure>
 
-*The file selection popup*
+Once you've selected your file, you'll see the upload form ready for submission:
 
-![File selection screen](images/14_choose_file_selection_screen.png)
+<figure markdown>
+  ![Ready to submit](images/15_upload_form_ready_to_submit.png){ .screenshot }
+  <figcaption>Form ready for submission</figcaption>
+</figure>
 
-*Selecting your checklist file*
+During the upload, BirdTalk shows a progress indicator:
 
-4. Complete the upload form:
+<figure markdown>
+  ![Upload in progress](images/16_submission_in_progress.png){ .screenshot }
+  <figcaption>Upload in progress indicator</figcaption>
+</figure>
 
-![Ready to submit](images/15_upload_form_ready_to_submit.png)
+Upon successful upload, you'll see confirmation screens:
 
-*Form ready for submission*
+<figure markdown>
+  ![Upload successful](images/17_upload_successful.png){ .screenshot }
+  <figcaption>Success confirmation</figcaption>
+</figure>
 
-5. Upload progress:
+<figure markdown>
+  ![Upload confirmation](images/18_upload_confirmation.png){ .screenshot }
+  <figcaption>Detailed confirmation screen</figcaption>
+</figure>
 
-![Upload in progress](images/16_submission_in_progress.png)
+<figure markdown>
+  ![Upload completed](images/19_upload__completed.png){ .screenshot }
+  <figcaption>Upload process completed</figcaption>
+</figure>
 
-*Upload in progress indicator*
+After successful upload, BirdTalk automatically cleans up by removing the uploaded checklists:
 
-6. Confirmation:
-
-![Upload successful](images/17_upload_successful.png)
-
-*Success confirmation*
-
-![Upload confirmation](images/18_upload_confirmation.png)
-
-*Detailed confirmation screen*
-
-![Upload completed](images/19_upload__completed.png)
-
-*Upload process completed*
-
-7. After successful upload, your checklists will be cleared:
-
-![Checklists deleted](images/20_checklists_deleted.png)
-
-*Checklists removed after successful upload*
+<figure markdown>
+  ![Checklists deleted](images/20_checklists_deleted.png){ .screenshot }
+  <figcaption>Checklists removed after successful upload</figcaption>
+</figure>
 
 ## Tips for Successful Uploads
+
+A few key points to ensure smooth uploads:
 
 - Ensure you have a stable internet connection
 - Have your eBird credentials ready
@@ -103,6 +127,7 @@ You can mark multiple checklists for later upload:
 ## Troubleshooting
 
 If you encounter issues during upload:
+
 - Check your internet connection
 - Verify your eBird credentials
 - Make sure all entries are unmarked (no red text)

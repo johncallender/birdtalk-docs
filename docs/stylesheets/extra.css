@@ -1,0 +1,64 @@
+/* Screenshot styling - targeting Material theme classes */
+.md-typeset img,
+.md-typeset figure img,
+.md-typeset p img,
+.screenshot {
+    border: 1px solid #ddd !important;
+    border-radius: 4px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+    margin: 0.3em 3em 0.8em 1em !important;
+    width: 375px !important;
+    height: auto !important;
+    max-width: 375px !important;
+    display: inline-block !important;
+}
+
+/* Figure styling */
+.md-typeset figure {
+    margin: 0 3em 0 0 !important;
+    float: right !important;
+    clear: right !important;
+    width: 375px !important;
+    max-width: 375px !important;
+    padding: 0 !important;
+}
+
+/* Caption styling */
+.md-typeset figcaption {
+    color: #666 !important;
+    font-size: 0.75em !important;
+    margin-top: 0.2em !important;
+    font-style: italic !important;
+    text-align: center !important;
+    width: 375px !important;
+    max-width: 375px !important;
+    word-wrap: break-word !important;
+    padding: 0 !important;
+}
+
+/* Section spacing */
+.md-typeset h2 {
+    margin-top: 1.2em !important;
+    margin-bottom: 0.8em !important;
+    clear: both !important;
+}
+
+.md-typeset h3,
+.md-typeset h4 {
+    margin-top: 0.8em !important;
+    margin-bottom: 0.6em !important;
+    clear: both !important;
+}
+
+/* First heading in content doesn't need the extra spacing */
+.md-typeset h1 + h2,
+.md-typeset h1 + h3,
+.md-typeset h1 + h4 {
+    margin-top: 0.6em !important;
+}
+
+/* Ensure text content has room to breathe */
+.md-typeset p {
+    margin: 0.6em 0 !important;
+    line-height: 1.6 !important;
+}

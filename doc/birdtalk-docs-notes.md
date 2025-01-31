@@ -56,67 +56,48 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
 - Replaced abstract wildcards with concrete examples in command reference
 - Added more examples throughout the documentation
 - Updated audio setup instructions to remove "switch" command confusion
+- Improved text formatting with proper spacing around bullet lists
 
-Remaining tasks:
+## Documentation Style Guide
+
+### Text Formatting
+1. Bullet Lists
+   - Always add a blank line before and after bullet lists
+   - This prevents lists from running into surrounding text
+   - Example:
+     ```markdown
+     Here is some introductory text.
+
+     - First bullet point
+     - Second bullet point
+     - Third bullet point
+
+     Here is the following text.
+     ```
+   - This ensures proper visual separation and readability
+
+2. Image Layout
+   - Screenshots float right with text wrapping
+   - Current width: 375px
+   - Consistent margins and spacing
+   - Clear separation between sections (4em margin)
+
+## Remaining Tasks
+
 1. Complete personal testimonial document:
    - Expand each section with detailed experiences
    - Add specific examples and memorable moments
    - Include practical tips from regular use
    - Consider adding quotes from birding companions
 
-2. Improve image formatting and presentation:
-   a. Image Scaling
-      - Current screenshots are too large for comfortable viewing
-      - Plan to resize all images to 600-800 pixels wide
-      - Implementation options:
-        - Using sips (macOS built-in):
-          ```bash
-          sips -Z 800 docs/images/*.png
-          ```
-        - Using ImageMagick:
-          ```bash
-          mogrify -resize 800x docs/images/*.png
-          ```
-        - Preserve originals by copying to backup directory first
-
-   b. Image Styling
-      - Add custom CSS to mkdocs.yml for consistent image presentation
-      - Proposed styles:
-        ```css
-        img {
-          border: 1px solid #ddd;
-          border-radius: 4px;
-          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-          margin: 10px 0;
-        }
-        ```
-      - These styles will:
-        - Add subtle border
-        - Create soft corners
-        - Add drop shadow
-        - Ensure consistent spacing
-
-   c. Image Layout
-      - Implement text wrapping using MkDocs Material's features
-      - Example implementation:
-        ```markdown
-        <figure markdown>
-          ![Image title](image.png){ align="right" width="300" }
-        </figure>
-        ```
-      - Consider layout patterns:
-        - Small screenshots right-aligned with text wrap
-        - Full-width for complex interface shots
-        - Side-by-side comparisons where appropriate
-      - Add CSS classes for consistent sizing:
-        ```css
-        .screenshot-small {
-          width: 300px;
-        }
-        .screenshot-medium {
-          width: 500px;
-        }
-        ```
+2. Review and enhance screenshots:
+   - Review all screenshots for clarity and relevance
+   - Identify locations where annotations (labels, arrows, etc.) would improve understanding
+   - Verify that each screenshot properly relates to its surrounding text
+   - Create list of any missing screenshots needed to better illustrate concepts
+   - Consider adding callouts to highlight specific UI elements
+   - Review screenshot sequence to ensure it follows a logical progression
+   - Check for consistency in screenshot cropping and focus
 
 ## Project Structure
 ```
