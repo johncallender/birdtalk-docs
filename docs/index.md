@@ -1,6 +1,6 @@
 # BirdTalk Documentation
 
-BirdTalk is an iOS app designed to be controlled entirely by spoken instructions, allowing you to record bird observations in the field while keeping your phone in your pocket. Using simple voice commands, you can create and submit eBird checklists without taking your eyes off the birds or handling your device.
+BirdTalk is an iOS app designed to be controlled entirely by spoken instructions, allowing you to record bird observations in the field while keeping your phone in your pocket. Using simple voice commands, you can create and upload eBird checklists without taking your eyes off the birds or handling your device.
 
 ## Key Features
 
@@ -15,6 +15,7 @@ BirdTalk is an iOS app designed to be controlled entirely by spoken instructions
 - **[Tutorial](tutorial/example-session.md)**: Detailed walkthrough of a complete birding session
 - **[Command Reference](commands/reference.md)**: Complete reference for all BirdTalk voice commands
 - **[Tips and Tricks](tips-and-tricks.md)**: Helpful advice for getting the most out of BirdTalk
+- **[FAQ](faq.md)**: Answers to frequently asked questions about BirdTalk
 
 ## About BirdTalk
 

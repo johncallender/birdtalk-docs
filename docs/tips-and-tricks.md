@@ -29,10 +29,10 @@
 ## Field Preparation
 
 ### New Location Checklist
-1. Start a dummy checklist at your base location
-2. This downloads the regional bird database
-3. Once downloaded, you can bird offline
-4. Submit checklists when back online
+1. Start a checklist at your location
+2. BirdTalk will suggest the nearest hotspot
+3. You can bird offline after initial setup
+4. Upload checklists when back online
 
 ### Managing Multiple Checklists
 - Create separate checklists for different locations
@@ -67,7 +67,7 @@ Due to a recent update, Merlin Sound ID is no longer compatible with BirdTalk. T
 
 ## Checklist Management
 
-### Before Submitting
+### Before Uploading
 - Review marked (red) entries
 - Ensure you've selected the checklist location header
 - Check internet connection
@@ -86,10 +86,8 @@ Due to a recent update, Merlin Sound ID is no longer compatible with BirdTalk. T
 - Adding comments and counts
 
 ### What Needs Internet
-- Initial installation
-- Regional bird data download
-- Checklist submission
-- Initial hotspot detection (remains cached for future use)
+- Initial installation and first-time setup
+- Uploading checklists
 
 ### Audio Issues
 - Say "Time" to check which device is handling the audio

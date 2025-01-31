@@ -1,6 +1,6 @@
 # BirdTalk Tutorial: Example Session
 
-This tutorial walks you through a complete birding session with BirdTalk, showing how the app works in real-world scenarios. We'll cover starting a checklist, recording observations, handling common situations, and submitting your data to eBird.
+This tutorial walks you through a complete birding session with BirdTalk, showing how the app works in real-world scenarios. We'll cover starting a checklist, recording observations, handling common situations, and uploading your data to eBird.
 
 ## Starting Your Session
 
@@ -46,7 +46,7 @@ This tutorial walks you through a complete birding session with BirdTalk, showin
 
 ### Using Shorthand Names
 1. You spot a Yellow-rumped Warbler:
-    - Say "butter butt" (common shorthand for this species)
+    - Say "yellow rump"
     - BirdTalk adds one Yellow-rumped Warbler
 
 2. You see a Pacific-slope Flycatcher:
@@ -55,7 +55,7 @@ This tutorial walks you through a complete birding session with BirdTalk, showin
 
 ### Adding Comments
 1. You notice interesting behavior:
-    - Say "choose butter butt" (selects Yellow-rumped Warbler)
+    - Say "choose yellow rump" (selects Yellow-rumped Warbler)
     - Say "memo foraging with chickadees"
     - BirdTalk adds the comment to your observation
 
@@ -78,7 +78,7 @@ This tutorial walks you through a complete birding session with BirdTalk, showin
 1. You encounter a mixed flock:
     - Say "three chickadees"
     - Say "two ruby crowned kinglets"
-    - Say "butter butt"
+    - Say "yellow rump"
 
 2. Adding behavior notes:
     - Each memo will be attached to the species you select
@@ -86,7 +86,7 @@ This tutorial walks you through a complete birding session with BirdTalk, showin
     - Say "memo foraging with kinglets and warbler"
     - Say "choose kinglet"
     - Say "memo actively feeding in willows"
-    - Say "choose butter butt"
+    - Say "choose yellow rump"
     - Say "memo part of mixed flock in willows"
 
 ## Wrapping Up
@@ -116,7 +116,7 @@ This tutorial walks you through a complete birding session with BirdTalk, showin
 - Keep commands simple and direct
 - Use shorthand names when they're unique in your area
 - Add memos while observations are fresh
-- Review your checklist before submitting
+- Review your checklist before uploading
 - Use "upload later" if you want to double-check details
 
 For a complete list of commands and features, see the [Command Reference](../commands/reference.md).
