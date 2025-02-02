@@ -108,7 +108,7 @@ Key features:
 
 After successful installation:
 
-- Review the [Quick Start Guide](../quickstart/first-session.md) for essential commands
+- Review the [Getting Started Guide](../getting-started.md) for essential commands
 - Practice basic commands in a quiet environment
 - Try a test checklist before going into the field
 

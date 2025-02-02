@@ -40,7 +40,6 @@
 .md-typeset h2 {
     margin-top: 1.2em !important;
     margin-bottom: 0.8em !important;
-    clear: both !important;
 }
 
 .md-typeset h3,
@@ -55,6 +54,37 @@
 .md-typeset h1 + h3,
 .md-typeset h1 + h4 {
     margin-top: 0.6em !important;
+}
+
+/* Image container to control float behavior */
+.image-container {
+    float: right !important;
+    clear: right !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 375px !important;
+}
+
+/* List styling */
+.md-typeset ol {
+    counter-reset: item !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+.md-typeset ol > li {
+    display: block !important;
+    margin-left: 2em !important;
+    margin-bottom: 0.8em !important;
+    clear: left !important;
+}
+
+.md-typeset ol > li:before {
+    content: counters(item, ".") ". " !important;
+    counter-increment: item !important;
+    float: left !important;
+    margin-left: -2em !important;
+    font-weight: bold !important;
 }
 
 /* Ensure text content has room to breathe */

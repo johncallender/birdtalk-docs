@@ -26,12 +26,12 @@ extra_css:
 nav:
   - Home: index.md
   - Installation: installation/requirements-and-setup.md
-  - Quick Start Guide: quickstart/first-session.md
-  - Tutorial: tutorial/example-session.md
+  - Getting Started: getting-started.md
   - Uploading Checklists: uploading-checklists.md
   - Command Reference: commands/reference.md
   - Tips and Tricks: tips-and-tricks.md
   - FAQ: faq.md
+  - Test: list-test.md
 
 repo_url: ""  # Hide GitHub link
 edit_uri: ""  # Hide edit button
