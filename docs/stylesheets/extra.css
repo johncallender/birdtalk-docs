@@ -15,12 +15,10 @@
 
 /* Figure styling */
 .md-typeset figure {
-    margin: 0 3em 0 0 !important;
-    float: right !important;
-    clear: right !important;
     width: 375px !important;
     max-width: 375px !important;
     padding: 0 !important;
+    margin: 0 !important;
 }
 
 /* Caption styling */
@@ -38,6 +36,7 @@
 
 /* Section spacing */
 .md-typeset h2 {
+    clear: both !important;
     margin-top: 1.2em !important;
     margin-bottom: 0.8em !important;
 }
@@ -46,7 +45,6 @@
 .md-typeset h4 {
     margin-top: 0.8em !important;
     margin-bottom: 0.6em !important;
-    clear: both !important;
 }
 
 /* First heading in content doesn't need the extra spacing */
@@ -57,12 +55,25 @@
 }
 
 /* Image container to control float behavior */
-.image-container {
+.md-typeset .image-container {
     float: right !important;
     clear: right !important;
-    margin: 0 !important;
+    margin: 0 0 1em 2em !important; /* Add bottom and left margin for text wrapping */
     padding: 0 !important;
     width: 375px !important;
+}
+
+/* Remove float from figures inside image-container */
+.md-typeset .image-container figure {
+    float: none !important;
+    margin: 0 !important;
+}
+
+/* Ensure proper wrapping around floated elements */
+.md-typeset .image-container::after {
+    content: "" !important;
+    display: table !important;
+    clear: both !important;
 }
 
 /* List styling */
@@ -76,7 +87,7 @@
     display: block !important;
     margin-left: 2em !important;
     margin-bottom: 0.8em !important;
-    clear: left !important;
+    clear: both !important;
 }
 
 .md-typeset ol > li:before {
@@ -87,8 +98,40 @@
     font-weight: bold !important;
 }
 
+/* Nested list styling */
+.md-typeset ul ul,
+.md-typeset ol ul,
+.md-typeset ul ol,
+.md-typeset ol ol {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+    padding-left: 1.5em !important;
+}
+
+/* Handle text wrapping around images */
+.md-typeset .image-container {
+    margin-left: 2em !important;
+}
+
+/* Force content below floated elements */
+.md-typeset .clear-floats {
+    clear: both !important;
+    display: block !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Ensure content flows around floated elements */
+.md-typeset p,
+.md-typeset ul,
+.md-typeset ol {
+    overflow: visible !important;
+}
+
 /* Ensure text content has room to breathe */
 .md-typeset p {
     margin: 0.6em 0 !important;
     line-height: 1.6 !important;
+    display: flow-root !important; /* Modern clearfix */
 }

@@ -116,6 +116,36 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
    - Current width: 375px
    - Consistent margins and spacing
    - Clear separation between sections (4em margin)
+   - Best practices for image positioning:
+     * Place image-container divs before the content they illustrate
+     * Allow h3 headings to wrap next to images by removing clear:both
+     * Use clear-floats div to force specific sections below images
+     * Example structure:
+       ```markdown
+       <div class="image-container" markdown>
+       <figure markdown>
+         ![Alt text](/path/to/image.png){ .screenshot }
+         <figcaption>Caption text</figcaption>
+       </figure>
+       </div>
+
+       ### Section That Wraps
+
+       Text content that wraps...
+
+       <div class="clear-floats"></div>
+
+       ### Section Below Image
+       ```
+
+## Current Status (Feb 2, 2025)
+Improvements to getting-started.md layout:
+- Fixed text overlapping with images by improving CSS for text wrapping
+- Removed clear:both from h3 headings to allow proper wrapping
+- Added clear-floats class for controlled section breaks
+- Positioned first image to allow "The Basics" heading to wrap
+- Forced "Essential Commands" section below first image
+- More image positioning improvements pending
 
 ## Current Task (Feb 1, 2025)
 Documentation restructuring in progress:

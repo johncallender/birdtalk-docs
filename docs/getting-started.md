@@ -4,14 +4,14 @@ This guide will help you start using BirdTalk effectively. It begins with a quic
 
 ## Quick Reference
 
-### The Basics
-
 <div class="image-container" markdown>
 <figure markdown>
   ![BirdTalk starting screen](/images/01_starting_screen.png){ .screenshot }
   <figcaption>BirdTalk starting screen</figcaption>
 </figure>
 </div>
+
+### The Basics
 
 When you first open BirdTalk, you'll see the main screen with options to start a new checklist or access previous ones. The interface is clean and simple, designed for hands-free operation.
 
@@ -24,38 +24,62 @@ Before starting your birding session:
     - BirdTalk will automatically use the headset
     - For audio issues, see [Tips and Tricks](tips-and-tricks.md#audio-equipment-tips)
 
+<div class="clear-floats"></div>
+
 ### Essential Commands
 
+<div class="image-container" markdown>
+<figure markdown>
+  ![Location selection screen](/images/02_select_location.png){ .screenshot }
+  <figcaption>Location selection screen showing nearby hotspots</figcaption>
+</figure>
+</div>
+
 1. **Starting a Checklist**
-    <figure markdown>
-      ![Location selection screen](/images/02_select_location.png){ .screenshot }
-      <figcaption>Location selection screen showing nearby hotspots</figcaption>
-    </figure>
+
     Say "Start checklist" and BirdTalk will find your location and suggest the nearest eBird hotspot.
     If the suggested hotspot isn't correct:
+
     - Say "Next" to see other nearby options
     - Or tap a different hotspot on the screen
+
+<div class="clear-floats"></div>
+
+
 2. **Recording Birds**
+
     Use the basic format: "[Number] [Species Name]". For example:
+
     - "Three mockingbirds"
     - "One robin"
     - "Two cal quail" (shorthand for California Quail)
+
+    <div class="image-container" markdown>
     <figure markdown>
       ![Adding observations screen](/images/03_adding_observations.png){ .screenshot }
       <figcaption>Screen for adding bird observations</figcaption>
     </figure>
+    </div>
+
 3. **Viewing Your List**
+
     BirdTalk offers multiple ways to organize your observations.
+
+    <div class="image-container" markdown>
     <figure markdown>
       ![Sort by family view](/images/04_sort_by_family.png){ .screenshot }
       <figcaption>Observations sorted by family</figcaption>
     </figure>
+    </div>
+    <div class="image-container" markdown>
     <figure markdown>
       ![Sort by species view](/images/06_sort_by_species.png){ .screenshot }
       <figcaption>Observations sorted by species name</figcaption>
     </figure>
+    </div>
 
 4. **Basic Commands**
+
     Here are the essential commands for managing your observations:
 
     - To check a count: "How many robins"
@@ -65,11 +89,14 @@ Before starting your birding session:
     - To change species: "No, towhee"
 
 5. **Getting Help**
+
     The help screen is always available - just say "Help"
+    <div class="image-container" markdown>
     <figure markdown>
       ![Help screen](/images/05_help_screen.png){ .screenshot }
       <figcaption>Help screen showing available commands</figcaption>
     </figure>
+    </div>
 
 ## Detailed Tutorial
 
@@ -78,6 +105,7 @@ Now let's walk through a complete birding session, showing how BirdTalk works in
 ### Starting Your Session
 
 1. **Initial Setup**
+
    - Before leaving home:
      * Turn on your Bluetooth headset
      * Open BirdTalk
@@ -89,6 +117,7 @@ Now let's walk through a complete birding session, showing how BirdTalk works in
      * Accept if correct, or say "Next" for other options
 
 2. **First Observations**
+
    - You hear a Song Sparrow:
      * Say "song sparrow"
      * BirdTalk adds one Song Sparrow
@@ -105,6 +134,7 @@ Now let's walk through a complete birding session, showing how BirdTalk works in
 ### Advanced Features
 
 1. **Correcting Mistakes**
+
    - Species correction:
      * Say "black phoebe"
      * Realize it's actually a Say's Phoebe
@@ -118,6 +148,7 @@ Now let's walk through a complete birding session, showing how BirdTalk works in
      * BirdTalk updates the count
 
 2. **Using Shorthand Names**
+
    - For Yellow-rumped Warbler:
      * Say "yellow rump"
 
@@ -125,6 +156,7 @@ Now let's walk through a complete birding session, showing how BirdTalk works in
      * Say "slope"
 
 3. **Adding Comments**
+
    - For behavior notes:
      * Say "choose yellow rump"
      * Say "memo foraging with chickadees"
@@ -136,6 +168,7 @@ Now let's walk through a complete birding session, showing how BirdTalk works in
 ### Managing Multiple Species
 
 1. **Mixed Flock Example**
+
    - Record multiple species quickly:
      * Say "three chickadees"
      * Say "two ruby crowned kinglets"
@@ -148,6 +181,7 @@ Now let's walk through a complete birding session, showing how BirdTalk works in
      * Say "memo actively feeding in willows"
 
 2. **Quick Counts and Reviews**
+
    - Check specific species:
      * Say "how many song sparrows"
 
@@ -163,6 +197,7 @@ When you're finished observing:
 3. Choose your upload method:
 
    Option 1 - Upload now:
+
    - Tap the upload button (up arrow pointing to cloud)
    - Follow the prompts to complete the upload
 
@@ -174,6 +209,7 @@ When you're finished observing:
 </div>
 
    Option 2 - Upload later:
+
    - Say "Upload later" to save the checklist
    - When ready, select the checklist and tap upload
 
@@ -195,11 +231,13 @@ When you're finished observing:
 ### Troubleshooting
 
 If BirdTalk doesn't recognize a command:
+
 - Speak more clearly and slightly louder
 - Try repeating the exact same phrase
 - In noisy conditions, you may need to speak louder
 
 If you make a mistake:
+
 - Say "Scratch that" to remove the last entry
 - Say "Restore" if you remove something by mistake
 
