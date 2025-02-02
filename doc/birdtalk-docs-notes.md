@@ -126,6 +126,17 @@ Documentation restructuring in progress:
 - Updating navigation structure in mkdocs.yml
 - Adjusting CSS styling in extra.css
 
+Current challenges:
+- Working on fixing layout issues in getting-started.md where nested bullet lists are not wrapping properly around images
+- Investigating Claude browser error related to image dimensions:
+  * All screenshots currently 800px in height
+  * While no single image exceeds 2000px limit, the combined image load may be triggering the error
+  * Potential solutions:
+    - Reduce image dimensions (e.g., resize to 600px height)
+    - Split getting-started.md into smaller pages
+    - Lazy load images or use progressive loading techniques
+    - Consider removing some redundant screenshots
+
 ## Remaining Tasks
 
 1. Complete personal testimonial document:
