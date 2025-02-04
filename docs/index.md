@@ -28,6 +28,6 @@ BirdTalk is currently in beta testing through TestFlight. The app is designed to
 
 ## Acknowledgments
 
-BirdTalk is developed by Steve Colwell with major assistance from iOS expert Lee Hasiuk, extensive feedback from our Santa Barbara beta testers, especially Mark Holmgren and Sue Cook, and documentation support from John Callender.
+BirdTalk is developed by Steve Colwell with major assistance from iOS expert Lee Hasiuk.  Many thanks to the early Santa Barbara testers:  Mark Holmgren, Sue Cook, David Blue, and Conor McMahon.  Much appreciated documentation support by John Callender.
 
 For support or feedback, contact Steve at [stevebt@membot.com](mailto:stevebt@membot.com).
