@@ -20,9 +20,9 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 
 Shorthand examples:
 
-- "cal quail" → California Quail
-- "slope" → Pacific-slope Flycatcher
-- "yellow-crown" → Yellow-crowned Night-heron
+- Say `cal quail` → California Quail
+- Say `slope` → Pacific-slope Flycatcher
+- Say `yellow-crown` → Yellow-crowned Night-heron
 
 ## Location Management
 
