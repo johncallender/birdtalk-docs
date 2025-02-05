@@ -13,7 +13,7 @@ This guide will help you start using BirdTalk effectively. It begins with a quic
 
 ### The Basics
 
-When you first open BirdTalk, you'll see the main screen with options to start a new checklist or access previous ones. The interface is clean and simple, designed for hands-free operation.
+When you first open BirdTalk, you'll see the main screen with options to start a new checklist or access previous ones. The interface is clean and simple, designed for hands-free operation. Use pinch-to-zoom gestures to adjust text size for better visibility.
 
 Before starting your birding session:
 
@@ -214,6 +214,11 @@ If BirdTalk doesn't recognize a command:
 - Speak more clearly and slightly louder
 - Try repeating the exact same phrase
 - In noisy conditions, you may need to speak louder
+
+If text is hard to read:
+- Use pinch-to-zoom gestures to adjust text size
+- Zoom in for better visibility in bright sunlight
+- Zoom out to see more content at once
 
 If you make a mistake:
 

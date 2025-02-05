@@ -150,3 +150,16 @@
 .md-typeset .content-wrap ol {
     overflow: visible !important;
 }
+
+/* Link styling */
+.md-typeset a:not(.md-button) {
+    text-decoration: underline !important;
+    text-underline-offset: 2px !important;
+    color: #2196f3 !important;
+}
+
+.md-typeset a:not(.md-button):hover {
+    color: #1976d2 !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: 2px !important;
+}
