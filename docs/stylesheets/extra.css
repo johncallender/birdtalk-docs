@@ -57,6 +57,7 @@
     clear: right;
     margin: 0 1rem 1em 2em; /* Add bottom and left margin for text wrapping */
     padding: 0;
+    max-width:50%;
 }
 
 /* Remove float from figures inside image-container */

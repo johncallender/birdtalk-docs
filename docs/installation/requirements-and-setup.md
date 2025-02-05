@@ -8,13 +8,16 @@
 - iOS 18.0 or later
 - At least 250MB of free storage space
 - Apple ID for TestFlight access
-- eBird account (create one at [eBird.org](https://ebird.org) if needed)
+- eBird account (create one at 
+<a href="https://eBird.org" target="eBird">ebird.org</a> 
+if needed)
 
 ### Recommended Hardware
 
 While BirdTalk works with your iPhone's built-in microphone, we strongly recommend using a Bluetooth headset for the best experience:
 
-**Recommended Model**: [OpenComm2 Bone Conduction Stereo Bluetooth Headset by Shokz](https://www.amazon.com/SHOKZ-OpenComm2-Conduction-Headphones-Bluetooth/dp/B0C88R9FHG)
+**Recommended Model**: 
+<a href="https://www.amazon.com/SHOKZ-OpenComm2-Conduction-Headphones-Bluetooth/dp/B0C88R9FHG" target="bonecondamazon">OpenComm2 Bone Conduction Stereo Bluetooth Headset by Shokz</a> 
 
 Key features:
 
@@ -22,22 +25,23 @@ Key features:
 * Bone conduction keeps ears unobstructed for birding
 * Good noise isolation for the microphone
 
-**Optional Accessory**: For improved voice recognition in windy conditions, some users report a good experience with using wind muffs (small furry covers) for the microphone:
+**Optional Accessory**: For improved voice recognition in windy conditions, some users report a good experience with using wind muffs (small foam covers) for the microphone:
 
-[Lavalier Wind Muff 2 Pack](https://www.amazon.com/dp/B08DJ38QZG) - These small foam covers significantly improve recognition accuracy in windy environments.
+<a href="https://www.amazon.com/dp/B08DJ38QZG" target="windmuffamazon">Lavalier Wind Muff 2 Pack</a> 
+- These small foam covers significantly improve recognition accuracy in windy environments.
 
 ## Installation Process
 
 ### Getting Beta Access
 
-1. Email your request to [stevebt@membot.com](mailto:stevebt@membot.com)
+1. Email your request to [stevebt@membot.com](mailto:stevebt@membot.com?subject=BirdTalk%20beta%20access).  Your email address will only be used for communications with you about setting up and operating BirdTalk.
 2. Include:
 
     - Your Apple ID email address
     - Your phone number (required for configuration)
     - Confirmation that you're willing to provide regular feedback to help improve the product
 
-3. Wait for confirmation that you've been added as a beta tester
+3. Wait for email confirmation that you've been added as a beta tester
 
 ### Installing TestFlight
 
@@ -73,7 +77,7 @@ Key features:
 
 ### Voice Recognition Tips
 
-- Speak normally in quiet environments
+- Speak normally in quiet environments.
 - Speak more clearly and loudly in noisy conditions
 - Repeat commands exactly if not recognized the first time
 - Try using shorter bird names for better recognition (e.g., "shrike" instead of "loggerhead shrike")
@@ -98,7 +102,7 @@ Key features:
     - Say "Start checklist"
     - Verify nearby hotspots are displayed
 
-3. Test Checklist:
+3. Checklist Test:
 
     - Start a test checklist at your location
     - Verify birds can be added to the checklist
@@ -112,4 +116,4 @@ After successful installation:
 - Practice basic commands in a quiet environment
 - Try a test checklist before going into the field
 
-For installation support, contact the developer at [stevebt@membot.com](mailto:stevebt@membot.com)
+For installation support, contact the developer at [stevebt@membot.com](mailto:stevebt@membot.com?subject=BirdTalk%20installation)

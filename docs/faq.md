@@ -82,8 +82,7 @@ iPhone can handle two audio devices:
 Additional information:
 
 - Most recently connected device takes control
-- Turn Bluetooth headset on/off to switch devices if needed
-- Power cycle headset or use Settings/Bluetooth to change control
+- Turn Bluetooth headset off then on to put headset back in control.
 
 ## Checklists and Data
 

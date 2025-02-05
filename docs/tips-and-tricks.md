@@ -70,7 +70,7 @@ Additional information:
 
 - Most recently connected device takes control
 - Turn Bluetooth headset on/off to switch devices if needed
-- Power cycle headset if having connection issues
+- Turn Bluetooth headset on/off if having connection issues
 
 ### Optimizing Audio Setup
 
