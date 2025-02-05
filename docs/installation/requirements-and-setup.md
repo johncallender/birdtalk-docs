@@ -57,9 +57,9 @@ Key features:
 
 ### Internet Connectivity
 
-- Required for initial setup and checklist submission
+- Required for initial setup and installation
 - Works offline in the field after initial setup
-- Need cellular connectivity to upload checklists
+- Need cellular connectivity to upload checklists to eBird
 
 ### Audio Setup
 
@@ -98,11 +98,11 @@ Key features:
     - Say "Start checklist"
     - Verify nearby hotspots are displayed
 
-3. Regional Data:
+3. Test Checklist:
 
-    - Start a dummy checklist at your location
-    - This downloads the regional bird database
+    - Start a test checklist at your location
     - Verify birds can be added to the checklist
+    - Try a few basic commands
 
 ## Next Steps
 
