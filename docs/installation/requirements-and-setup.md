@@ -24,7 +24,7 @@ Key features:
 
 **Optional Accessory**: For improved voice recognition in windy conditions, some users report a good experience with using wind muffs (small furry covers) for the microphone:
 
-[Lavalier Wind Muff 2 Pack](https://www.amazon.com/dp/B0C88R9FHG) - These small foam covers significantly improve recognition accuracy in windy environments.
+[Lavalier Wind Muff 2 Pack](https://www.amazon.com/dp/B08DJ38QZG) - These small foam covers significantly improve recognition accuracy in windy environments.
 
 ## Installation Process
 
