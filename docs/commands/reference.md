@@ -103,9 +103,9 @@ Shorthand examples:
 
 - Say `Help` - Shows command list
 - Say `Back` - Returns to main screen
-- Say `Time` - BirdTalk says back current time (also confirms it's listening)
-- Say `Feedback [text]` - Stores feedback for later transmission
-- Say `Send feedback` - Submits stored feedback to developer
+- Say `Time` - BirdTalk speaks current time (also confirms it's listening)
+- Say `Feedback [text]` - Stores feedback for later transmission (note: feedback is saved but not sent immediately)
+- Say `Send feedback` - Submits all stored feedback to developer
 
 ## Breeding Codes
 

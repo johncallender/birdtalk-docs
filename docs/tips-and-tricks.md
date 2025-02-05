@@ -69,14 +69,14 @@ iPhone handles two audio sources:
 Additional information:
 
 - Most recently connected device takes control
-- Use "Switch" command to toggle between devices
+- Turn Bluetooth headset on/off to switch devices if needed
 - Power cycle headset if having connection issues
 
 ### Optimizing Audio Setup
 
 1. Connect Bluetooth headset before starting BirdTalk
 2. Test voice recognition in different environments
-3. Switch between phone and headset microphones as needed
+3. If needed, turn Bluetooth headset off/on to switch audio devices
 
 ## Checklist Management
 
@@ -115,7 +115,7 @@ Additional information:
 ### Audio Issues
 
 1. Power cycle Bluetooth headset
-2. Use "Switch" command to reset audio
+2. Turn headset off and back on to reset audio
 3. Check Bluetooth connections in Settings
 4. Ensure headset is recently connected
 
