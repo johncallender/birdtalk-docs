@@ -23,15 +23,15 @@ There was also this: Over time I'd added to the paraphernalia I needed for birdi
 
 Eventually, though, as birding friends kept telling me about BirdTalk, I decided to give it a try. I bought the recommended bluetooth headset, a model that works by bone conduction, with lightweight pads that rest on the temples, leaving your ears unobstructed for birding. I followed Steve's instructions for downloading and installing the app and tried it on my next outing.
 
-The experience was transformative. Within minutes, I discovered that BirdTalk wasn't just another birding app – it was more like having a knowledgeable assistant who never tired, never complained, and never missed a beat. The voice commands were intuitive and few in number. Even better, I could speak quietly or whisper, perfect for those dawn chorus moments when you don't want to disturb other birders – or the birds.
+The experience was transformative. Within minutes, I discovered that BirdTalk wasn't just another birding app — it was more like having a knowledgeable assistant who never tired, never complained, and never missed a beat. The voice commands were intuitive and few in number. Even better, I could speak quietly or whisper, perfect for those dawn chorus moments when you don't want to disturb other birders — or the birds.
 
-What impressed me most was how the app seemed to think like a birder. When I said "Two crows," it knew I meant American Crows – the expected species in our area. When I spotted a rarity, I could be more specific: "One Solitary Sandpiper," and BirdTalk would flag it appropriately.
+What impressed me most was how the app seemed to think like a birder. When I said "Two crows," it knew I meant American Crows — the expected species in our area. When I spotted a rarity, I could be more specific: "One Solitary Sandpiper," and BirdTalk would flag it appropriately.
 
 BirdTalk was a game-changer in many situations.
 
 - **Mixed Flocks**: Censusing a large group of gulls at the beach went from a mental juggling act to a smooth operation. "Four Western Gulls... six California Gulls... Western Gull... two more..." BirdTalk kept perfect running totals while I maintained my focus on the birds.
 
-- **Rapid Observations**: When arriving at a busy location, I could now record multiple species simultaneously. A Song Sparrow singing while a Black Phoebe flies by? No problem – enter both without missing a beat.
+- **Rapid Observations**: When arriving at a busy location, I could now record multiple species simultaneously. A Song Sparrow singing while a Black Phoebe flies by? No problem — enter both without missing a beat.
 
 - **Documentation**: The "memo" command was great for documenting rarities:
 
@@ -39,15 +39,15 @@ BirdTalk was a game-changer in many situations.
     BirdTalk: "Solitary Sandpiper, rare here and now"
     Me: "Memo, Feeding in the lagoon near coordinates. Photos to come."
 
-    The app automatically replaced "coordinates" with my exact GPS location – a feature that has proved invaluable for rare bird documentation.
+    The app automatically replaced "coordinates" with my exact GPS location — a feature that has proved invaluable for rare bird documentation.
 
 ## A Convert
 
-The true test came during a weekend when BirdTalk was temporarily unavailable during an update. I found myself reaching for my phone with increasing frustration, suddenly aware of how much time I was spending looking at the screen instead of at the birds. Each tap felt like a small interruption in my birding flow. When BirdTalk returned a few days later, the contrast was stark: I realized it hadn't added complexity to my birding – it had stripped it away.
+The true test came during a weekend when BirdTalk was temporarily unavailable during an update. I found myself reaching for my phone with increasing frustration, suddenly aware of how much time I was spending looking at the screen instead of at the birds. Each tap felt like a small interruption in my birding flow. When BirdTalk returned a few days later, the contrast was stark: I realized it hadn't added complexity to my birding — it had stripped it away.
 
 What I originally feared would be "one more piece of technology" had actually freed me from technology's constraints. Instead of juggling between binoculars, phone, and the natural world, I could simply be present with the birds. The app had become an invisible partner in my birding practice, enhancing rather than intruding upon my connection with nature.
 
-For those still hesitant about trying BirdTalk, I get it – I was there too. But if you're serious about birding and eBird documentation, this tool will revolutionize your field experience. It's not just about convenience; it's about rediscovering the joy of birding, unencumbered by the mechanics of record-keeping.
+For those still hesitant about trying BirdTalk, I get it — I was there too. But if you're serious about birding and eBird documentation, this tool will revolutionize your field experience. It's not just about convenience; it's about rediscovering the joy of birding, unencumbered by the mechanics of record-keeping.
 
 You should give it a try. You won't regret it.
 
