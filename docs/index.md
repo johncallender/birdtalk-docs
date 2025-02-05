@@ -2,8 +2,8 @@
 
 <div class="image-container" markdown>
 <figure markdown>
-  ![Steve Colwell](images/steve_vertical.jpg){ .screenshot }
-  <figcaption>Steve Colwell, BirdTalk developer</figcaption>
+  ![Using BirdTalk in the field](images/steve_vertical.jpg){ .screenshot }
+  <figcaption>Using BirdTalk</figcaption>
 </figure>
 </div>
 

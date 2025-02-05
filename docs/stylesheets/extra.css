@@ -3,99 +3,96 @@
 .md-typeset figure img,
 .md-typeset p img,
 .screenshot {
-    border: 1px solid #ddd !important;
-    border-radius: 4px !important;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
-    margin: 0.3em 3em 0.8em 1em !important;
-    width: 375px !important;
-    height: auto !important;
-    max-width: 375px !important;
-    display: inline-block !important;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 0em 0em 0.8em 1em;
+    height: auto;
+    display: inline-block;
 }
 
 /* Figure styling */
 .md-typeset figure {
-    width: 375px !important;
-    max-width: 375px !important;
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 0;
+    margin: 0;
+
+    width:50%;
+    max-width:375px;
 }
 
 /* Caption styling */
 .md-typeset figcaption {
-    color: #666 !important;
-    font-size: 0.75em !important;
-    margin-top: 0.2em !important;
-    font-style: italic !important;
-    text-align: center !important;
-    width: 375px !important;
-    max-width: 375px !important;
-    word-wrap: break-word !important;
-    padding: 0 !important;
+    color: #666;
+    font-size: 0.75em;
+    margin-top: 0.2em;
+    font-style: italic;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 0;
 }
 
 /* Section spacing */
 .md-typeset h2 {
-    clear: both !important;
-    margin-top: 1.2em !important;
-    margin-bottom: 0.8em !important;
+    clear: both;
+    margin-top: 1.2em;
+    margin-bottom: 0.8em;
 }
 
 .md-typeset h3,
 .md-typeset h4 {
-    margin-top: 0.8em !important;
-    margin-bottom: 0.6em !important;
+    margin-top: 0.8em;
+    margin-bottom: 0.6em;
 }
 
 /* First heading in content doesn't need the extra spacing */
 .md-typeset h1 + h2,
 .md-typeset h1 + h3,
 .md-typeset h1 + h4 {
-    margin-top: 0.6em !important;
+    margin-top: 0.6em;
 }
 
 /* Image container to control float behavior */
 .md-typeset .image-container {
-    float: right !important;
-    clear: right !important;
-    margin: 0 0 1em 2em !important; /* Add bottom and left margin for text wrapping */
-    padding: 0 !important;
-    width: 375px !important;
+    float: right;
+    clear: right;
+    margin: 0 1rem 1em 2em; /* Add bottom and left margin for text wrapping */
+    padding: 0;
 }
 
 /* Remove float from figures inside image-container */
 .md-typeset .image-container figure {
-    float: none !important;
-    margin: 0 !important;
+    float: none;
+    margin: 0;
+    width:100%;
 }
 
 /* Ensure proper wrapping around floated elements */
 .md-typeset .image-container::after {
-    content: "" !important;
-    display: table !important;
-    clear: both !important;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* List styling */
 .md-typeset ol {
-    counter-reset: item !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
+    counter-reset: item;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .md-typeset ol > li {
-    display: block !important;
-    margin-left: 2em !important;
-    margin-bottom: 0.8em !important;
-    clear: both !important;
+    display: block;
+    margin-left: 2em;
+    margin-bottom: 0.8em;
+    clear: both;
 }
 
 .md-typeset ol > li:before {
-    content: counters(item, ".") ". " !important;
-    counter-increment: item !important;
-    float: left !important;
-    margin-left: -2em !important;
-    font-weight: bold !important;
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+    float: left;
+    margin-left: -2em;
+    font-weight: bold;
 }
 
 /* Nested list styling */
@@ -103,63 +100,63 @@
 .md-typeset ol ul,
 .md-typeset ul ol,
 .md-typeset ol ol {
-    margin-top: 0.5em !important;
-    margin-bottom: 0.5em !important;
-    padding-left: 1.5em !important;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 1.5em;
 }
 
 /* Handle text wrapping around images */
 .md-typeset .image-container {
-    margin-left: 2em !important;
+    margin-left: 2em;
 }
 
 /* Force content below floated elements */
 .md-typeset .clear-floats {
-    clear: both !important;
-    display: block !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
+    clear: both;
+    display: block;
+    height: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Ensure content flows around floated elements */
 .md-typeset p,
 .md-typeset ul,
 .md-typeset ol {
-    overflow: visible !important;
+    overflow: visible;
 }
 
 /* Ensure text content has room to breathe */
 .md-typeset p {
-    margin: 0.6em 0 !important;
-    line-height: 1.6 !important;
-    display: flow-root !important; /* Modern clearfix */
+    margin: 0.6em 0;
+    line-height: 1.6;
+    display: flow-root; /* Modern clearfix */
 }
 
 /* Content wrapping pattern */
 .md-typeset .content-wrap {
-    overflow: visible !important;
+    overflow: visible;
 }
 
 .md-typeset .content-wrap h2 {
-    clear: none !important;
+    clear: none;
 }
 
 .md-typeset .content-wrap p,
 .md-typeset .content-wrap ul,
 .md-typeset .content-wrap ol {
-    overflow: visible !important;
+    overflow: visible;
 }
 
 /* Link styling */
 .md-typeset a:not(.md-button) {
-    text-decoration: underline !important;
-    text-underline-offset: 2px !important;
-    color: #2196f3 !important;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    color: #2196f3;
 }
 
 .md-typeset a:not(.md-button):hover {
-    color: #1976d2 !important;
-    text-decoration: underline !important;
-    text-decoration-thickness: 2px !important;
+    color: #1976d2;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
