@@ -216,6 +216,7 @@ If BirdTalk doesn't recognize a command:
 - In noisy conditions, you may need to speak louder
 
 If text is hard to read:
+
 - Use pinch-to-zoom gestures to adjust text size
 - Zoom in for better visibility in bright sunlight
 - Zoom out to see more content at once

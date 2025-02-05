@@ -93,7 +93,11 @@ docs/
 
 #### Building and Deployment
 
-The documentation is automatically built and deployed to GitHub Pages when changes are pushed to the main branch.
+To deploy updates to the public documentation site:
+```bash
+# Deploy to GitHub Pages
+mkdocs gh-deploy
+```
 
 To build locally:
 ```bash
