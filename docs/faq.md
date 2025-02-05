@@ -82,7 +82,7 @@ iPhone can handle two audio devices:
 Additional information:
 
 - Most recently connected device takes control
-- Use "Switch" command to toggle between devices
+- Turn Bluetooth headset on/off to switch devices if needed
 - Power cycle headset or use Settings/Bluetooth to change control
 
 ## Checklists and Data
@@ -129,7 +129,7 @@ Yes:
 ### What if my headset stops working?
 
 1. Try power cycling the headset
-2. Use "Switch" command to reset audio routing
+2. Turn headset off and back on to reset audio
 3. Check Bluetooth connections in iPhone Settings
 4. Ensure headset is most recently connected device
 

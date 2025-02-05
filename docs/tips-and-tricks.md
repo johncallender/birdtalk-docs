@@ -90,7 +90,7 @@ Additional information:
 ### Editing Options
 
 - Edit comments and counts at any time
-- Review entries before submission
+- Review entries before uploading
 - Split or combine checklists as needed
 
 ## Offline Usage
@@ -103,8 +103,8 @@ Additional information:
 
 ### What Needs Internet
 
-- Initial installation and first-time setup
-- Uploading checklists
+- Initial installation and setup
+- Uploading checklists to eBird
 
 ### Audio Issues
 
