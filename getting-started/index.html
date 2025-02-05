@@ -1,0 +1,816 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../installation/requirements-and-setup/">
+      
+      
+        <link rel="next" href="../uploading-checklists/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+    
+    
+      
+        <title>Getting Started - BirdTalk Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#getting-started-with-birdtalk" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="BirdTalk Documentation" class="md-header__button md-logo" aria-label="BirdTalk Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.5c-1.35-.85-3.8-1.5-5.5-1.5-1.65 0-3.35.3-4.75 1.05-.1.05-.15.05-.25.05-.25 0-.5-.25-.5-.5V6c.6-.45 1.25-.75 2-1 1.11-.35 2.33-.5 3.5-.5 1.95 0 4.05.4 5.5 1.5 1.45-1.1 3.55-1.5 5.5-1.5 1.17 0 2.39.15 3.5.5.75.25 1.4.55 2 1v14.6c0 .25-.25.5-.5.5-.1 0-.15 0-.25-.05-1.4-.75-3.1-1.05-4.75-1.05-1.7 0-4.15.65-5.5 1.5M12 8v11.5c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5V7c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5m1 3.5c1.11-.68 2.6-1 4.5-1 .91 0 1.76.09 2.5.28V9.23c-.87-.15-1.71-.23-2.5-.23q-2.655 0-4.5.84zm4.5.17c-1.71 0-3.21.26-4.5.79v1.69c1.11-.65 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24v-1.5c-.87-.16-1.71-.23-2.5-.23m2.5 2.9c-.87-.16-1.71-.24-2.5-.24-1.83 0-3.33.27-4.5.8v1.69c1.11-.66 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BirdTalk Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Getting Started
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="BirdTalk Documentation" class="md-nav__button md-logo" aria-label="BirdTalk Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.5c-1.35-.85-3.8-1.5-5.5-1.5-1.65 0-3.35.3-4.75 1.05-.1.05-.15.05-.25.05-.25 0-.5-.25-.5-.5V6c.6-.45 1.25-.75 2-1 1.11-.35 2.33-.5 3.5-.5 1.95 0 4.05.4 5.5 1.5 1.45-1.1 3.55-1.5 5.5-1.5 1.17 0 2.39.15 3.5.5.75.25 1.4.55 2 1v14.6c0 .25-.25.5-.5.5-.1 0-.15 0-.25-.05-1.4-.75-3.1-1.05-4.75-1.05-1.7 0-4.15.65-5.5 1.5M12 8v11.5c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5V7c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5m1 3.5c1.11-.68 2.6-1 4.5-1 .91 0 1.76.09 2.5.28V9.23c-.87-.15-1.71-.23-2.5-.23q-2.655 0-4.5.84zm4.5.17c-1.71 0-3.21.26-4.5.79v1.69c1.11-.65 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24v-1.5c-.87-.16-1.71-.23-2.5-.23m2.5 2.9c-.87-.16-1.71-.24-2.5-.24-1.83 0-3.33.27-4.5.8v1.69c1.11-.66 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24z"/></svg>
+
+    </a>
+    BirdTalk Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/requirements-and-setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick Reference
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Basics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#essential-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Essential Commands
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detailed-tutorial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detailed Tutorial
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Detailed Tutorial">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#starting-your-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Starting Your Session
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#first-observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      First Observations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Features
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#managing-multiple-species" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing Multiple Species
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uploading-to-ebird" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uploading to eBird
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tips-for-success" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips for Success
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../uploading-checklists/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Uploading Checklists
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/reference/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Command Reference
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tips-and-tricks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tips and Tricks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="getting-started-with-birdtalk">Getting Started with BirdTalk</h1>
+<p>This guide will help you start using BirdTalk effectively. It begins with a quick reference of essential features and interface elements, then provides a detailed tutorial with real-world examples.</p>
+<h2 id="quick-reference">Quick Reference</h2>
+<div class="image-container">
+<figure>
+<p><img alt="BirdTalk starting screen" class="screenshot" src="/images/01_starting_screen.png" />
+  </p>
+<figcaption>BirdTalk starting screen</figcaption>
+</figure>
+</div>
+<h3 id="the-basics">The Basics</h3>
+<p>When you first open BirdTalk, you'll see the main screen with options to start a new checklist or access previous ones. The interface is clean and simple, designed for hands-free operation. Use pinch-to-zoom gestures to adjust text size for better visibility.</p>
+<p>Before starting your birding session:</p>
+<ul>
+<li>Test voice recognition by saying "Time"</li>
+<li>BirdTalk should respond with the current time</li>
+<li>If using a Bluetooth headset:<ul>
+<li>Turn it on before starting BirdTalk</li>
+<li>BirdTalk will automatically use the headset</li>
+<li>For audio issues, see <a href="../tips-and-tricks/#audio-equipment-tips">Tips and Tricks</a></li>
+</ul>
+</li>
+</ul>
+<div class="clear-floats"></div>
+
+<h3 id="essential-commands">Essential Commands</h3>
+<div class="image-container">
+<figure>
+<p><img alt="Location selection screen" class="screenshot" src="/images/02_select_location.png" />
+  </p>
+<figcaption>Location selection screen showing nearby hotspots</figcaption>
+</figure>
+</div>
+<p><strong>Starting a Checklist</strong></p>
+<p>Say "Start checklist" and BirdTalk will find your location and suggest the nearest eBird hotspot.
+If the suggested hotspot isn't correct:</p>
+<ul>
+<li>Say "Next" to see other nearby options</li>
+<li>Or tap a different hotspot on the screen</li>
+</ul>
+<div class="clear-floats"></div>
+
+<p><strong>Recording Birds</strong></p>
+<div class="image-container">
+<figure>
+<p><img alt="Adding observations screen" class="screenshot" src="/images/03_adding_observations.png" />
+  </p>
+<figcaption>Screen for adding bird observations</figcaption>
+</figure>
+</div>
+<p>Use the basic format: Say "[Number] [Species Name]". For example:</p>
+<ul>
+<li>Say "Three mockingbirds"</li>
+<li>Say "One robin"</li>
+<li>Say "Two cal quail" (shorthand for California Quail)</li>
+</ul>
+<div class="clear-floats"></div>
+
+<p><strong>Viewing Your List</strong></p>
+<p>BirdTalk offers multiple ways to organize your observations:</p>
+<ul>
+<li>Say "sort by time" (default)</li>
+<li>Say "sort by family"</li>
+</ul>
+<div style="text-align: center">
+<div style="display: inline-block; margin-right: 1em">
+<figure>
+<p><img alt="Sort by time view" class="screenshot" src="/images/06_sort_by_time.png" />
+  </p>
+<figcaption>Observations sorted by time (default)</figcaption>
+</figure>
+</div>
+<div style="display: inline-block">
+<figure>
+<p><img alt="Sort by family view" class="screenshot" src="/images/04_sort_by_family.png" />
+  </p>
+<figcaption>Observations sorted by family</figcaption>
+</figure>
+</div>
+</div>
+<p><strong>Managing Observation Counts</strong></p>
+<p>Here are the essential commands for managing your observations:</p>
+<ul>
+<li>To check a count: Say "How many robins"</li>
+<li>To change the last entry: Say "No three"</li>
+<li>To add one: Say "One more"</li>
+<li>To subtract one: Say "One fewer"</li>
+<li>To change species: Say "No towhee"</li>
+</ul>
+<p><strong>Getting Help</strong></p>
+<div class="image-container">
+<figure>
+<p><img alt="Help screen" class="screenshot" src="/images/05_help_screen.png" />
+  </p>
+<figcaption>Help screen showing available commands</figcaption>
+</figure>
+</div>
+<p>The help screen is always available - just say "Help"</p>
+<p>Say "Back" to return from the Help screen.</p>
+<h2 id="detailed-tutorial">Detailed Tutorial</h2>
+<p>Now let's walk through a complete birding session, showing how BirdTalk works in real-world scenarios.</p>
+<h3 id="starting-your-session">Starting Your Session</h3>
+<ul>
+<li>Turn on your Bluetooth headset</li>
+<li>Open BirdTalk</li>
+<li>Say "Time" to verify voice recognition</li>
+<li>Say "Start checklist"</li>
+<li>BirdTalk suggests "Stow Lake, San Francisco, US-CA"</li>
+<li>Start birding if correct, or say "Next" to step through available locations</li>
+</ul>
+<h3 id="first-observations">First Observations</h3>
+<ul>
+<li>
+<p>You hear a Song Sparrow:</p>
+<ul>
+<li>Say "Song Sparrow"</li>
+<li>BirdTalk adds one Song Sparrow</li>
+</ul>
+</li>
+<li>
+<p>You see three Mallards:</p>
+<ul>
+<li>Say "Three Mallards"</li>
+<li>BirdTalk adds three Mallards</li>
+</ul>
+</li>
+<li>
+<p>Another Song Sparrow singing:</p>
+<ul>
+<li>Say "Choose Song Sparrow"</li>
+<li>Say "One more"</li>
+<li>Say "Memo singing" (adds breeding behavior note)</li>
+</ul>
+</li>
+</ul>
+<h3 id="advanced-features">Advanced Features</h3>
+<p><strong>Correcting Mistakes</strong></p>
+<ul>
+<li>
+<p>Species correction:</p>
+<ul>
+<li>Say "Black Phoebe"</li>
+<li>Realize it's actually a Say's Phoebe</li>
+<li>Say "No Say's Phoebe"</li>
+<li>BirdTalk changes the species</li>
+</ul>
+</li>
+<li>
+<p>Count correction:</p>
+<ul>
+<li>Say "Twelve Western Gulls"</li>
+<li>Recount shows fourteen</li>
+<li>Say "No fourteen"</li>
+<li>BirdTalk updates the count</li>
+<li>You could also say "two more"</li>
+</ul>
+</li>
+</ul>
+<p><strong>Using Shorthand Names</strong></p>
+<ul>
+<li>
+<p>For Yellow-rumped Warbler:</p>
+<ul>
+<li>Say "Yellow Rump" or just "Rump"</li>
+</ul>
+</li>
+<li>
+<p>For Pacific-slope Flycatcher:</p>
+<ul>
+<li>Say "Slope"</li>
+</ul>
+</li>
+</ul>
+<p><strong>Adding Comments</strong></p>
+<ul>
+<li>
+<p>For behavior notes:</p>
+<ul>
+<li>Say "Choose Yellow Rump"</li>
+<li>Say "Memo foraging with chickadees"</li>
+</ul>
+</li>
+<li>
+<p>For location notes:</p>
+<ul>
+<li>Say "Memo near stone bridge coordinates"</li>
+<li>BirdTalk automatically replaces the term "coordinates" with the GPS coordinates where you initially entered that species observation</li>
+<li>You can also say "Memo near current coordinates." The phrase "current coordinates" will be replaced with the coordinates where you were when you issued the command.</li>
+</ul>
+</li>
+</ul>
+<h3 id="managing-multiple-species">Managing Multiple Species</h3>
+<p><strong>Mixed Flock Example</strong></p>
+<ul>
+<li>
+<p>Record multiple species quickly:</p>
+<ul>
+<li>Say "Three Chickadees"</li>
+<li>Say "Two Ruby Crowned Kinglets"</li>
+<li>Say "Yellow Rump"</li>
+</ul>
+</li>
+<li>
+<p>Add behavior notes:</p>
+<ul>
+<li>Say "Choose Chickadee"</li>
+<li>Say "Memo foraging with kinglets and warbler"</li>
+<li>Say "Choose Kinglet"</li>
+<li>Say "Memo actively feeding in willows"</li>
+</ul>
+</li>
+</ul>
+<p><strong>Quick Counts and Reviews</strong></p>
+<ul>
+<li>
+<p>Check specific species:</p>
+<ul>
+<li>Say "How many Song Sparrows"</li>
+</ul>
+</li>
+<li>
+<p>Check total species:</p>
+<ul>
+<li>Say "How many species"</li>
+</ul>
+</li>
+</ul>
+<h3 id="uploading-to-ebird">Uploading to eBird</h3>
+<p>For detailed instructions on uploading your checklists to eBird, see <a href="../uploading-checklists/">Uploading Checklists</a>. You can upload a single checklist immediately, or mark several checklists to upload together later.</p>
+<h3 id="tips-for-success">Tips for Success</h3>
+<ul>
+<li>Keep commands simple and direct</li>
+<li>Use shorthand names when they're unique in your area</li>
+<li>Add memos while observations are fresh</li>
+<li>Review your checklist before uploading</li>
+<li>Use "upload later" if you want to double-check details</li>
+</ul>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<p>If BirdTalk doesn't recognize a command:</p>
+<ul>
+<li>Speak more clearly and slightly louder</li>
+<li>Try repeating the exact same phrase</li>
+<li>In noisy conditions, you may need to speak louder</li>
+</ul>
+<p>If text is hard to read:
+- Use pinch-to-zoom gestures to adjust text size
+- Zoom in for better visibility in bright sunlight
+- Zoom out to see more content at once</p>
+<p>If you make a mistake:</p>
+<ul>
+<li>Say "Scratch that" to remove the last entry</li>
+<li>Say "Restore" if you remove something by mistake</li>
+</ul>
+<p>For more advanced features and commands, see the <a href="../commands/reference/">Command Reference</a>.</p>
+<p>Continue to <a href="../uploading-checklists/">Uploading Checklists</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top", "navigation.tracking", "toc.integrate", "search.suggest", "search.highlight", "header.autohide"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      
+    
+  </body>
+</html>

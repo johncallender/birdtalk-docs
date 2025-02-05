@@ -12,7 +12,7 @@
         <link rel="prev" href="../..">
       
       
-        <link rel="next" href="../../quickstart/first-session/">
+        <link rel="next" href="../../getting-started/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,11 +20,14 @@
     
     
       
-        <title>Requirements and Setup - BirdTalk Documentation</title>
+        <title>Installation - BirdTalk Documentation</title>
       
     
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -43,6 +46,8 @@
       
     
     
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -53,7 +58,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -74,12 +84,14 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="BirdTalk Documentation" class="md-header__button md-logo" aria-label="BirdTalk Documentation" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.5c-1.35-.85-3.8-1.5-5.5-1.5-1.65 0-3.35.3-4.75 1.05-.1.05-.15.05-.25.05-.25 0-.5-.25-.5-.5V6c.6-.45 1.25-.75 2-1 1.11-.35 2.33-.5 3.5-.5 1.95 0 4.05.4 5.5 1.5 1.45-1.1 3.55-1.5 5.5-1.5 1.17 0 2.39.15 3.5.5.75.25 1.4.55 2 1v14.6c0 .25-.25.5-.5.5-.1 0-.15 0-.25-.05-1.4-.75-3.1-1.05-4.75-1.05-1.7 0-4.15.65-5.5 1.5M12 8v11.5c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5V7c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5m1 3.5c1.11-.68 2.6-1 4.5-1 .91 0 1.76.09 2.5.28V9.23c-.87-.15-1.71-.23-2.5-.23q-2.655 0-4.5.84zm4.5.17c-1.71 0-3.21.26-4.5.79v1.69c1.11-.65 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24v-1.5c-.87-.16-1.71-.23-2.5-.23m2.5 2.9c-.87-.16-1.71-.24-2.5-.24-1.83 0-3.33.27-4.5.8v1.69c1.11-.66 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -96,15 +108,15 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Requirements and Setup
+              Installation
             
           </span>
         </div>
       </div>
     </div>
     
+      
     
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -157,136 +169,6 @@
       
         
           
-            
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
-  <div class="md-grid">
-    <ul class="md-tabs__list">
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
-        
-  
-    
-  
-  Home
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-    
-  
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
-        
-  
-    
-  
-  Requirements and Setup
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../quickstart/first-session/" class="md-tabs__link">
-        
-  
-    
-  
-  Quick Start Guide
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../tutorial/example-session/" class="md-tabs__link">
-        
-  
-    
-  
-  Tutorial
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../commands/reference/" class="md-tabs__link">
-        
-  
-    
-  
-  Command Reference
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../tips-and-tricks/" class="md-tabs__link">
-        
-  
-    
-  
-  Tips and Tricks
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../faq/" class="md-tabs__link">
-        
-  
-    
-  
-  FAQ
-
-      </a>
-    </li>
-  
-
-      
-    </ul>
-  </div>
-</nav>
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -300,17 +182,15 @@
                     
 
 
-  
-
 
   
 
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="BirdTalk Documentation" class="md-nav__button md-logo" aria-label="BirdTalk Documentation" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.5c-1.35-.85-3.8-1.5-5.5-1.5-1.65 0-3.35.3-4.75 1.05-.1.05-.15.05-.25.05-.25 0-.5-.25-.5-.5V6c.6-.45 1.25-.75 2-1 1.11-.35 2.33-.5 3.5-.5 1.95 0 4.05.4 5.5 1.5 1.45-1.1 3.55-1.5 5.5-1.5 1.17 0 2.39.15 3.5.5.75.25 1.4.55 2 1v14.6c0 .25-.25.5-.5.5-.1 0-.15 0-.25-.05-1.4-.75-3.1-1.05-4.75-1.05-1.7 0-4.15.65-5.5 1.5M12 8v11.5c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5V7c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5m1 3.5c1.11-.68 2.6-1 4.5-1 .91 0 1.76.09 2.5.28V9.23c-.87-.15-1.71-.23-2.5-.23q-2.655 0-4.5.84zm4.5.17c-1.71 0-3.21.26-4.5.79v1.69c1.11-.65 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24v-1.5c-.87-.16-1.71-.23-2.5-.23m2.5 2.9c-.87-.16-1.71-.24-2.5-.24-1.83 0-3.33.27-4.5.8v1.69c1.11-.66 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24z"/></svg>
 
     </a>
     BirdTalk Documentation
@@ -358,7 +238,7 @@
           
   
   <span class="md-ellipsis">
-    Requirements and Setup
+    Installation
   </span>
   
 
@@ -369,7 +249,7 @@
         
   
   <span class="md-ellipsis">
-    Requirements and Setup
+    Installation
   </span>
   
 
@@ -434,27 +314,27 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-getting-beta-access" class="md-nav__link">
+  <a href="#getting-beta-access" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Getting Beta Access
+      Getting Beta Access
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-installing-testflight" class="md-nav__link">
+  <a href="#installing-testflight" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Installing TestFlight
+      Installing TestFlight
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-installing-birdtalk" class="md-nav__link">
+  <a href="#installing-birdtalk" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Installing BirdTalk
+      Installing BirdTalk
     </span>
   </a>
   
@@ -549,11 +429,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quickstart/first-session/" class="md-nav__link">
+      <a href="../../getting-started/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Quick Start Guide
+    Getting Started
   </span>
   
 
@@ -569,11 +449,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tutorial/example-session/" class="md-nav__link">
+      <a href="../../uploading-checklists/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Tutorial
+    Uploading Checklists
   </span>
   
 
@@ -679,25 +559,29 @@
 <p><strong>Optional Accessory</strong>: For improved voice recognition in windy conditions, some users report a good experience with using wind muffs (small furry covers) for the microphone:</p>
 <p><a href="https://www.amazon.com/dp/B0C88R9FHG">Lavalier Wind Muff 2 Pack</a> - These small foam covers significantly improve recognition accuracy in windy environments.</p>
 <h2 id="installation-process">Installation Process</h2>
-<h3 id="1-getting-beta-access">1. Getting Beta Access</h3>
+<h3 id="getting-beta-access">Getting Beta Access</h3>
 <ol>
 <li>Email your request to <a href="mailto:stevebt@membot.com">stevebt@membot.com</a></li>
-<li>Include:<ul>
+<li>
+<p>Include:</p>
+<ul>
 <li>Your Apple ID email address</li>
 <li>Your phone number (required for configuration)</li>
 <li>Confirmation that you're willing to provide regular feedback to help improve the product</li>
 </ul>
 </li>
-<li>Wait for confirmation that you've been added as a beta tester</li>
+<li>
+<p>Wait for confirmation that you've been added as a beta tester</p>
+</li>
 </ol>
-<h3 id="2-installing-testflight">2. Installing TestFlight</h3>
+<h3 id="installing-testflight">Installing TestFlight</h3>
 <ol>
 <li>Open the App Store on your iPhone</li>
 <li>Search for "TestFlight"</li>
 <li>Download and install the TestFlight app</li>
 <li>Sign in with your Apple ID</li>
 </ol>
-<h3 id="3-installing-birdtalk">3. Installing BirdTalk</h3>
+<h3 id="installing-birdtalk">Installing BirdTalk</h3>
 <ol>
 <li>Open TestFlight</li>
 <li>Look for BirdTalk in available beta apps</li>
@@ -707,18 +591,22 @@
 <h2 id="preparing-for-field-use">Preparing for Field Use</h2>
 <h3 id="internet-connectivity">Internet Connectivity</h3>
 <ul>
-<li>Required for initial setup and checklist submission</li>
+<li>Required for initial setup and installation</li>
 <li>Works offline in the field after initial setup</li>
-<li>Need cellular connectivity to upload checklists</li>
+<li>Need cellular connectivity to upload checklists to eBird</li>
 </ul>
 <h3 id="audio-setup">Audio Setup</h3>
 <ol>
-<li>If using a Bluetooth headset:<ul>
+<li>
+<p>If using a Bluetooth headset:</p>
+<ul>
 <li>Turn on your headset before starting BirdTalk</li>
 <li>BirdTalk will automatically use the headset for audio</li>
 </ul>
 </li>
-<li>Test voice recognition in both quiet and noisy environments</li>
+<li>
+<p>Test voice recognition in both quiet and noisy environments</p>
+</li>
 <li>For detailed audio troubleshooting, see <a href="../../tips-and-tricks/#audio-equipment-tips">Tips and Tricks</a></li>
 </ol>
 <h3 id="voice-recognition-tips">Voice Recognition Tips</h3>
@@ -753,18 +641,18 @@
 </ul>
 </li>
 <li>
-<p>Regional Data:</p>
+<p>Test Checklist:</p>
 <ul>
-<li>Start a dummy checklist at your location</li>
-<li>This downloads the regional bird database</li>
+<li>Start a test checklist at your location</li>
 <li>Verify birds can be added to the checklist</li>
+<li>Try a few basic commands</li>
 </ul>
 </li>
 </ol>
 <h2 id="next-steps">Next Steps</h2>
 <p>After successful installation:</p>
 <ul>
-<li>Review the <a href="../../quickstart/first-session/">Quick Start Guide</a> for essential commands</li>
+<li>Review the <a href="../../getting-started/">Getting Started Guide</a> for essential commands</li>
 <li>Practice basic commands in a quiet environment</li>
 <li>Try a test checklist before going into the field</li>
 </ul>
@@ -789,6 +677,12 @@
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
       </main>
       
         <footer class="md-footer">
@@ -797,11 +691,6 @@
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
   
 </div>
       
@@ -815,7 +704,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.top", "navigation.tracking", "toc.integrate", "search.suggest", "search.highlight", "header.autohide"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.88dd0f4e.min.js"></script>

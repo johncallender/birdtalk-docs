@@ -24,6 +24,9 @@
     
       <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
       
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
       
 
 
@@ -41,6 +44,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -51,7 +56,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -72,12 +82,14 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="BirdTalk Documentation" class="md-header__button md-logo" aria-label="BirdTalk Documentation" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.5c-1.35-.85-3.8-1.5-5.5-1.5-1.65 0-3.35.3-4.75 1.05-.1.05-.15.05-.25.05-.25 0-.5-.25-.5-.5V6c.6-.45 1.25-.75 2-1 1.11-.35 2.33-.5 3.5-.5 1.95 0 4.05.4 5.5 1.5 1.45-1.1 3.55-1.5 5.5-1.5 1.17 0 2.39.15 3.5.5.75.25 1.4.55 2 1v14.6c0 .25-.25.5-.5.5-.1 0-.15 0-.25-.05-1.4-.75-3.1-1.05-4.75-1.05-1.7 0-4.15.65-5.5 1.5M12 8v11.5c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5V7c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5m1 3.5c1.11-.68 2.6-1 4.5-1 .91 0 1.76.09 2.5.28V9.23c-.87-.15-1.71-.23-2.5-.23q-2.655 0-4.5.84zm4.5.17c-1.71 0-3.21.26-4.5.79v1.69c1.11-.65 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24v-1.5c-.87-.16-1.71-.23-2.5-.23m2.5 2.9c-.87-.16-1.71-.24-2.5-.24-1.83 0-3.33.27-4.5.8v1.69c1.11-.66 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -101,8 +113,8 @@
       </div>
     </div>
     
+      
     
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -155,136 +167,6 @@
       
         
           
-            
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
-  <div class="md-grid">
-    <ul class="md-tabs__list">
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href=".." class="md-tabs__link">
-        
-  
-    
-  
-  Home
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../installation/requirements-and-setup/" class="md-tabs__link">
-        
-  
-    
-  
-  Requirements and Setup
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../quickstart/first-session/" class="md-tabs__link">
-        
-  
-    
-  
-  Quick Start Guide
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../tutorial/example-session/" class="md-tabs__link">
-        
-  
-    
-  
-  Tutorial
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../commands/reference/" class="md-tabs__link">
-        
-  
-    
-  
-  Command Reference
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../tips-and-tricks/" class="md-tabs__link">
-        
-  
-    
-  
-  Tips and Tricks
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-    
-  
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
-        
-  
-    
-  
-  FAQ
-
-      </a>
-    </li>
-  
-
-      
-    </ul>
-  </div>
-</nav>
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -298,17 +180,15 @@
                     
 
 
-  
-
 
   
 
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="BirdTalk Documentation" class="md-nav__button md-logo" aria-label="BirdTalk Documentation" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.5c-1.35-.85-3.8-1.5-5.5-1.5-1.65 0-3.35.3-4.75 1.05-.1.05-.15.05-.25.05-.25 0-.5-.25-.5-.5V6c.6-.45 1.25-.75 2-1 1.11-.35 2.33-.5 3.5-.5 1.95 0 4.05.4 5.5 1.5 1.45-1.1 3.55-1.5 5.5-1.5 1.17 0 2.39.15 3.5.5.75.25 1.4.55 2 1v14.6c0 .25-.25.5-.5.5-.1 0-.15 0-.25-.05-1.4-.75-3.1-1.05-4.75-1.05-1.7 0-4.15.65-5.5 1.5M12 8v11.5c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5V7c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5m1 3.5c1.11-.68 2.6-1 4.5-1 .91 0 1.76.09 2.5.28V9.23c-.87-.15-1.71-.23-2.5-.23q-2.655 0-4.5.84zm4.5.17c-1.71 0-3.21.26-4.5.79v1.69c1.11-.65 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24v-1.5c-.87-.16-1.71-.23-2.5-.23m2.5 2.9c-.87-.16-1.71-.24-2.5-.24-1.83 0-3.33.27-4.5.8v1.69c1.11-.66 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24z"/></svg>
 
     </a>
     BirdTalk Documentation
@@ -347,7 +227,7 @@
         
   
   <span class="md-ellipsis">
-    Requirements and Setup
+    Installation
   </span>
   
 
@@ -363,11 +243,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../quickstart/first-session/" class="md-nav__link">
+      <a href="../getting-started/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Quick Start Guide
+    Getting Started
   </span>
   
 
@@ -383,11 +263,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../tutorial/example-session/" class="md-nav__link">
+      <a href="../uploading-checklists/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Tutorial
+    Uploading Checklists
   </span>
   
 
@@ -783,11 +663,13 @@
 <h3 id="what-is-birdtalks-relationship-with-ebird">What is BirdTalk's relationship with eBird?</h3>
 <p>BirdTalk is a voice-controlled interface for creating and uploading eBird checklists. When you're ready to upload your checklists, you'll enter your eBird credentials in your phone's browser to complete the upload.</p>
 <h3 id="do-i-need-an-internet-connection">Do I need an internet connection?</h3>
+<p>Required for:</p>
 <ul>
-<li>Required for:</li>
 <li>Initial installation and first-time setup</li>
 <li>Uploading checklists</li>
-<li>Not required for:</li>
+</ul>
+<p>Not required for:</p>
+<ul>
 <li>Creating checklists in the field</li>
 <li>Recording observations</li>
 <li>Location recording</li>
@@ -809,8 +691,12 @@
 <ol>
 <li>Speak clearly and consistently</li>
 <li>If a command isn't recognized, repeat the exact same phrase</li>
-<li>In noisy conditions:</li>
-<li>Speak slightly louder</li>
+<li>
+<p>In noisy conditions:</p>
+</li>
+<li>
+<p>Speak slightly louder</p>
+</li>
 <li>Position microphone closer</li>
 <li>Wait for quieter moments</li>
 </ol>
@@ -839,12 +725,15 @@
 <li>Uses bone conduction technology</li>
 </ul>
 <h3 id="how-do-i-manage-multiple-bluetooth-devices">How do I manage multiple Bluetooth devices?</h3>
+<p>iPhone can handle two audio devices:</p>
 <ul>
-<li>iPhone can handle two audio devices:</li>
 <li>Internal mic/speaker</li>
 <li>One Bluetooth device</li>
+</ul>
+<p>Additional information:</p>
+<ul>
 <li>Most recently connected device takes control</li>
-<li>Use "Switch" command to toggle between devices</li>
+<li>Turn Bluetooth headset on/off to switch devices if needed</li>
 <li>Power cycle headset or use Settings/Bluetooth to change control</li>
 </ul>
 <h2 id="checklists-and-data">Checklists and Data</h2>
@@ -887,7 +776,7 @@
 <h3 id="what-if-my-headset-stops-working">What if my headset stops working?</h3>
 <ol>
 <li>Try power cycling the headset</li>
-<li>Use "Switch" command to reset audio routing</li>
+<li>Turn headset off and back on to reset audio</li>
 <li>Check Bluetooth connections in iPhone Settings</li>
 <li>Ensure headset is most recently connected device</li>
 </ol>
@@ -930,6 +819,12 @@
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
       </main>
       
         <footer class="md-footer">
@@ -938,11 +833,6 @@
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
   
 </div>
       
@@ -956,7 +846,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top", "navigation.tracking", "toc.integrate", "search.suggest", "search.highlight", "header.autohide"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
