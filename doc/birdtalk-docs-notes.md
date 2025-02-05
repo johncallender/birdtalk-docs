@@ -223,11 +223,7 @@ Current challenges:
 
 ## Remaining Tasks
 
-1. Landing Page (index.md):
-   - Replace BirdTalk logo with new Steve photo
-   - Align Steve photo to the right with text wrapping left
-
-2. Personal Testimonial:
+1. Personal Testimonial:
    - Expand each section with detailed experiences
    - Add specific examples and memorable moments
    - Include practical tips from regular use
