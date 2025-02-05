@@ -35,68 +35,78 @@ Before starting your birding session:
 </figure>
 </div>
 
-1. **Starting a Checklist**
+**Starting a Checklist**
 
-    Say "Start checklist" and BirdTalk will find your location and suggest the nearest eBird hotspot.
-    If the suggested hotspot isn't correct:
+Say "Start checklist" and BirdTalk will find your location and suggest the nearest eBird hotspot.
+If the suggested hotspot isn't correct:
 
-    - Say "Next" to see other nearby options
-    - Or tap a different hotspot on the screen
+- Say "Next" to see other nearby options
+- Or tap a different hotspot on the screen
 
 <div class="clear-floats"></div>
 
 
-2. **Recording Birds**
+**Recording Birds**
 
-    Use the basic format: "[Number] [Species Name]". For example:
+<div class="image-container" markdown>
+<figure markdown>
+  ![Adding observations screen](/images/03_adding_observations.png){ .screenshot }
+  <figcaption>Screen for adding bird observations</figcaption>
+</figure>
+</div>
 
-    - "Three mockingbirds"
-    - "One robin"
-    - "Two cal quail" (shorthand for California Quail)
+Use the basic format: Say "[Number] [Species Name]". For example:
 
-    <div class="image-container" markdown>
-    <figure markdown>
-      ![Adding observations screen](/images/03_adding_observations.png){ .screenshot }
-      <figcaption>Screen for adding bird observations</figcaption>
-    </figure>
-    </div>
+- Say "Three mockingbirds"
+- Say "One robin"
+- Say "Two cal quail" (shorthand for California Quail)
 
-3. **Viewing Your List**
+<div class="clear-floats"></div>
 
-    BirdTalk offers multiple ways to organize your observations.
+**Viewing Your List**
 
-    <div class="image-container" markdown>
-    <figure markdown>
-      ![Sort by family view](/images/04_sort_by_family.png){ .screenshot }
-      <figcaption>Observations sorted by family</figcaption>
-    </figure>
-    </div>
-    <div class="image-container" markdown>
-    <figure markdown>
-      ![Sort by species view](/images/06_sort_by_species.png){ .screenshot }
-      <figcaption>Observations sorted by species name</figcaption>
-    </figure>
-    </div>
+BirdTalk offers multiple ways to organize your observations:
 
-4. **Basic Commands**
+- Say "sort by time" (default)
+- Say "sort by family"
 
-    Here are the essential commands for managing your observations:
+<div style="text-align: center" markdown>
+<div style="display: inline-block; margin-right: 1em" markdown>
+<figure markdown>
+  ![Sort by time view](/images/06_sort_by_time.png){ .screenshot }
+  <figcaption>Observations sorted by time (default)</figcaption>
+</figure>
+</div>
+<div style="display: inline-block" markdown>
+<figure markdown>
+  ![Sort by family view](/images/04_sort_by_family.png){ .screenshot }
+  <figcaption>Observations sorted by family</figcaption>
+</figure>
+</div>
+</div>
 
-    - To check a count: "How many robins"
-    - To change the last entry: "No, three"
-    - To add one: "One more"
-    - To subtract one: "One fewer"
-    - To change species: "No, towhee"
+**Managing Observation Counts**
 
-5. **Getting Help**
+Here are the essential commands for managing your observations:
 
-    The help screen is always available - just say "Help"
-    <div class="image-container" markdown>
-    <figure markdown>
-      ![Help screen](/images/05_help_screen.png){ .screenshot }
-      <figcaption>Help screen showing available commands</figcaption>
-    </figure>
-    </div>
+- To check a count: Say "How many robins"
+- To change the last entry: Say "No three"
+- To add one: Say "One more"
+- To subtract one: Say "One fewer"
+- To change species: Say "No towhee"
+
+**Getting Help**
+
+<div class="image-container" markdown>
+<figure markdown>
+  ![Help screen](/images/05_help_screen.png){ .screenshot }
+  <figcaption>Help screen showing available commands</figcaption>
+</figure>
+</div>
+
+The help screen is always available - just say "Help"
+
+Say "Back" to return from the Help screen.
 
 ## Detailed Tutorial
 
@@ -104,121 +114,90 @@ Now let's walk through a complete birding session, showing how BirdTalk works in
 
 ### Starting Your Session
 
-1. **Initial Setup**
+- Turn on your Bluetooth headset
+- Open BirdTalk
+- Say "Time" to verify voice recognition
+- Say "Start checklist"
+- BirdTalk suggests "Stow Lake, San Francisco, US-CA"
+- Start birding if correct, or say "Next" to step through available locations
 
-   - Before leaving home:
-     * Turn on your Bluetooth headset
-     * Open BirdTalk
-     * Say "Time" to verify voice recognition
+### First Observations
 
-   - At your location:
-     * Say "Start checklist"
-     * BirdTalk suggests "Stow Lake, San Francisco, US-CA"
-     * Accept if correct, or say "Next" for other options
+- You hear a Song Sparrow:
+    * Say "Song Sparrow"
+    * BirdTalk adds one Song Sparrow
 
-2. **First Observations**
+- You see three Mallards:
+    * Say "Three Mallards"
+    * BirdTalk adds three Mallards
 
-   - You hear a Song Sparrow:
-     * Say "song sparrow"
-     * BirdTalk adds one Song Sparrow
-
-   - You see three Mallards:
-     * Say "three mallards"
-     * BirdTalk adds three Mallards
-
-   - Another Song Sparrow singing:
-     * Say "choose song sparrow"
-     * Say "one more"
-     * Say "memo singing" (adds breeding behavior note)
+- Another Song Sparrow singing:
+    * Say "Choose Song Sparrow"
+    * Say "One more"
+    * Say "Memo singing" (adds breeding behavior note)
 
 ### Advanced Features
 
-1. **Correcting Mistakes**
+**Correcting Mistakes**
 
-   - Species correction:
-     * Say "black phoebe"
-     * Realize it's actually a Say's Phoebe
-     * Say "no says phoebe"
-     * BirdTalk changes the species
+- Species correction:
+    * Say "Black Phoebe"
+    * Realize it's actually a Say's Phoebe
+    * Say "No Say's Phoebe"
+    * BirdTalk changes the species
 
-   - Count correction:
-     * Say "twelve western gulls"
-     * Recount shows fourteen
-     * Say "no fourteen"
-     * BirdTalk updates the count
+- Count correction:
+    * Say "Twelve Western Gulls"
+    * Recount shows fourteen
+    * Say "No fourteen"
+    * BirdTalk updates the count
+    * You could also say "two more"
 
-2. **Using Shorthand Names**
+**Using Shorthand Names**
 
-   - For Yellow-rumped Warbler:
-     * Say "yellow rump"
+- For Yellow-rumped Warbler:
+    * Say "Yellow Rump" or just "Rump"
 
-   - For Pacific-slope Flycatcher:
-     * Say "slope"
+- For Pacific-slope Flycatcher:
+    * Say "Slope"
 
-3. **Adding Comments**
+**Adding Comments**
 
-   - For behavior notes:
-     * Say "choose yellow rump"
-     * Say "memo foraging with chickadees"
+- For behavior notes:
+    * Say "Choose Yellow Rump"
+    * Say "Memo foraging with chickadees"
 
-   - For location notes:
-     * Say "memo near stone bridge coordinates"
-     * BirdTalk adds GPS coordinates automatically
+- For location notes:
+    * Say "Memo near stone bridge coordinates"
+    * BirdTalk automatically replaces the term "coordinates" with the GPS coordinates where you initially entered that species observation
+    * You can also say "Memo near current coordinates." The phrase "current coordinates" will be replaced with the coordinates where you were when you issued the command.
 
 ### Managing Multiple Species
 
-1. **Mixed Flock Example**
+**Mixed Flock Example**
 
-   - Record multiple species quickly:
-     * Say "three chickadees"
-     * Say "two ruby crowned kinglets"
-     * Say "yellow rump"
+- Record multiple species quickly:
+    * Say "Three Chickadees"
+    * Say "Two Ruby Crowned Kinglets"
+    * Say "Yellow Rump"
 
-   - Add behavior notes:
-     * Say "choose chickadee"
-     * Say "memo foraging with kinglets and warbler"
-     * Say "choose kinglet"
-     * Say "memo actively feeding in willows"
+- Add behavior notes:
+    * Say "Choose Chickadee"
+    * Say "Memo foraging with kinglets and warbler"
+    * Say "Choose Kinglet"
+    * Say "Memo actively feeding in willows"
 
-2. **Quick Counts and Reviews**
+**Quick Counts and Reviews**
 
-   - Check specific species:
-     * Say "how many song sparrows"
+- Check specific species:
+    * Say "How many Song Sparrows"
 
-   - Check total species:
-     * Say "how many species"
+- Check total species:
+    * Say "How many species"
 
 ### Uploading to eBird
 
-When you're finished observing:
-
-1. Say "Stop checklist" to end the current checklist
-2. Review your entries on screen
-3. Choose your upload method:
-
-   Option 1 - Upload now:
-
-   - Tap the upload button (up arrow pointing to cloud)
-   - Follow the prompts to complete the upload
-
-<div class="image-container" markdown>
-<figure markdown>
-  ![Upload form](/images/11_upload_ebird_form.png){ .screenshot }
-  <figcaption>eBird upload form</figcaption>
-</figure>
-</div>
-
-   Option 2 - Upload later:
-
-   - Say "Upload later" to save the checklist
-   - When ready, select the checklist and tap upload
-
-<div class="image-container" markdown>
-<figure markdown>
-  ![Select checklist to upload later](/images/07_select_checklist_to_upload_later.png){ .screenshot }
-  <figcaption>Selecting a checklist to mark for later upload</figcaption>
-</figure>
-</div>
+For detailed instructions on uploading your checklists to eBird, see [Uploading Checklists](uploading-checklists.md). You can upload a single checklist immediately, or mark several checklists to upload together later.
 
 ### Tips for Success
 
@@ -242,3 +221,5 @@ If you make a mistake:
 - Say "Restore" if you remove something by mistake
 
 For more advanced features and commands, see the [Command Reference](commands/reference.md).
+
+Continue to [Uploading Checklists](uploading-checklists.md).

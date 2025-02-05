@@ -135,3 +135,18 @@
     line-height: 1.6 !important;
     display: flow-root !important; /* Modern clearfix */
 }
+
+/* Content wrapping pattern */
+.md-typeset .content-wrap {
+    overflow: visible !important;
+}
+
+.md-typeset .content-wrap h2 {
+    clear: none !important;
+}
+
+.md-typeset .content-wrap p,
+.md-typeset .content-wrap ul,
+.md-typeset .content-wrap ol {
+    overflow: visible !important;
+}

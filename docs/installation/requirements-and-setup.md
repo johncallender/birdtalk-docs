@@ -28,7 +28,7 @@ Key features:
 
 ## Installation Process
 
-### 1. Getting Beta Access
+### Getting Beta Access
 
 1. Email your request to [stevebt@membot.com](mailto:stevebt@membot.com)
 2. Include:
@@ -39,14 +39,14 @@ Key features:
 
 3. Wait for confirmation that you've been added as a beta tester
 
-### 2. Installing TestFlight
+### Installing TestFlight
 
 1. Open the App Store on your iPhone
 2. Search for "TestFlight"
 3. Download and install the TestFlight app
 4. Sign in with your Apple ID
 
-### 3. Installing BirdTalk
+### Installing BirdTalk
 
 1. Open TestFlight
 2. Look for BirdTalk in available beta apps

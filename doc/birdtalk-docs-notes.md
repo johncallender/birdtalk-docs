@@ -120,7 +120,7 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
      * Place image-container divs before the content they illustrate
      * Allow h3 headings to wrap next to images by removing clear:both
      * Use clear-floats div to force specific sections below images
-     * Example structure:
+     * For extended content wrapping (including headings), use content-wrap:
        ```markdown
        <div class="image-container" markdown>
        <figure markdown>
@@ -129,14 +129,45 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
        </figure>
        </div>
 
-       ### Section That Wraps
+       <div class="content-wrap" markdown="1">
+       Content that should wrap, including headings...
 
-       Text content that wraps...
+       ## This Heading Will Wrap
+
+       More content that wraps...
+       </div>
 
        <div class="clear-floats"></div>
 
-       ### Section Below Image
+       ## This Heading Appears Below
        ```
+     * The content-wrap class:
+       - Allows h2 headings to wrap next to images
+       - Maintains proper markdown formatting
+       - Use when you want multiple sections to flow around an image
+       - Always close with clear-floats before content that should appear below
+
+     * For side-by-side images:
+       ```markdown
+       <div style="text-align: center" markdown>
+       <div style="display: inline-block; margin-right: 1em" markdown>
+       <figure markdown>
+         ![First image](/path/to/image1.png){ .screenshot }
+         <figcaption>First caption</figcaption>
+       </figure>
+       </div>
+       <div style="display: inline-block" markdown>
+       <figure markdown>
+         ![Second image](/path/to/image2.png){ .screenshot }
+         <figcaption>Second caption</figcaption>
+       </figure>
+       </div>
+       </div>
+       ```
+       - Centers the container and displays images side by side
+       - Uses inline-block to prevent floating behavior
+       - Maintains proper markdown image processing
+       - Adds margin between images for spacing
 
 ## Current Status (Feb 2, 2025)
 Improvements to getting-started.md layout:
@@ -167,9 +198,36 @@ Current challenges:
     - Lazy load images or use progressive loading techniques
     - Consider removing some redundant screenshots
 
+## Completed Tasks (Feb 4, 2025)
+
+1. Installation Guide (requirements-and-setup.md):
+   - Removed numbering from top-level subsections under "Installation Process"
+   - Preserved nested step numbering within each section
+
+2. Getting Started Guide (getting-started.md):
+   - Moved observation screen image up next to "Recording Birds" heading
+   - Positioned "Viewing Your List" section below the observations image
+   - Reorganized sort views section:
+     * Added bullet points for sort commands
+     * Arranged sort view images side-by-side below text
+     * Updated image captions for sort views
+   - Renamed "Basic Commands" to "Managing Observation Counts"
+   - Added consistent "Say" prefix to voice commands
+   - Improved help screen section organization
+   - Fixed image filename for clarity (sort_by_species -> sort_by_time)
+
+3. Documentation Structure:
+   - Removed redundant test file (list-test.md)
+   - Added side-by-side image layout pattern to style guide
+   - Cleaned up documentation structure
+
 ## Remaining Tasks
 
-1. Complete personal testimonial document:
+1. Landing Page (index.md):
+   - Replace BirdTalk logo with new Steve photo
+   - Align Steve photo to the right with text wrapping left
+
+2. Personal Testimonial:
    - Expand each section with detailed experiences
    - Add specific examples and memorable moments
    - Include practical tips from regular use
