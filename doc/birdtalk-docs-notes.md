@@ -200,7 +200,20 @@ Current challenges:
 
 ## Completed Tasks (Feb 4, 2025)
 
-1. Installation Guide (requirements-and-setup.md):
+1. Documentation Updates:
+   - Updated command descriptions to clarify spoken responses
+   - Removed references to "Switch" command throughout docs
+   - Updated Bluetooth device management instructions
+   - Changed submission terminology to upload
+   - Updated internet requirements section
+   - Fixed list formatting in FAQ
+   - Added underlines to links for better visibility on dimmed screens
+   - Added pinch-to-zoom instructions in Getting Started guide
+   - Added text size adjustment tips to troubleshooting section
+   - Clarified checklist upload behavior (checklists are collapsed, not removed)
+   - Added Unfreeze command documentation for re-uploading checklists
+
+2. Installation Guide (requirements-and-setup.md):
    - Removed numbering from top-level subsections under "Installation Process"
    - Preserved nested step numbering within each section
 
@@ -221,9 +234,28 @@ Current challenges:
    - Added side-by-side image layout pattern to style guide
    - Cleaned up documentation structure
 
+## Known Issues
+
+1. Image Path Warnings:
+   - MkDocs reports warnings about absolute paths in getting-started.md
+   - Affected images:
+     * /images/01_starting_screen.png
+     * /images/02_select_location.png
+     * /images/03_adding_observations.png
+     * /images/06_sort_by_time.png
+     * /images/04_sort_by_family.png
+     * /images/05_help_screen.png
+   - Should update paths to be relative (remove leading slash)
+   - Example: change `/images/01_starting_screen.png` to `images/01_starting_screen.png`
+
 ## Remaining Tasks
 
-1. Personal Testimonial:
+1. Fix Image Paths:
+   - Update image paths in getting-started.md to use relative paths
+   - Test changes locally with `mkdocs serve` before deploying
+   - Verify all images display correctly after path updates
+
+2. Personal Testimonial:
    - Expand each section with detailed experiences
    - Add specific examples and memorable moments
    - Include practical tips from regular use

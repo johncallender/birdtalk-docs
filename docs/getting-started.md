@@ -6,7 +6,7 @@ This guide will help you start using BirdTalk effectively. It begins with a quic
 
 <div class="image-container" markdown>
 <figure markdown>
-  ![BirdTalk starting screen](/images/01_starting_screen.png){ .screenshot }
+  ![BirdTalk starting screen](images/01_starting_screen.png){ .screenshot }
   <figcaption>BirdTalk starting screen</figcaption>
 </figure>
 </div>
@@ -30,7 +30,7 @@ Before starting your birding session:
 
 <div class="image-container" markdown>
 <figure markdown>
-  ![Location selection screen](/images/02_select_location.png){ .screenshot }
+  ![Location selection screen](images/02_select_location.png){ .screenshot }
   <figcaption>Location selection screen showing nearby hotspots</figcaption>
 </figure>
 </div>
@@ -50,7 +50,7 @@ If the suggested hotspot isn't correct:
 
 <div class="image-container" markdown>
 <figure markdown>
-  ![Adding observations screen](/images/03_adding_observations.png){ .screenshot }
+  ![Adding observations screen](images/03_adding_observations.png){ .screenshot }
   <figcaption>Screen for adding bird observations</figcaption>
 </figure>
 </div>
@@ -73,13 +73,13 @@ BirdTalk offers multiple ways to organize your observations:
 <div style="text-align: center" markdown>
 <div style="display: inline-block; margin-right: 1em" markdown>
 <figure markdown>
-  ![Sort by time view](/images/06_sort_by_time.png){ .screenshot }
+  ![Sort by time view](images/06_sort_by_time.png){ .screenshot }
   <figcaption>Observations sorted by time (default)</figcaption>
 </figure>
 </div>
 <div style="display: inline-block" markdown>
 <figure markdown>
-  ![Sort by family view](/images/04_sort_by_family.png){ .screenshot }
+  ![Sort by family view](images/04_sort_by_family.png){ .screenshot }
   <figcaption>Observations sorted by family</figcaption>
 </figure>
 </div>
@@ -99,7 +99,7 @@ Here are the essential commands for managing your observations:
 
 <div class="image-container" markdown>
 <figure markdown>
-  ![Help screen](/images/05_help_screen.png){ .screenshot }
+  ![Help screen](images/05_help_screen.png){ .screenshot }
   <figcaption>Help screen showing available commands</figcaption>
 </figure>
 </div>
