@@ -84,6 +84,11 @@ Shorthand examples:
 - Say `Sort by time` - Shows entries chronologically
 - Say `Show coordinates` - Displays GPS coordinates
 
+### Upload Management
+
+- Say `Upload later` - Marks current checklist for later upload
+- Say `Unfreeze` - Marks an uploaded checklist as not uploaded (allows re-uploading if needed)
+
 ### Information
 
 - Say `How far` - BirdTalk says back distance traveled

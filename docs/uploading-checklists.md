@@ -107,12 +107,14 @@ Upon successful upload, you'll see confirmation screens:
   <figcaption>Upload process completed</figcaption>
 </figure>
 
-After successful upload, BirdTalk automatically cleans up by removing the uploaded checklists:
+After successful upload, BirdTalk marks the checklists as uploaded and collapses them:
 
 <figure markdown>
-  ![Checklists deleted](images/20_checklists_deleted.png){ .screenshot }
-  <figcaption>Checklists removed after successful upload</figcaption>
+  ![Checklists collapsed](images/20_checklists_deleted.png){ .screenshot }
+  <figcaption>Checklists marked as uploaded and collapsed</figcaption>
 </figure>
+
+Note: If you need to re-upload a checklist (for example, if there was an error during upload), you can use the "Unfreeze" command to mark it as not uploaded. See the [Command Reference](commands/reference.md) for details.
 
 ## Tips for Successful Uploads
 
@@ -122,7 +124,6 @@ A few key points to ensure smooth uploads:
 - Have your eBird credentials ready
 - Review your checklists before uploading
 - You can upload multiple checklists at once
-- After successful upload, BirdTalk automatically removes the uploaded checklists
 
 ## Troubleshooting
 
