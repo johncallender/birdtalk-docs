@@ -47,7 +47,7 @@ The true test came during a weekend when BirdTalk was temporarily unavailable du
 
 What I originally feared would be "one more piece of technology" had actually freed me from technology's constraints. Instead of juggling between binoculars, phone, and the natural world, I could simply be present with the birds. The app had become an invisible partner in my birding practice, enhancing rather than intruding upon my connection with nature.
 
-For those still hesitant about trying BirdTalk, I get it — I was there too. But if you're serious about birding and eBird documentation, this tool will revolutionize your field experience. It's not just about convenience; it's about rediscovering the joy of birding, unencumbered by the mechanics of record-keeping.
+For those still hesitant about trying BirdTalk, I get it — I was there too. But if you're serious about using eBird to document your birding, this tool will revolutionize your field experience. It's not just about convenience; it's about rediscovering the joy of birding, unencumbered by the mechanics of record-keeping.
 
 You should give it a try. You won't regret it.
 
