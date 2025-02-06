@@ -1,11 +1,8 @@
-# BirdTalk Documentation
-
 <div class="image-container" markdown>
-<figure markdown>
-  ![Using BirdTalk in the field](images/steve_vertical.jpg){ .screenshot }
-  <figcaption>Using BirdTalk</figcaption>
-</figure>
+![Using BirdTalk in the field](images/steve_vertical.jpg){ .screenshot }
 </div>
+
+# BirdTalk Documentation
 
 <div class="content-wrap" markdown="1">
 
@@ -16,6 +13,8 @@ BirdTalk is an iOS app designed to be controlled by spoken instructions, allowin
 - Voice control for hands-free operation
 - Integration with eBird
 - Bluetooth device compatibility
+
+<div class="clear-floats"></div>
 
 ## Documentation
 

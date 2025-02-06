@@ -75,16 +75,10 @@ Key features:
 2. Test voice recognition in both quiet and noisy environments
 3. For detailed audio troubleshooting, see [Tips and Tricks](../tips-and-tricks.md#audio-equipment-tips)
 
-### Voice Recognition Tips
-
-- Speak normally in quiet environments.
-- Speak more clearly and loudly in noisy conditions
-- Repeat commands exactly if not recognized the first time
-- Try using shorter bird names for better recognition (e.g., "shrike" instead of "loggerhead shrike")
-
 ### Location Services
 
-- Enable GPS for automatic hotspot detection
+If the phone asks, enable GPS for use by BirdTalk.
+
 - Used for location recording with observations
 - Helps with checklist organization
 
@@ -92,28 +86,19 @@ Key features:
 
 1. Basic Tests:
 
-    - Say "Time" to verify voice recognition
-    - Say "Help" to view available commands
-    - Say "Back" to return to main screen
+    - Say `Time` to verify voice recognition
+    - Tap the ? button at upper left of screen for available commands.
 
-2. Location Test:
+2. First Checklist Test:
 
     - Go outdoors with GPS visibility
-    - Say "Start checklist"
-    - Verify nearby hotspots are displayed
-
-3. Checklist Test:
-
-    - Start a test checklist at your location
-    - Verify birds can be added to the checklist
-    - Try a few basic commands
+    - Say `Start checklist`
+    - Say `sparrow` to add a bird to the checklist.
 
 ## Next Steps
 
 After successful installation:
 
-- Review the [Getting Started Guide](../getting-started.md) for essential commands
-- Practice basic commands in a quiet environment
-- Try a test checklist before going into the field
+- Go to the [Getting Started Guide](../getting-started.md) for a quick run through the basic commands.
 
-For installation support, contact the developer at [stevebt@membot.com](mailto:stevebt@membot.com?subject=BirdTalk%20installation)
+For installation support, contact us at [stevebt@membot.com](mailto:stevebt@membot.com?subject=BirdTalk%20installation)
