@@ -116,6 +116,19 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
    - Current width: 375px
    - Consistent margins and spacing
    - Clear separation between sections (4em margin)
+   - Image resizing guidelines:
+     * Store original high-resolution images in docs/images/originals/
+     * Use macOS sips command to create display-sized versions:
+       ```bash
+       # For typical images where height ≤ width:
+       sips -Z 375 docs/images/originals/image.png --out docs/images/image.png
+
+       # For tall images where height > width:
+       # Calculate height to maintain aspect ratio: (original_height/original_width * 375)
+       sips --resampleHeightWidth [calculated_height] 375 docs/images/originals/image.png --out docs/images/image.png
+       ```
+     * Always ensure width is exactly 375px to match documentation layout
+     * Use -Z for typical images, --resampleHeightWidth for tall images to guarantee 375px width
    - Best practices for image positioning:
      * Place image-container divs before the content they illustrate
      * Allow h3 headings to wrap next to images by removing clear:both
@@ -198,6 +211,11 @@ Current challenges:
     - Lazy load images or use progressive loading techniques
     - Consider removing some redundant screenshots
 
+## Completed Tasks (Feb 5, 2025)
+- Moved personal testimonial from doc/jbc_testimonial.md to docs/testimonial.md
+- Added testimonial to navigation menu after FAQ section
+- Updated project structure to reflect testimonial move
+
 ## Completed Tasks (Feb 4, 2025)
 
 1. Documentation Updates:
@@ -234,59 +252,17 @@ Current challenges:
    - Added side-by-side image layout pattern to style guide
    - Cleaned up documentation structure
 
-## Known Issues
-
-1. Image Path Warnings:
-   - MkDocs reports warnings about absolute paths in getting-started.md
-   - Affected images:
-     * /images/01_starting_screen.png
-     * /images/02_select_location.png
-     * /images/03_adding_observations.png
-     * /images/06_sort_by_time.png
-     * /images/04_sort_by_family.png
-     * /images/05_help_screen.png
-   - Should update paths to be relative (remove leading slash)
-   - Example: change `/images/01_starting_screen.png` to `images/01_starting_screen.png`
-
-## Remaining Tasks
-
-1. Fix Image Paths:
-   - Update image paths in getting-started.md to use relative paths
-   - Test changes locally with `mkdocs serve` before deploying
-   - Verify all images display correctly after path updates
-
-2. Personal Testimonial:
-   - Expand each section with detailed experiences
-   - Add specific examples and memorable moments
-   - Include practical tips from regular use
-   - Consider adding quotes from birding companions
-
-2. Review and enhance screenshots:
-   - Add a photo of BirdTalk in action:
-     * Show a birder (John) using the app in the field
-     * Include key equipment: binoculars and Bluetooth headset
-     * Capture the moment of speaking a command
-     * This will be featured on the landing page to visually demonstrate the app's hands-free usage
-   - Review all screenshots for clarity and relevance
-   - Add annotations (labels, arrows) to highlight key UI elements
-   - Verify screenshots align with surrounding documentation text
-   - Ensure consistent cropping and focus across all images
-   - Maintain logical progression of screenshots in tutorials
-   - Consider adding step-by-step numbered annotations for complex workflows
-   - Add callouts to emphasize important interface elements
-   - Create zoomed-in detail views for complex UI sections
-
 ## Project Structure
 ```
 birdtalk-docs/
 ├── mkdocs.yml           # MkDocs configuration
 ├── doc/                 # Project notes and background info
-│   ├── birdtalk-docs-notes.md  # Project status and history
-│   └── jbc_testimonial.md      # Personal experience testimonial
+│   └── birdtalk-docs-notes.md  # Project status and history
 ├── docs/                # Documentation source files
 │   ├── index.md        # Landing page
 │   ├── faq.md          # Frequently Asked Questions
 │   ├── tips-and-tricks.md
+│   ├── testimonial.md  # Personal experience testimonial
 │   ├── commands/       # Command documentation
 │   │   └── reference.md
 │   ├── installation/   # Installation guides
