@@ -316,28 +316,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-reference" class="md-nav__link">
+  <a href="#starting-up" class="md-nav__link">
     <span class="md-ellipsis">
-      Quick Reference
+      Starting Up
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Quick Reference">
+    <nav class="md-nav" aria-label="Starting Up">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#the-basics" class="md-nav__link">
+  <a href="#the-first-screen" class="md-nav__link">
     <span class="md-ellipsis">
-      The Basics
+      The First Screen
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#essential-commands" class="md-nav__link">
+  <a href="#audio-check" class="md-nav__link">
     <span class="md-ellipsis">
-      Essential Commands
+      Audio Check
     </span>
   </a>
   
@@ -349,46 +349,37 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#detailed-tutorial" class="md-nav__link">
+  <a href="#basic-command-summary" class="md-nav__link">
     <span class="md-ellipsis">
-      Detailed Tutorial
+      Basic Command Summary
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Detailed Tutorial">
+    <nav class="md-nav" aria-label="Basic Command Summary">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#starting-your-session" class="md-nav__link">
+  <a href="#starting-a-checklist" class="md-nav__link">
     <span class="md-ellipsis">
-      Starting Your Session
+      Starting a Checklist
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#first-observations" class="md-nav__link">
+  <a href="#recording-birds" class="md-nav__link">
     <span class="md-ellipsis">
-      First Observations
+      Recording Birds
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#advanced-features" class="md-nav__link">
+  <a href="#other-essential-commands" class="md-nav__link">
     <span class="md-ellipsis">
-      Advanced Features
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#managing-multiple-species" class="md-nav__link">
-    <span class="md-ellipsis">
-      Managing Multiple Species
+      Other Essential Commands
     </span>
   </a>
   
@@ -396,6 +387,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-other-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Other Commands
+    </span>
+  </a>
   
 </li>
       
@@ -509,7 +509,7 @@
 
 <h1 id="getting-started-with-birdtalk">Getting Started with BirdTalk</h1>
 <p>This guide will help you start using BirdTalk effectively. It begins with a quick reference of essential features and interface elements, then provides a detailed tutorial with real-world examples.</p>
-<h2 id="quick-reference">Quick Reference</h2>
+<h2 id="starting-up">Starting Up</h2>
 <div class="image-container">
 <figure>
 <p><img alt="BirdTalk starting screen" class="screenshot" src="../images/01_starting_screen.png" />
@@ -517,21 +517,32 @@
 <figcaption>BirdTalk starting screen</figcaption>
 </figure>
 </div>
-<h3 id="the-basics">The Basics</h3>
+<h3 id="the-first-screen">The First Screen</h3>
 <p>When you first open BirdTalk, you'll see the main screen with options to start a new checklist or access previous ones. The interface is clean and simple, designed for hands-free operation. </p>
 <ul>
 <li>Use pinch-to-zoom gestures to adjust text size for better visibility.</li>
 </ul>
+<h3 id="audio-check">Audio Check</h3>
 <p>Before starting your birding session, test that BirdTalk can hear you.</p>
 <ul>
-<li>Uses the phone's internal mic and speaker by default, or the optional Bluetooth headset when available.</li>
 <li>If shows "Start" at top left, tap that to turn on the recognizer.</li>
+<li>BirdTalk uses the phone's internal mic and speaker by default, or the optional Bluetooth headset when available.</li>
 <li>Say <code>Time</code> to verify BirdTalk hears and responds with the time.</li>
 <li>For detailed audio troubleshooting, see <a href="../tips-and-tricks/#audio-equipment-tips">Tips and Tricks</a></li>
 </ul>
 <div class="clear-floats"></div>
 
-<h3 id="essential-commands">Essential Commands</h3>
+<h2 id="basic-command-summary">Basic Command Summary</h2>
+<p>Here is a quick list of the commands that you'll use in every checkilst:</p>
+<ul>
+<li>Start by saying <code>Start checklist</code></li>
+<li>Add a bird sighting by saying <code>Jay</code></li>
+<li>Correct a mistaken entry by saying <code>No, Bluebird</code></li>
+<li>Add with a count by saying <code>2 Robins</code></li>
+<li>Remove a mistaken entry by saying <code>Scratch</code></li>
+<li>Stop by saying <code>Stop checklist</code></li>
+</ul>
+<p>These are covered in more detail below.</p>
 <div class="image-container">
 <figure>
 <p><img alt="Location selection screen" class="screenshot" src="../images/02_select_location.png" />
@@ -539,12 +550,13 @@
 <figcaption>Location selection screen showing nearby hotspots</figcaption>
 </figure>
 </div>
-<p><strong>Starting a Checklist</strong></p>
-<p>Say "Start checklist" and BirdTalk will find your location and suggest the nearest eBird hotspot.
-If you prefer a different hotspot:</p>
+<div>&nbsp;</div>
+
+<h3 id="starting-a-checklist">Starting a Checklist</h3>
+<p>Say <code>Start checklist</code> and BirdTalk will find your location and suggest the nearest eBird hotspot.</p>
 <ul>
-<li>Say "Next" to see other nearby options</li>
-<li>Or tap the desired hotspot on the screen</li>
+<li>BirdTalk reads back the chosen hotspot</li>
+<li>If you prefer a different hotspot, tap the desired hotspot on the screen.</li>
 </ul>
 <div class="clear-floats"></div>
 
@@ -555,25 +567,24 @@ If you prefer a different hotspot:</p>
 <figcaption>Screen for adding bird observations</figcaption>
 </figure>
 </div>
-<p><strong>Recording Birds</strong></p>
-<p>Use the basic format: Say "[Number] [Species Name]". For example:</p>
+<h3 id="recording-birds">Recording Birds</h3>
+<p>Use the basic format: Say <code>[Number] [Species Name]</code>. For example:</p>
 <ul>
-<li>Say "Three mockingbirds"</li>
-<li>Say "One robin"</li>
-<li>Say "Scratch that" to remove the last entry</li>
-<li>Say "Two cal quail" (shorthand for California Quail)</li>
+<li>Say <code>Three mockingbirds</code></li>
+<li>Say <code>One robin</code></li>
+<li>Say <code>Scratch that</code> to remove the last entry</li>
+<li>Say <code>Two cal quail</code> (shorthand for California Quail)</li>
 </ul>
 <div class="clear-floats"></div>
 
-<p><strong>Managing Observation Counts</strong></p>
-<p>Here are the essential commands for managing your observations:</p>
+<h3 id="other-essential-commands">Other Essential Commands</h3>
 <ul>
-<li>To check a count: Say "How many robins"</li>
-<li>To change the last entry: Say "No three"</li>
-<li>To add one: Say "One more"</li>
-<li>To subtract one: Say "One fewer"</li>
-<li>To change species: Say "No towhee"</li>
+<li>To change the last entry: Say <code>No, three</code></li>
+<li>To change species: Say <code>No, towhee</code></li>
+<li>To stop the checklist when all done: Say <code>Stop checklist</code></li>
+<li>See <a href="../uploading-checklists/">Uploading Checklists</a> to send the checklist to eBird.</li>
 </ul>
+<p>That's everything you need to use BirdTalk!  Next we'll cover how to learn the other commands over time.</p>
 <div>&nbsp;</div>
 
 <div class="image-container">
@@ -583,71 +594,16 @@ If you prefer a different hotspot:</p>
 <figcaption>Help screen showing available commands</figcaption>
 </figure>
 </div>
-<p><strong>Getting Help</strong></p>
-<p>Tap the ? button (at the upper left of the main screen) to see a summary of BirdTalk's verbal commands.</p>
-<h2 id="detailed-tutorial">Detailed Tutorial</h2>
-<p>Now let's walk through a complete birding session, showing how BirdTalk works in real-world scenarios.</p>
-<h3 id="starting-your-session">Starting Your Session</h3>
+<h2 id="learning-other-commands">Learning Other Commands</h2>
+<p>Tap the ? button (at the upper left of the main screen) in the field to see a summary of BirdTalk's verbal commands.</p>
+<p>Look through the <a href="../commands/reference/">Command Reference</a> for a comprehensive list of the verbal commands.</p>
+<p>The most useful other commands are:</p>
 <ul>
-<li>Turn on your (optional) Bluetooth headset</li>
-<li>Open BirdTalk</li>
-<li>Say "Time" to verify voice recognition</li>
-<li>Say "Start checklist"</li>
-<li>BirdTalk suggests "Stow Lake, San Francisco, US-CA"</li>
-<li>Start birding if correct, or say "Next" to step through available locations</li>
-</ul>
-<h3 id="first-observations">First Observations</h3>
-<ul>
-<li>
-<p>You hear a Song Sparrow:</p>
-<ul>
-<li>Say "Song Sparrow"</li>
-<li>BirdTalk adds one Song Sparrow</li>
-</ul>
-</li>
-<li>
-<p>You see three Mallards:</p>
-<ul>
-<li>Say "Three Mallards"</li>
-<li>BirdTalk adds three Mallards</li>
-</ul>
-</li>
-<li>
-<p>Another Song Sparrow singing:</p>
-<ul>
-<li>Say "Song Sparrow"</li>
-<li>Say "Memo singing" (adds breeding behavior note)</li>
-</ul>
-</li>
-</ul>
-<h3 id="advanced-features">Advanced Features</h3>
-<p><strong>Correcting Mistakes</strong></p>
-<ul>
-<li>
-<p>Species correction:</p>
-<ul>
-<li>Say "Black Phoebe"</li>
-<li>Realize it's actually a Say's Phoebe</li>
-<li>Say "No, Say's Phoebe"</li>
-<li>BirdTalk changes the species</li>
-</ul>
-</li>
-<li>
-<p>You accidentally said "dove" and entered a Mourning Dove.</p>
-<ul>
-<li>Say "Scratch" to remove the accidental entry.</li>
-</ul>
-</li>
-<li>
-<p>Count correction:</p>
-<ul>
-<li>Say "Twelve Western Gulls"</li>
-<li>Recount shows fourteen</li>
-<li>Say "No, fourteen"</li>
-<li>BirdTalk updates the count</li>
-<li>You could also say "two more"</li>
-</ul>
-</li>
+<li>To check a count: Say <code>How many robins</code></li>
+<li>To add one: Say <code>One more</code></li>
+<li>To subtract one: Say <code>One fewer</code></li>
+<li>To add a comment to a bird entry: Say <code>Memo flycatching at the lake shore</code></li>
+<li>To check how many species in the checklist so far, say <code>How many species</code></li>
 </ul>
 <p><strong>Using Shorthand Names</strong></p>
 <ul>
@@ -679,42 +635,6 @@ If you prefer a different hotspot:</p>
 <li>Say "Memo near stone bridge coordinates"</li>
 <li>BirdTalk automatically replaces the term "coordinates" with the GPS coordinates where you initially entered that species observation</li>
 <li>You can also say "Memo near current coordinates." The phrase "current coordinates" will be replaced with the coordinates where you were when you issued the command.</li>
-</ul>
-</li>
-</ul>
-<h3 id="managing-multiple-species">Managing Multiple Species</h3>
-<p><strong>Mixed Flock Example</strong></p>
-<ul>
-<li>
-<p>Record multiple species quickly:</p>
-<ul>
-<li>Say "Three Chickadees"</li>
-<li>Say "Two Ruby Crowned Kinglets"</li>
-<li>Say "Yellow Rump"</li>
-</ul>
-</li>
-<li>
-<p>Add behavior notes:</p>
-<ul>
-<li>Say "Choose Chickadee"</li>
-<li>Say "Memo foraging with kinglets and warbler"</li>
-<li>Say "Choose Kinglet"</li>
-<li>Say "Memo actively feeding in willows"</li>
-</ul>
-</li>
-</ul>
-<p><strong>Quick Counts and Reviews</strong></p>
-<ul>
-<li>
-<p>Check specific species:</p>
-<ul>
-<li>Say "How many Song Sparrows"</li>
-</ul>
-</li>
-<li>
-<p>Check total species:</p>
-<ul>
-<li>Say "How many species"</li>
 </ul>
 </li>
 </ul>
