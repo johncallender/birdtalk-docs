@@ -84,6 +84,22 @@ Shorthand examples:
 - Say `Sort by time` - Shows entries chronologically
 - Say `Show coordinates` - Displays GPS coordinates
 
+<div style="text-align: center" markdown>
+<div style="display: inline-block; margin-right: 1em" markdown>
+<figure markdown>
+  ![Sort by time view](../images/06_sort_by_time.png){ .screenshot }
+  <figcaption>Observations sorted by time (default)</figcaption>
+</figure>
+</div>
+<div style="display: inline-block" markdown>
+<figure markdown>
+  ![Sort by family view](../images/04_sort_by_family.png){ .screenshot }
+  <figcaption>Observations sorted by family</figcaption>
+</figure>
+</div>
+</div>
+
+
 ### Upload Management
 
 - Say `Upload later` - Marks current checklist for later upload

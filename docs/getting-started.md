@@ -13,16 +13,16 @@ This guide will help you start using BirdTalk effectively. It begins with a quic
 
 ### The Basics
 
-When you first open BirdTalk, you'll see the main screen with options to start a new checklist or access previous ones. The interface is clean and simple, designed for hands-free operation. Use pinch-to-zoom gestures to adjust text size for better visibility.
+When you first open BirdTalk, you'll see the main screen with options to start a new checklist or access previous ones. The interface is clean and simple, designed for hands-free operation. 
 
-Before starting your birding session:
+- Use pinch-to-zoom gestures to adjust text size for better visibility.
 
-- Test voice recognition by saying "Time"
-- BirdTalk should respond with the current time
-- If using a Bluetooth headset:
-    - Turn it on before starting BirdTalk
-    - BirdTalk will automatically use the headset
-    - For audio issues, see [Tips and Tricks](tips-and-tricks.md#audio-equipment-tips)
+Before starting your birding session, test that BirdTalk can hear you.
+
+- Uses the phone's internal mic and speaker by default, or the optional Bluetooth headset when available.
+- If shows "Start" at top left, tap that to turn on the recognizer.
+- Say `Time` to verify BirdTalk hears and responds with the time.
+- For detailed audio troubleshooting, see [Tips and Tricks](tips-and-tricks.md#audio-equipment-tips)
 
 <div class="clear-floats"></div>
 
@@ -38,15 +38,13 @@ Before starting your birding session:
 **Starting a Checklist**
 
 Say "Start checklist" and BirdTalk will find your location and suggest the nearest eBird hotspot.
-If the suggested hotspot isn't correct:
+If you prefer a different hotspot:
 
 - Say "Next" to see other nearby options
-- Or tap a different hotspot on the screen
+- Or tap the desired hotspot on the screen
 
 <div class="clear-floats"></div>
 
-
-**Recording Birds**
 
 <div class="image-container" markdown>
 <figure markdown>
@@ -55,35 +53,16 @@ If the suggested hotspot isn't correct:
 </figure>
 </div>
 
+**Recording Birds**
+
 Use the basic format: Say "[Number] [Species Name]". For example:
 
 - Say "Three mockingbirds"
 - Say "One robin"
+- Say "Scratch that" to remove the last entry
 - Say "Two cal quail" (shorthand for California Quail)
 
 <div class="clear-floats"></div>
-
-**Viewing Your List**
-
-BirdTalk offers multiple ways to organize your observations:
-
-- Say "sort by time" (default)
-- Say "sort by family"
-
-<div style="text-align: center" markdown>
-<div style="display: inline-block; margin-right: 1em" markdown>
-<figure markdown>
-  ![Sort by time view](images/06_sort_by_time.png){ .screenshot }
-  <figcaption>Observations sorted by time (default)</figcaption>
-</figure>
-</div>
-<div style="display: inline-block" markdown>
-<figure markdown>
-  ![Sort by family view](images/04_sort_by_family.png){ .screenshot }
-  <figcaption>Observations sorted by family</figcaption>
-</figure>
-</div>
-</div>
 
 **Managing Observation Counts**
 
@@ -95,7 +74,7 @@ Here are the essential commands for managing your observations:
 - To subtract one: Say "One fewer"
 - To change species: Say "No towhee"
 
-**Getting Help**
+<div>&nbsp;</div>
 
 <div class="image-container" markdown>
 <figure markdown>
@@ -104,9 +83,10 @@ Here are the essential commands for managing your observations:
 </figure>
 </div>
 
-The help screen is always available - just say "Help"
+**Getting Help**
 
-Say "Back" to return from the Help screen.
+Tap the ? button (at the upper left of the main screen) to see a summary of BirdTalk's verbal commands.
+
 
 ## Detailed Tutorial
 
@@ -114,7 +94,7 @@ Now let's walk through a complete birding session, showing how BirdTalk works in
 
 ### Starting Your Session
 
-- Turn on your Bluetooth headset
+- Turn on your (optional) Bluetooth headset
 - Open BirdTalk
 - Say "Time" to verify voice recognition
 - Say "Start checklist"
@@ -132,8 +112,7 @@ Now let's walk through a complete birding session, showing how BirdTalk works in
     * BirdTalk adds three Mallards
 
 - Another Song Sparrow singing:
-    * Say "Choose Song Sparrow"
-    * Say "One more"
+    * Say "Song Sparrow"
     * Say "Memo singing" (adds breeding behavior note)
 
 ### Advanced Features
@@ -143,13 +122,16 @@ Now let's walk through a complete birding session, showing how BirdTalk works in
 - Species correction:
     * Say "Black Phoebe"
     * Realize it's actually a Say's Phoebe
-    * Say "No Say's Phoebe"
+    * Say "No, Say's Phoebe"
     * BirdTalk changes the species
+
+- You accidentally said "dove" and entered a Mourning Dove.
+    * Say "Scratch" to remove the accidental entry.
 
 - Count correction:
     * Say "Twelve Western Gulls"
     * Recount shows fourteen
-    * Say "No fourteen"
+    * Say "No, fourteen"
     * BirdTalk updates the count
     * You could also say "two more"
 
@@ -195,36 +177,6 @@ Now let's walk through a complete birding session, showing how BirdTalk works in
 - Check total species:
     * Say "How many species"
 
-### Uploading to eBird
+**Next**: See [Uploading Checklists](uploading-checklists.md).
 
-For detailed instructions on uploading your checklists to eBird, see [Uploading Checklists](uploading-checklists.md). You can upload a single checklist immediately, or mark several checklists to upload together later.
-
-### Tips for Success
-
-- Keep commands simple and direct
-- Use shorthand names when they're unique in your area
-- Add memos while observations are fresh
-- Review your checklist before uploading
-- Use "upload later" if you want to double-check details
-
-### Troubleshooting
-
-If BirdTalk doesn't recognize a command:
-
-- Speak more clearly and slightly louder
-- Try repeating the exact same phrase
-- In noisy conditions, you may need to speak louder
-
-If text is hard to read:
-
-- Use pinch-to-zoom gestures to adjust text size
-- Zoom in for better visibility in bright sunlight
-- Zoom out to see more content at once
-
-If you make a mistake:
-
-- Say "Scratch that" to remove the last entry
-- Say "Restore" if you remove something by mistake
-
-**Next**: [Uploading Checklists](uploading-checklists.md)
-**Or**: [Command Reference](commands/reference.md) for more advanced features
+**Or**: See [Command Reference](commands/reference.md) for a comprehensive list of the verbal commands.
