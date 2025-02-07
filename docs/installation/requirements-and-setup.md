@@ -26,6 +26,10 @@ if needed)
 
 2. Wait for email confirmation that you've been added as a beta tester
 
+### Installing Bluetooth Headset
+
+1. Pair the headset with your phone following the manufacturer's directions.
+
 ### Installing TestFlight
 
 1. Open the App Store on your iPhone
@@ -51,10 +55,11 @@ if needed)
 
 ### iPhone Permissions
 
-If the phone asks, enable GPS, microphone access, and speech recognition for use by BirdTalk.
+If the phone asks, enable for BirdTalk's use:
 
-- Uses location recording with observations and checklist locations
-- Helps with checklist organization
+- Microphone access;
+- Speech recognition; and
+- GPS, for recording observations and checklist locations
 
 ## Using BirdTalk
 

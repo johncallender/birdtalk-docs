@@ -13,17 +13,17 @@ This guide will help you start using BirdTalk effectively. It begins with a quic
 
 ### The First Screen
 
-When you first open BirdTalk, you'll see the main screen with options to start a new checklist or access previous ones. The interface is clean and simple, designed for hands-free operation. 
+When you first open BirdTalk, you'll see the main screen with a list of checklists, if you have any.
 
-- Use pinch-to-zoom gestures to adjust text size for better visibility.
+- Use pinch-and-zoom to adjust text size for better visibility.
 
 
 ### Audio Check
 
 Before starting your birding session, test that BirdTalk can hear you.
 
-- If shows "Start" at top left, tap that to turn on the recognizer.
-- BirdTalk uses the phone's internal mic and speaker by default, or the optional Bluetooth headset when available.
+- If "Start" is at the top left, tap that to turn on the recognizer.
+- BirdTalk uses the phone's internal mic and speaker by default, or the optional Bluetooth headset, if installed (see [Installation](installation/requirements-and-setup.md)).
 - Say `Time` to verify BirdTalk hears and responds with the time.
 - For detailed audio troubleshooting, see [Tips and Tricks](tips-and-tricks.md#audio-equipment-tips)
 
@@ -37,14 +37,14 @@ Before starting your birding session, test that BirdTalk can hear you.
 - Whenever BirdTalk understands your command, it will speak back to let you know exactly what it is doing.  For instance when you say `Robin` it will say back "American Robin".
 - Tap the "Stop" button at upper left, or say `Shut down`, to turn off BirdTalk's listening.
 
-## Basic Command Summary
+## Summary of the Common Commands
 
 Here is a quick list of the most common commands, that you'll use in most checkilsts:
 
 - Start by saying `Start checklist`
-- Add a bird sighting by saying `Jay`
+- Add a bird sighting, for example say `Scrub Jay`
 - Correct a mistaken entry by saying `No, Bluebird`
-- Add with a count by saying `2 Robins`
+- Add bird with a count by saying `2 Robins`
 - Remove a mistaken entry by saying `Scratch`
 - Stop by saying `Stop checklist`
 
@@ -52,13 +52,15 @@ These are covered in more detail below.
 
 ## Checklist Concepts
 
-- When a checklist is started, BirdTalk is in timer mode, and successive bird entries are added as they are spoken.
-- Successive entries of the same species will be combined when the checklist is uploaded to eBird.
+- Once a checklist is started, successive bird entries are added as they are spoken.
+- Successive entries of the same species will be totaled when the checklist is uploaded to eBird.
 - You can tap the screen (or use the `choose` command) to select particular entries so you can then `scratch` or otherwise modify them.
-- When a checklist is stopped, the timer stops, and new bird entries are no longer added.
+- When the checklist is stopped, new bird entries can no longer be added.
 - It is possible to modify entries in a stopped checklist.  We'll cover this later in [Command Reference](commands/reference.md).
 
-Here are details on the most common commands.
+<div>&nbsp;</div>
+
+# Details of the Common Commands
 
 <div class="image-container" markdown>
 <figure markdown>
@@ -66,8 +68,6 @@ Here are details on the most common commands.
   <figcaption>Location selection screen showing nearby hotspots</figcaption>
 </figure>
 </div>
-
-<div>&nbsp;</div>
 
 ### Starting a Checklist
 
@@ -105,7 +105,7 @@ Use the basic format: Say `[Number] [Species Name]`. For example:
 - To stop the checklist when all done: Say `Stop checklist`
 - See [Uploading Checklists](uploading-checklists.md) to send the checklist to eBird.
 
-That's everything you need to use BirdTalk!  Next we'll cover how to learn the other commands over time.
+That's everything you need to use BirdTalk successfully!
 
 
 
@@ -118,7 +118,7 @@ That's everything you need to use BirdTalk!  Next we'll cover how to learn the o
 </figure>
 </div>
 
-Tap the ? button (at the upper left of the main screen) in the field to see a summary of BirdTalk's verbal commands.
+Tap the ? button (at the upper left of the main screen) to see a summary of BirdTalk's verbal commands.
 
 The most useful other commands are:
 
