@@ -11,6 +11,12 @@
     display: inline-block;
 }
 
+@media screen and (max-width: 76.2344em) {
+  .md-tabs {
+    display: block;
+  }
+}
+
 /* Figure styling */
 .md-typeset figure {
     padding: 0;
