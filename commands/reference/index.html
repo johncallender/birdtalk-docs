@@ -743,11 +743,17 @@
 <h2 id="essential-commands">Essential Commands</h2>
 <h3 id="starting-and-stopping">Starting and Stopping</h3>
 <ul>
+<li>When a checklist is started, successive bird entries are stored in order.</li>
+<li>Multiple entries of the same species are combined when the checklist is uploaded to eBird.</li>
+<li>When a checklist is stopped, new bird entries are no longer appended to the checklist.  Use the <code>insert</code> commands to include forgotten birds into appropriate places in an old checklist.</li>
+</ul>
+<p>Commands:</p>
+<ul>
 <li>Say <code>Start checklist</code> - Begins a new checklist at current location</li>
 <li>Say <code>Stop checklist</code> - Ends current checklist</li>
-<li>Say <code>Resume</code> - Resumes a stopped checklist</li>
-<li>Say <code>Upload later</code> - Saves current checklist for later upload to eBird</li>
-<li>Say <code>Shut down</code> - Turns off BirdTalk completely (note: app remains running but won't respond to voice commands)</li>
+<li>Say <code>Resume</code> - Resumes a stopped checklist, so new bird entries are again appended to the checklist.  Leaves a gap of no birds for the period the checklist was stopped.</li>
+<li>Say <code>Upload later</code> - Saves current checklist for later upload to eBird.  Must tap the top line or <code>select</code> the desired checklist before using.</li>
+<li>Say <code>Shut down</code> - Turns off BirdTalk listening.  Same as tapping the Stop button at upper left.  App remains running but doesn't hear voice commands until you tap the Start button at top left.</li>
 </ul>
 <h3 id="basic-bird-entry">Basic Bird Entry</h3>
 <ul>
@@ -760,12 +766,13 @@
 <li>Say <code>cal quail</code> → California Quail</li>
 <li>Say <code>slope</code> → Pacific-slope Flycatcher</li>
 <li>Say <code>yellow-crown</code> → Yellow-crowned Night-heron</li>
+<li>See <a href="../../tips-and-tricks/">Tips and Tricks</a> for more details.</li>
 </ul>
 <h2 id="location-management">Location Management</h2>
 <h3 id="hotspot-selection">Hotspot Selection</h3>
 <ul>
-<li>Say <code>Next</code> - Switches to next nearby hotspot in list</li>
-<li>Say <code>Insert checklist</code> - Creates new checklist header at current position</li>
+<li>Say <code>Next</code> - Switches to next nearby hotspot in menu shown right after <code>Start checklist</code></li>
+<li>Say <code>Insert checklist</code> - Creates new checklist header at current position, using the time and location of the following bird entry</li>
 </ul>
 <h2 id="species-and-count-management">Species and Count Management</h2>
 <h3 id="reviewing-counts">Reviewing Counts</h3>
