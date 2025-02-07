@@ -95,10 +95,8 @@ If the phone asks, enable GPS for use by BirdTalk.
     - Say `Start checklist`
     - Say `sparrow` to add a bird to the checklist.
 
+For installation support, contact us at [stevebt@membot.com](mailto:stevebt@membot.com?subject=BirdTalk%20installation)
+
 ## Next Steps
 
-After successful installation:
-
-- Go to the [Getting Started Guide](../getting-started.md) for a quick run through the basic commands.
-
-For installation support, contact us at [stevebt@membot.com](mailto:stevebt@membot.com?subject=BirdTalk%20installation)
+**Next**: Go to the [Getting Started Guide](../getting-started.md) for a quick run through the most common commands.

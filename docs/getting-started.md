@@ -226,6 +226,5 @@ If you make a mistake:
 - Say "Scratch that" to remove the last entry
 - Say "Restore" if you remove something by mistake
 
-For more advanced features and commands, see the [Command Reference](commands/reference.md).
-
-Continue to [Uploading Checklists](uploading-checklists.md).
+**Next**: [Uploading Checklists](uploading-checklists.md)
+**Or**: [Command Reference](commands/reference.md) for more advanced features

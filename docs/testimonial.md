@@ -52,3 +52,5 @@ For those still hesitant about trying BirdTalk, I get it — I was there too. Bu
 You should give it a try. You won't regret it.
 
 *John Callender is a birder based in Santa Barbara County, California. He has maintained a daily eBird checklist streak since 2018 and has been using BirdTalk since its beta release.*
+
+**Next**: [Requirements and Installation](installation/requirements-and-setup.md)

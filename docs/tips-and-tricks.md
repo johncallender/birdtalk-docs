@@ -125,3 +125,5 @@ Additional information:
 2. Switch microphones
 3. Wait for quieter moment
 4. Position microphone closer
+
+**Next**: [FAQ](faq.md)

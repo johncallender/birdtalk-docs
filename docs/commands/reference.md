@@ -162,4 +162,4 @@ Shorthand examples:
 - Use distinctive parts of names
 - Check recognition with "Choose" command
 
-For more detailed advice on voice recognition, shorthand names, and troubleshooting, see the [Tips and Tricks](../tips-and-tricks.md) guide.
+**Next**: For more detailed advice on voice recognition, shorthand names, and troubleshooting, see the [Tips and Tricks](../tips-and-tricks.md) guide.

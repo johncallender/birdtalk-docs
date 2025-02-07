@@ -147,3 +147,5 @@ If you encounter issues during upload:
 - Check your internet connection
 - Make sure all marked observations are unmarked (no red text)
 - Try uploading one checklist at a time if uploading multiple lists fails
+
+**Next**: [Command Reference](commands/reference.md) for a comprehensive list of verbal commands

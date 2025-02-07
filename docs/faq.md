@@ -151,3 +151,4 @@ Solution:
 - BirdTalk continues recording observations
 - Location data may be less accurate
 - Consider adding location notes in memos
+

@@ -2,11 +2,11 @@
 ![Using BirdTalk in the field](images/steve_vertical.jpg){ .screenshot }
 </div>
 
-# BirdTalk Documentation
+# BirdTalk
 
 <div class="content-wrap" markdown="1">
 
-BirdTalk is an iOS app designed to be controlled by spoken instructions, allowing you to record bird observations in the field hands-free, while keeping your phone in your pocket. Using simple voice commands, you can create eBird checklists without taking your eyes off the birds or handling your device.
+BirdTalk is an iPhone app designed to be controlled by spoken instructions, allowing you to record bird observations in the field hands-free, while keeping your phone in your pocket. Using simple voice commands, you can create eBird checklists without taking your eyes off the birds or handling your device.
 
 ## Key Features
 
@@ -18,6 +18,7 @@ BirdTalk is an iOS app designed to be controlled by spoken instructions, allowin
 
 ## Documentation
 
+- **[Testimonial](testimonial.md)**: One birder's BirdTalk journey
 - **[Requirements and Installation](installation/requirements-and-setup.md)**: Everything you need to get started with BirdTalk
 - **[Getting Started](getting-started.md)**: Essential commands and detailed tutorial for using BirdTalk
 - **[Uploading Checklists](uploading-checklists.md)**: Step-by-step guide to uploading your checklists to eBird
@@ -31,10 +32,12 @@ BirdTalk is an iOS app designed to be controlled by spoken instructions, allowin
 
 ## About BirdTalk
 
-BirdTalk is currently in beta testing through TestFlight. The app is designed to enhance the birding experience by allowing birders to maintain their focus on birds while easily recording their observations.
+BirdTalk is currently in beta testing through TestFlight. See the requirements page if you'd like to join the beta program.
 
-## Acknowledgments
-
-BirdTalk is developed by Steve Colwell with major assistance from iOS expert Lee Hasiuk.  Many thanks to the early Santa Barbara testers:  Mark Holmgren, Sue Cook, David Blue, and Conor McMahon.  Much appreciated documentation support by John Callender.
+BirdTalk is developed by Steve Colwell with major assistance from iOS expert Lee Hasiuk.  Many thanks to the early Santa Barbara testers Mark Holmgren, Sue Cook, David Blue, and Conor McMahon, and to John Callender for documentation support.
 
 For support or feedback, contact Steve at [stevebt@membot.com](mailto:stevebt@membot.com).
+
+<i>Steve Colwell is a birder and retired computer programmer in Santa Barbara, California.</i>
+
+**Next**: [Testimonial](testimonial.md)
