@@ -6,8 +6,9 @@
 - eBird account (create at 
 <a href="https://eBird.org" target="eBird">ebird.org</a> 
 if needed)
-- (optional) Bluetooth headset such as the
+- (optional but strongly recommended) Bluetooth headset such as the
 <a href="https://www.amazon.com/SHOKZ-OpenComm2-Conduction-Headphones-Bluetooth/dp/B0C88R9FHG" target="bonecondamazon">OpenComm2 Bone Conduction Stereo Bluetooth Headset by Shokz</a>.  While BirdTalk works with your iPhone's built-in microphone, this headset adds:
+    * Hands-free operation of BirdTalk
     * Boom microphone for better voice recognition
     * Bone conduction keeps ears unobstructed for birding
     * Good noise isolation for the microphone
@@ -17,19 +18,18 @@ if needed)
 
 ### Getting Beta Access
 
-1. Email your request to [stevebt@membot.com](mailto:stevebt@membot.com?subject=BirdTalk%20beta%20access).  
-2. Include:
+1. Email your request to [stevebt@membot.com](mailto:stevebt@membot.com?subject=BirdTalk%20beta%20access):
 
-    - Confirmation that you're willing to provide regular feedback to help improve BirdTalk
-    - The email address you use to sign in to apple.com, if it's different than the one you normally use.
+    - Include confirmation that you're willing to provide regular feedback to help improve BirdTalk
+    - Provide the email address you use to sign in to apple.com, if it's different than the one you normally use.
     - Your email address will only be used for communications with you about setting up and operating BirdTalk.
 
-3. Wait for email confirmation that you've been added as a beta tester
+2. Wait for email confirmation that you've been added as a beta tester
 
 ### Installing TestFlight
 
 1. Open the App Store on your iPhone
-2. Search for "TestFlight"
+2. Search for "TestFlight", the official Apple app for beta-testing
 3. Download and install the TestFlight app
 4. Sign in with the email address you use with apple.com.
 
@@ -39,21 +39,21 @@ if needed)
 2. Look for BirdTalk in available beta apps
 3. Tap "Install" next to BirdTalk
 4. Wait for installation to complete
-5. For installation support, contact us at [stevebt@membot.com](mailto:stevebt@membot.com?subject=BirdTalk%20installation)
+5. If there are any issues, contact us at [BirdTalkSupport@membot.com](mailto:BirdTalkSupport@membot.com?subject=BirdTalk%20installation)
 
 ## Preparing for Field Use
 
 ### WiFi or Cellular Connectivity
 
-- Required for initial setup and installation
+- Connectivity required for initial setup and installation
 - Works offline in the field after initial setup
 - Need connectivity when you upload completed checklists to eBird
 
-### Location Services
+### iPhone Permissions
 
-If the phone asks, enable GPS for use by BirdTalk.
+If the phone asks, enable GPS, microphone access, and speech recognition for use by BirdTalk.
 
-- Used for location recording with observations
+- Uses location recording with observations and checklist locations
 - Helps with checklist organization
 
 ## Using BirdTalk
