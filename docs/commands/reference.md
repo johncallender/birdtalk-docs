@@ -6,11 +6,17 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 
 ### Starting and Stopping
 
+- When a checklist is started, successive bird entries are stored in order.
+- Multiple entries of the same species are combined when the checklist is uploaded to eBird.
+- When a checklist is stopped, new bird entries are no longer appended to the checklist.  Use the `insert` commands to include forgotten birds into appropriate places in an old checklist.
+
+Commands:
+
 - Say `Start checklist` - Begins a new checklist at current location
 - Say `Stop checklist` - Ends current checklist
-- Say `Resume` - Resumes a stopped checklist
-- Say `Upload later` - Saves current checklist for later upload to eBird
-- Say `Shut down` - Turns off BirdTalk completely (note: app remains running but won't respond to voice commands)
+- Say `Resume` - Resumes a stopped checklist, so new bird entries are again appended to the checklist.  Leaves a gap of no birds for the period the checklist was stopped.
+- Say `Upload later` - Saves current checklist for later upload to eBird.  Must tap the top line or `select` the desired checklist before using.
+- Say `Shut down` - Turns off BirdTalk listening.  Same as tapping the Stop button at upper left.  App remains running but doesn't hear voice commands until you tap the Start button at top left.
 
 ### Basic Bird Entry
 
@@ -23,13 +29,14 @@ Shorthand examples:
 - Say `cal quail` → California Quail
 - Say `slope` → Pacific-slope Flycatcher
 - Say `yellow-crown` → Yellow-crowned Night-heron
+- See [Tips and Tricks](../tips-and-tricks.md) for more details.
 
 ## Location Management
 
 ### Hotspot Selection
 
-- Say `Next` - Switches to next nearby hotspot in list
-- Say `Insert checklist` - Creates new checklist header at current position
+- Say `Next` - Switches to next nearby hotspot in menu shown right after `Start checklist`
+- Say `Insert checklist` - Creates new checklist header at current position, using the time and location of the following bird entry
 
 ## Species and Count Management
 

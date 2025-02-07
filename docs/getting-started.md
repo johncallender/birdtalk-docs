@@ -29,9 +29,17 @@ Before starting your birding session, test that BirdTalk can hear you.
 
 <div class="clear-floats"></div>
 
+## BirdTalk is Listening
+
+- When BirdTalk is started, it is listening to everything you say, looking for commands it understands, and ignoring everything else.
+- You can talk freely to others and BirdTalk ignores it.
+- Pause for a second before and after speaking a BirdTalk command so the command doesn't blend into what you're saying to others.
+- Whenever BirdTalk understands your command, it will speak back to let you know exactly what it is doing.  For instance when you say `Robin` it will say back "American Robin".
+- Tap the "Stop" button at upper left, or say `Shut down`, to turn off BirdTalk's listening.
+
 ## Basic Command Summary
 
-Here is a quick list of the commands that you'll use in every checkilst:
+Here is a quick list of the most common commands, that you'll use in most checkilsts:
 
 - Start by saying `Start checklist`
 - Add a bird sighting by saying `Jay`
@@ -42,6 +50,15 @@ Here is a quick list of the commands that you'll use in every checkilst:
 
 These are covered in more detail below.
 
+## Checklist Concepts
+
+- When a checklist is started, BirdTalk is in timer mode, and successive bird entries are added as they are spoken.
+- Successive entries of the same species will be combined when the checklist is uploaded to eBird.
+- You can tap the screen (or use the `choose` command) to select particular entries so you can then `scratch` or otherwise modify them.
+- When a checklist is stopped, the timer stops, and new bird entries are no longer added.
+- It is possible to modify entries in a stopped checklist.  We'll cover this later in [Command Reference](commands/reference.md).
+
+Here are details on the most common commands.
 
 <div class="image-container" markdown>
 <figure markdown>
@@ -57,7 +74,7 @@ These are covered in more detail below.
 Say `Start checklist` and BirdTalk will find your location and suggest the nearest eBird hotspot.
 
 - BirdTalk reads back the chosen hotspot
-- If you prefer a different hotspot, tap the desired hotspot on the screen.
+- If you prefer a different hotspot, tap the desired hotspot on the screen, or use the `Next` comamnd.
 
 <div class="clear-floats"></div>
 
@@ -77,6 +94,7 @@ Use the basic format: Say `[Number] [Species Name]`. For example:
 - Say `One robin`
 - Say `Scratch that` to remove the last entry
 - Say `Two cal quail` (shorthand for California Quail)
+- Say `Red-tailed Hawk`.  If you leave out the number, it just adds one.  
 
 <div class="clear-floats"></div>
 
@@ -90,7 +108,8 @@ Use the basic format: Say `[Number] [Species Name]`. For example:
 That's everything you need to use BirdTalk!  Next we'll cover how to learn the other commands over time.
 
 
-<div>&nbsp;</div>
+
+## Learning Other Commands
 
 <div class="image-container" markdown>
 <figure markdown>
@@ -99,11 +118,7 @@ That's everything you need to use BirdTalk!  Next we'll cover how to learn the o
 </figure>
 </div>
 
-## Learning Other Commands
-
 Tap the ? button (at the upper left of the main screen) in the field to see a summary of BirdTalk's verbal commands.
-
-Look through the [Command Reference](commands/reference.md) for a comprehensive list of the verbal commands.
 
 The most useful other commands are:
 
@@ -113,21 +128,14 @@ The most useful other commands are:
 - To add a comment to a bird entry: Say `Memo flycatching at the lake shore`
 - To check how many species in the checklist so far, say `How many species`
 
+
 ### Using Shorthand Names
 
 - For Yellow-rumped Warbler:
-    * Say "Yellow Rump" or just "Rump"
+    * Say `Yellow Rump` or just `Rump`
 
 - For Pacific-slope Flycatcher:
-    * Say "Slope"
-
-### Adding Comments
-
-- Say "Memo foraging with chickadees"
-- Say "Choose yellow rump"
-- Say "Memo near stone bridge coordinates"
-    - BirdTalk automatically replaces the term "coordinates" with the GPS coordinates where you initially entered that species observation
-    - You can also say "Memo near current coordinates." The phrase "current coordinates" will be replaced with the coordinates where you were when you issued the command.
+    * Say `Slope`
 
 **Next**: See [Uploading Checklists](uploading-checklists.md).
 
