@@ -11,8 +11,8 @@ BirdTalk was developed to answer to the question, "why can't I just speak into t
 In most situations BirdTalk is the more convenient way to record bird observations, but it has limitations:
 
 - BirdTalk tracks your GPS path while recording a checklist, but there's currently no way to upload that "where I walked" info to eBird.  This isn't a critical problem, but we hope to add this capability in the future.
-- BirdTalk can't record breeding code, age, and sex information in the field.  The workaround is to use the `memo` feature to record this info then edit the checklist in your eBird account after uploading.
-- In very noisy environments, BirdTalk can't understand speech very well.  When that happens the best alternative is to use the eBird app for manual data entry.
+- BirdTalk can't record breeding code, age, and sex information in the field because there's no way for it to upload that info to eBird.  The workaround for now is to use the `memo` feature to record this info then edit the checklist in your eBird account after uploading.  We hope to add this capability in the future.
+- In very noisy environments, BirdTalk can't understand speech very well.  When that happens the best alternative is to use the eBird app for manual data entry.  We plan to add a manual-entry option to BirdTalk for such situations.
 
 ### Do I need an internet connection?
 
