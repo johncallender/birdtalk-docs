@@ -34,7 +34,7 @@ Before starting your birding session, test that BirdTalk can hear you.
 - When BirdTalk is started, it is listening to everything you say for commands it understands, and ignoring everything else.
 - You can talk freely to others and BirdTalk ignores it.
 - Pause for a second before and after speaking a BirdTalk command so the command doesn't blend into what you're saying to others.
-- Whenever BirdTalk understands your command, it will speak back to let you know exactly what it is doing.  For instance when you say `Robin` it will say back "American Robin" so you konw exactly which species it is adding to your checklist.
+- Whenever BirdTalk understands your command, it will speak back to let you know exactly what it is doing.  For instance when you say `Robin` it will say back "American Robin" so you know exactly which species it is adding to your checklist.
 - To turn off BirdTalk's listening, tap the "Stop" button at upper left, or say `Shut down`.
 
 ## Summary of the Common Commands
@@ -95,7 +95,7 @@ Use the basic format: Say `[Number] [Species Name]`. For example:
 - Say `One robin`
 - Say `Scratch that` to remove the last entry
 - Say `Two cal quail` (shorthand for California Quail)
-- Say `Red-tailed Hawk`.  If you leave out the number, it just adds one.  
+- Say `Red-tailed Hawk`.  If you leave out the number, it just adds one.
 
 <div class="clear-floats"></div>
 
