@@ -41,11 +41,13 @@ md-header
 .md-typeset figcaption {
     color: #666;
     font-size: 0.75em;
-    margin-top: 0.2em;
+    margin-top: 0em;
     font-style: italic;
     text-align: center;
     word-wrap: break-word;
     padding: 0;
+    position:relative;
+    top:-1rem;
 }
 
 /* Section spacing */
@@ -121,11 +123,6 @@ md-header
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     padding-left: 1.5em;
-}
-
-/* Handle text wrapping around images */
-.md-typeset .image-container {
-    margin-left: 2em;
 }
 
 /* Force content below floated elements */

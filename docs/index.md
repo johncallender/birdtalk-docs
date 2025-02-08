@@ -1,12 +1,13 @@
 <div class="image-container" markdown>
 ![Using BirdTalk in the field](images/steve_vertical.jpg){ .screenshot }
+  <figcaption>Photo by Sue Cook</figcaption>
 </div>
 
 # BirdTalk
 
 <div class="content-wrap" markdown="1">
 
-BirdTalk is an iPhone app designed to be controlled by spoken instructions, allowing you to record bird observations in the field hands-free, while keeping your phone in your pocket. Using simple voice commands, you can create eBird checklists without taking your eyes off the birds or your hands off the binoculars.
+BirdTalk is an iPhone app that understands speech, allowing you to record bird observations in the field hands-free while keeping your phone in your pocket. Using simple voice commands, you can create eBird checklists without taking your eyes off the birds or your hands off the binoculars.
 
 ## Key Features
 
@@ -31,7 +32,7 @@ BirdTalk is an iPhone app designed to be controlled by spoken instructions, allo
 
 ## About BirdTalk
 
-BirdTalk is currently in beta testing through TestFlight. See [Setup](installation/requirements-and-setup.md) if you'd like to join the beta program.
+BirdTalk is currently in beta testing. See [Setup](installation/requirements-and-setup.md) if you'd like to join the beta program.
 
 BirdTalk is developed by Steve Colwell with major assistance from iOS expert Lee Hasiuk.  Many thanks to the early Santa Barbara testers Mark Holmgren, Sue Cook, David Blue, and Conor McMahon, and to John Callender for documentation support.
 

@@ -10,10 +10,11 @@ BirdTalk was developed to answer to the question, "why can't I just speak into t
 
 In most situations BirdTalk is the more convenient way to record bird observations, but it has limitations:
 
+- BirdTalk currently works only within the United States and New Zealand.  By mid-2025 it will work anywhere, world-wide.
 - BirdTalk tracks your GPS path while recording a checklist, but there's currently no way to upload that "path where I walked" info to eBird.  This isn't a critical problem, but we hope to add this capability in the future.
-- BirdTalk can't record breeding code, age, and sex information in the field because there's no way for it to upload that info to eBird.  The workaround for now is to use the `memo` feature to record this info then edit the checklist in your eBird account after uploading.  We hope to add this capability in the future.
-- In very noisy environments, BirdTalk can't understand speech very well.  When that happens the best alternative is to use the eBird app for manual data entry.  We plan to add a manual-entry option to BirdTalk for such situations.
-- BirdTalk doesn't currently allow making checklists for Personal Locations, only for hotspots.  Search for "personal location" below for how to work around this limitation.  We plan to add improved capability in this area.
+- BirdTalk can't record breeding code, age, and sex information in the field because there's no way for it to upload that info to eBird.  The workaround for now is to use the `memo` feature to record this info then edit the checklist in your eBird account after uploading.  We hope to improve this capability in the future.
+- In extremely noisy environments, BirdTalk can't understand speech very well.  When that happens the best current alternative is to use the eBird app for manual data entry.  We plan to add a manual-entry option to BirdTalk for such situations.
+- BirdTalk doesn't currently allow making checklists for Personal Locations, only for hotspots.  Search for "personal location" below for how to work around this limitation.  We plan to improve this capability in the near future.
 
 ### Do I need an internet connection?
 

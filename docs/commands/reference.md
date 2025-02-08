@@ -13,6 +13,7 @@ This guide provides a comprehensive list of all BirdTalk commands, organized by 
 Commands:
 
 - Say `Start checklist` - Begins a new checklist at current location
+- Say `Start archival checklist` - Begins a new checklist at current location, dated 31 days ago, so that it won't show up in eBird notifcations.  Used for entering historical data.
 - Say `Stop checklist` - Ends current checklist
 - Say `Resume` - Resumes a stopped checklist, so new bird entries are again appended to the checklist.  Leaves a gap of no birds for the period the checklist was stopped.
 - Say `Upload later` - Saves current checklist for later upload to eBird.  Must tap the top line or `select` the desired checklist before using.
