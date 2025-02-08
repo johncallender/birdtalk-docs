@@ -39,7 +39,7 @@ md-header
 
 /* Caption styling */
 .md-typeset figcaption {
-    color: #666;
+    color: #888;
     font-size: 0.75em;
     margin-top: 0em;
     font-style: italic;
@@ -48,6 +48,9 @@ md-header
     padding: 0;
     position:relative;
     top:-1rem;
+}
+.md-typeset figcaption:hover {
+    color: #444;
 }
 
 /* Section spacing */
