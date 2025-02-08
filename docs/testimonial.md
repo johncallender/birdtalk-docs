@@ -5,7 +5,7 @@
 
 ## The Comfort of Routine
 
-I was late to the BirdTalk bandwagon. I knew and liked Steve, the app's creator; he and I had had a fun, low-key competition in the county-year-list rankings a few years ago (Steve won by six species). So when I learned that he was working on an app that let you enter eBird checklists hands-free I was intrigued.
+I was late to the BirdTalk bandwagon. I knew and liked Steve, the app's creator; he and I had a fun, low-key competition in the county-year-list rankings a few years ago (Steve won by six species). So when I learned that he was working on an app that let you enter eBird checklists hands-free I was intrigued.
 
 At the same time, I had my own approach to eBird that I was comfortable with. With more than 2,500 days in my checklist streak, pulling out my phone to enter birds had become second nature.
 
