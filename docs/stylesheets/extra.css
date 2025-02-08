@@ -11,18 +11,22 @@
     display: inline-block;
 }
 
-@media screen and (max-width: 76.2344em) {
-  .md-tabs { /* Show nav tags at any width */
+.md-tabs { /* Show nav tags at any width */
     display: block;
-  }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) { /* mobile */
   .md-tabs__item {
       padding-left: 0.2rem !important;
       padding-right: 0.2rem !important;
   }
 }
+
+.md-header__button > svg {
+    /*opacity: 0;*/
+}
+
+md-header
 
 /* Figure styling */
 .md-typeset figure {

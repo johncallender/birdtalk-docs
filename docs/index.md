@@ -18,7 +18,7 @@ BirdTalk is an iPhone app designed to be controlled by spoken instructions, allo
 
 ## Documentation
 
-- **[Why BirdTalk?](testimonial.md)**: Why use BirdTalk -- One birder's BirdTalk journey
+- **[Why BirdTalk? (A Testimonial)](testimonial.md)**: Why use BirdTalk -- One birder's BirdTalk journey
 - **[Setup](installation/requirements-and-setup.md)**: Everything you need to set up BirdTalk on your iPhone
 - **[Getting Started](getting-started.md)**: Use the most commands for BirdTalk
 - **[Uploading Checklists](uploading-checklists.md)**: Step-by-step guide to uploading your checklists to eBird
@@ -32,7 +32,7 @@ BirdTalk is an iPhone app designed to be controlled by spoken instructions, allo
 
 ## About BirdTalk
 
-BirdTalk is currently in beta testing through TestFlight. See the requirements page if you'd like to join the beta program.
+BirdTalk is currently in beta testing through TestFlight. See [Setup](installation/requirements-and-setup.md) if you'd like to join the beta program.
 
 BirdTalk is developed by Steve Colwell with major assistance from iOS expert Lee Hasiuk.  Many thanks to the early Santa Barbara testers Mark Holmgren, Sue Cook, David Blue, and Conor McMahon, and to John Callender for documentation support.
 
@@ -40,4 +40,4 @@ For support or feedback, contact Steve at [stevebt@membot.com](mailto:stevebt@me
 
 <i>Steve Colwell is a birder and retired computer programmer in Santa Barbara, California.</i>
 
-**Next**: [Why BirdTalk?](testimonial.md)
+**Next**: [Why BirdTalk? (A Testimonial)](testimonial.md)

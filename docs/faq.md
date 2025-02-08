@@ -4,7 +4,15 @@
 
 ### What is BirdTalk's relationship with eBird?
 
-BirdTalk is a voice-controlled interface for creating and uploading eBird checklists. When you're ready to upload your checklists, you'll enter your eBird credentials in your phone's browser to complete the upload.
+BirdTalk was developed to answer to the question, "why can't I just speak into the eBird app to record birds?"  Now you can!  We are in talks with eBird to see if they're interested in incorporating this capability into eBird itself.
+
+### What are the pros and cons of BirdTalk compared to the eBird app?
+
+In most situations BirdTalk is the more convenient way to record bird observations, but it has limitations:
+
+- BirdTalk tracks your GPS path while recording a checklist, but there's currently no way to upload that "where I walked" info to eBird.  This isn't a critical problem, but we hope to add this capability in the future.
+- BirdTalk can't record breeding code, age, and sex information in the field.  The workaround is to use the `memo` feature to record this info then edit the checklist in your eBird account after uploading.
+- In very noisy environments, BirdTalk can't understand speech very well.  When that happens the best alternative is to use the eBird app for manual data entry.
 
 ### Do I need an internet connection?
 
