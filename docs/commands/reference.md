@@ -29,7 +29,7 @@ Shorthand examples:
 - Say `cal quail` → California Quail
 - Say `slope` → Pacific-slope Flycatcher
 - Say `yellow-crown` → Yellow-crowned Night-heron
-- See [Tips and Tricks](../tips-and-tricks.md) for more details.
+- See [FAQ](../faq.md) for more details.
 
 ## Location Management
 
@@ -125,64 +125,12 @@ Shorthand examples:
 - Say `Mute` or `Ignore` - Stops listening for commands
 - Say `Resume` or `Listen` or `Unmute` - Resumes listening
 
-## Help and Information
+## Information
 
 ### System Commands
 
-- Say `Help` - Shows command list
-- Say `Back` - Returns to main screen
 - Say `Time` - BirdTalk speaks current time (also confirms it's listening)
 - Say `Feedback [text]` - Stores feedback for later transmission (note: feedback is saved but not sent immediately)
-- Say `Send feedback` - Submits all stored feedback to developer
+- Say `Send feedback` - Packs all stored feedback into a file that it asks you to email to us
 
-## Breeding Codes
-
-### Basic Codes
-
-- Say `robin singing`
-- Say `bluebird carrying food`
-- Say `chickadee feeding`
-- Say `wren nest with young`
-- Say `dove nest with eggs`
-- Say `towhee carrying nesting material`
-
-### Advanced Codes
-
-- Say `warbler physiological`
-- Say `flicker territorial`
-- Say `junco courtship`
-- Say `nuthatch visiting probable nest`
-- Say `jay agitated behavior`
-- Say `grosbeak pair in suitable habitat`
-
-### Santa Barbara Study Codes
-
-- Say `woodpecker nestling`
-- Say `chickadee feeding fledgling`
-- Say `quail family group`
-- Say `sparrow independent juvenile`
-- Say `swallow cavity nester attending cavity`
-- Say `towhee male singing on territory`
-
-## Tips for Better Recognition
-
-### In noisy environments:
-
-- Speak more clearly and slightly louder
-- Repeat exact phrase if not recognized
-- Wait for quiet moments
-- Try cupping your hand around the microphone
-
-### For better accuracy:
-
-- Use complete phrases
-- Maintain consistent volume
-- Speak at normal pace
-
-### When using shorthand:
-
-- Ensure phrase is unique in your region
-- Use distinctive parts of names
-- Check recognition with "Choose" command
-
-**Next**: For more detailed advice on voice recognition, shorthand names, and troubleshooting, see the [Tips and Tricks](../tips-and-tricks.md) guide.
+**Next**: For more detailed advice on voice recognition, shorthand names, and troubleshooting, see the [FAQ](../faq.md).

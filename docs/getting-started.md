@@ -25,7 +25,7 @@ Before starting your birding session, test that BirdTalk can hear you.
 - If "Start" is at the top left, tap that to turn on the recognizer.
 - BirdTalk uses the phone's internal mic and speaker by default, or the optional Bluetooth headset, if installed (see [Installation](installation/requirements-and-setup.md)).
 - Say `Time` to verify BirdTalk hears and responds with the time.
-- For detailed audio troubleshooting, see [Tips and Tricks](tips-and-tricks.md#audio-equipment-tips)
+- For detailed audio troubleshooting, see [FAQ](faq.md)
 
 <div class="clear-floats"></div>
 

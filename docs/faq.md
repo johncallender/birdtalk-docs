@@ -27,94 +27,81 @@ Not required for:
 - Recording observations
 - Location recording
 
-### How does BirdTalk handle location information?
+## Using BirdTalk
 
-- Records location for each observation
-- Location data helps with hotspot detection and checklist organization
+### Should I edit before uploading a checklist?
+
+Yes:
+
+- Review all entries in your checklist to make sure no undesired species crept in during your session.
+- Fix any errors by tapping the bad item and using the editing commands:
+    - `No` or `Make that`
+    - `Scratch`
+    - `Memo`
+    - `Insert`
+- Review marked (red) entries, and say `Unmark` on each once you've added an appropriate memo.
+- Ensure you've selected the checklist location header, by tapping it or saying `Choose checklist`
+
+### How should I handle a multi-hotspot walk?
+
+- The standard approach is to say `Start checklist` as you enter each new checklist area, which automatically stops the prior checklist.
+- Alternatively you can just `Start checklist` once at the start and record all birds as you go.
+- Then, later, use `Insert checklist` at appropriate points to split it into several checklists.
+- Use `Scratch` to removes checklist headers if you started a new checklist but decide to combine those entries into the previous one.
+
 
 ## Voice Recognition
+
+## What if BirdTalk is not responding to my speech?
+
+- Say `Time` to check that the microphone is receiving the audio
+- Make sure the Start/Stop button at upper left says "Stop" which means it is listening.
+- Power off the Bluetooth headset and make sure the phone internal mic can hear you by saying `Time`.  Then power on the Bluetooth headset and try again.
+- This works because the most recently connected device takes control
 
 ### Why does BirdTalk sometimes take longer to respond?
 
 - BirdTalk waits for silence to know you've finished speaking
 - In quiet conditions: responds within 1 second
-- With background noise (wind, traffic): may take up to 3 seconds
-- Solution: Wait for a quiet moment or speak more clearly
-
-### How can I improve voice recognition?
-
-1. Speak clearly and consistently
-2. If a command isn't recognized, repeat the exact same phrase
-3. In noisy conditions:
-
-   - Speak slightly louder
-   - Position microphone closer
-   - Wait for quieter moments
-
-### What if BirdTalk doesn't recognize a bird name?
-
-- Try using a unique part of the name
-- Repeat the exact same phrase
-- Check the [command reference](commands/reference.md) for shorthand examples
-- Once a species is in your checklist, its name gets priority for recognition
-
-## Using with Other Apps
-
-### Note About Merlin Sound ID
-
-Due to a recent update, Merlin Sound ID is no longer compatible with BirdTalk. The apps cannot run simultaneously.
-
-### Will I hear notifications while using BirdTalk?
-
-- BirdTalk itself doesn't affect notifications
-- Use an Apple Watch to receive notifications
-
-## Hardware and Audio
+- With background noise (wind, traffic): may take up to 4 seconds
+- Wait a few seconds after speaking in a noisy environment, to make sure BirdTalk detects the end of the command. 
+- BirdTalk usually responds faster when using a noise-cancelling microphone.
 
 ### Which Bluetooth headset should I use?
 
-We recommend the OpenComm2 Bone Conduction Headset because:
+See our [recommended](installation/requirements-and-setup.md/#requirements) Bluetooth headset.
 
-- Leaves ears unobstructed for birding
-- Has a boom microphone for better voice recognition
-- Provides good noise isolation
-- Uses bone conduction technology
 
-### How do I manage multiple Bluetooth devices?
+### How can BirdTalk understand me better in noisy environments?
 
-iPhone can handle two audio devices:
+- Accuracy is best when using the above noise-cancelling microphone.
+- Wait for quiet moments (such as when the surf abates at the shore)
+- Cup your hand around the microphone to reflect your voice more loudly into it
+- Check that mic remains positioned close to your mouth.
+- Leave 3-4 seconds after speaking a command
+- Say `break` after the command to signal the end when other nearby speech may be picked up by the mic and confuse BirdTalk.  For example say `robin break` or even `break robin break`.  This is only somewhat effective but can help in some situations.
 
-- Internal mic/speaker
-- One Bluetooth device
+### How can I speak bird entries most effectively?
 
-Additional information:
+- Whispering, or whispering + cupping, can be effective when you want to avoid disturbing birds
+- Can use single words or sub-phrases from species names, when they are unique in your area, in place of the complete name.  For instance `rump` or `yellow rump` for Yellow-rumped Warbler
+- Or use the full name for species where parts don't work, such as for `Black Scoter`
+- Experiment with different shorthands to find what works best for problematic species
+- Once a species is in your checklist, it gets recognition priority, and shorthand for it will work that wouldn't before.
 
-- Most recently connected device takes control
-- Turn Bluetooth headset off then on to put headset back in control.
 
-## Checklists and Data
+## Using with Other Apps
 
-### How do I manage multiple checklists?
+### Phone and text notifications
 
-- You can have multiple incomplete checklists
-- Use "Stop checklist" to pause current checklist
-- Start new checklist when location changes
-- Upload checklists when you have internet connection
+- When a phone call comes in, BirdTalk stops listening until the phone call is complete.
+- If BirdTalk stop responding after a call or notification, tap "Stop" at upper left then tap "Start" to resume listening.
+- Usually you must then say `Resume` to pick up with the last-active checklist.
 
-### Can I edit checklists after creation?
+### Note About Merlin Sound ID
 
-Yes:
+Due to a recent Merlin or iOS update, Merlin Sound ID is no longer compatible with BirdTalk. The apps cannot run simultaneously.  Hopefully they'll soon fix Merlin to again allow other apps to share the microphone with it.
 
-- Use "Insert checklist" to split observations into separate lists
-- "Scratch" removes checklist headers to combine lists
-- Edit comments and counts at any time
-- Review and mark entries before uploading
-
-### How do I prepare for birding in a new location?
-
-1. Make sure you've completed the initial setup
-2. You can bird offline in any location
-3. Remember to upload checklists when back online
 
 ## Privacy and Data
 
@@ -124,39 +111,4 @@ Yes:
 - Stores phonetic format of commands (not readable text)
 - Uses GPS data for hotspot detection and location recording
 - All data is used solely for app functionality and debugging
-
-### Can I opt out of data collection?
-
-- When muted or checklist stopped, no logging occurs
-- Use "Shut down" to completely stop all app functions
-- Contact developer for specific privacy concerns
-
-## Troubleshooting
-
-### What if my headset stops working?
-
-1. Try power cycling the headset
-2. Turn headset off and back on to reset audio
-3. Check Bluetooth connections in iPhone Settings
-4. Ensure headset is most recently connected device
-
-### Why can't I upload my checklist?
-
-Common reasons:
-
-- No internet connection
-- Marked (red) entries need review
-- Not selected on checklist header
-
-Solution:
-
-- Unmark entries
-- Select header
-- Ensure internet connection
-
-### What if I lose GPS signal?
-
-- BirdTalk continues recording observations
-- Location data may be less accurate
-- Consider adding location notes in memos
 
