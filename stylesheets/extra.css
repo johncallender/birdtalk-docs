@@ -12,8 +12,12 @@
 }
 
 @media screen and (max-width: 76.2344em) {
-  .md-tabs {
+  .md-tabs { /* Show nav tags at any width */
     display: block;
+  }
+  .md-tabs__item {
+      padding-left: 0.3rem !important;
+      padding-right: 0.3rem !important;
   }
 }
 
