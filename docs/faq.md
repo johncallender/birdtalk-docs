@@ -93,7 +93,7 @@ See our [recommended](installation/requirements-and-setup.md/#requirements) Blue
 
 ### How can I speak bird entries most effectively?
 
-- Whispering, or whispering + cupping your hand to focus your voice into the mci, can be effective when you want to avoid disturbing birds
+- Whispering, or whispering + cupping your hand to focus your voice into the mic, can be effective when you want to avoid disturbing birds
 - Can use single words or sub-phrases from species names, when they are unique in your area, in place of the complete name.  For instance `rump` or `yellow rump` for Yellow-rumped Warbler
 - Or use the full name for species where parts don't work, such as for `Black Scoter`
 - Experiment with different shorthands to find what works best for problematic species
