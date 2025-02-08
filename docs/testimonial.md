@@ -35,9 +35,11 @@ BirdTalk was a game-changer in many situations.
 
 - **Documentation**: The "memo" command was great for documenting rarities:
 
-    Me: "One Solitary Sandpiper"
-    BirdTalk: "Solitary Sandpiper, rare here and now"
-    Me: "Memo, Feeding in the lagoon near coordinates. Photos to come."
+    > Me: "One Solitary Sandpiper"
+    >
+    > BirdTalk: "Solitary Sandpiper, rare here and now"
+    >
+    > Me: "Memo, Feeding in the lagoon near coordinates. Photos to come."
 
     The app automatically replaced "coordinates" with my exact GPS location — a feature that has proved invaluable for rare bird documentation.
 
