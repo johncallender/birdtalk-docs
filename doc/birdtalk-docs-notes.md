@@ -214,23 +214,32 @@ Steve's Updates:
    - Removed redundant directories (quickstart/, tutorial/)
    - Updated navigation structure in mkdocs.yml
 
-Todo Items:
-1. Screenshots:
-   - Re-take the first three screenshots as a consistent sequence:
-     * 01_starting_screen.png (main screen with question mark button)
-     * 02_select_location.png (location selection for the tutorial session)
-     * 03_adding_observations.png (showing the mockingbirds, robin, and quail entries from the tutorial)
-   - Update the following screenshots to show the question mark button that was added to the BirdTalk UI:
-     * 04_sort_by_family.png (family sort mode)
-     * 06_sort_by_time.png (time sort mode)
-     * 07_select_checklist_to_upload_later.png (checklist selection)
-     * 08_checklist_marked_to_upload_later.png (after marking)
-     * 09_all_checklists_marked_to_upload_later.png (multiple marked checklists)
-     * 19_upload__completed.png (after upload)
-     * 20_checklists_deleted.png (after deletion)
-   * Note: The sort by... screenshots (04 and 06) are already in the correct place in the command reference page
-2. Documentation Review:
-   - Review all docs to look for cases where the construction 'Say "foo"' has not been replaced with 'Say `foo`'
+## Completed Tasks (Feb 7, 2025)
+
+1. Documentation Updates:
+   - Updated all command formatting to use backticks (Say `foo`) instead of quotes
+   - Added question mark button to all BirdTalk UI screenshots
+   - Added darkened question mark button to confirmation screen
+   - Standardized all screenshot sizes to 375px width:
+     * Tutorial sequence (01-03, 05)
+     * Sort views (04, 06)
+     * Upload workflow (07-09, 19-20)
+     * Upload buttons (upload_single, upload_multiple)
+     * eBird upload screenshots (11-12, 16-18)
+
+2. Image Sizing Standards:
+   - All BirdTalk UI screenshots standardized to 375px width
+   - Images stored in two locations:
+     * docs/images/originals/ - Full resolution originals
+     * docs/images/ - 375px width versions for display
+   - Resizing method:
+     * For images where height > width: use `sips --resampleHeightWidth [calculated_height] 375`
+     * Calculate height as: original_height * (375/original_width)
+   - Special cases:
+     * Steve's photo on index.md uses custom sizing
+     * Sort view screenshots (04, 06) positioned side-by-side in command reference
+
+Note: All planned tasks have been completed. Future updates should maintain the 375px width standard for BirdTalk UI screenshots while preserving original high-resolution versions.
 
 ## Current Task (Feb 1, 2025)
 Documentation restructuring in progress:
