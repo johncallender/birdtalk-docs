@@ -29,7 +29,7 @@ What impressed me most was how the app seemed to think like a birder. When I sai
 
 BirdTalk was a game-changer in many situations.
 
-- **Mixed Flocks**: Censusing a large group of gulls at the beach went from a mental juggling act to a smooth operation. "Four Western Gulls... six California Gulls... Western Gull... two more..." BirdTalk kept perfect running totals while I maintained my focus on the birds.
+- **Mixed Flocks**: Censusing a large group of gulls at the beach went from a mental juggling act to a smooth operation. "Four Western Gulls... six California Gulls... Western Gull... two more..." BirdTalk kept perfect running totals while I kept my binoculars up and my eyes on the birds.
 
 - **Rapid Observations**: When arriving at a busy location, I could now record multiple species simultaneously. A Song Sparrow singing while a Black Phoebe flies by? No problem — enter both without missing a beat.
 
