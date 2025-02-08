@@ -16,8 +16,7 @@ Create comprehensive documentation for the Birdtalk project using MkDocs, includ
   - Installation guide (installation/requirements-and-setup.md)
   - Quickstart guide (quickstart/first-session.md)
   - Command reference (commands/reference.md)
-  - FAQ (faq.md)
-  - Tips and tricks (tips-and-tricks.md)
+  - FAQ (faq.md, includes Tips and Tricks)
 - Generated site directory for built documentation
 
 ## Implementation History
@@ -184,35 +183,37 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
 
 ## Current Status (Feb 7, 2025)
 
-Steve's Updates:
-1. Navigation and Mobile Improvements:
+Recent Updates:
+1. Documentation Structure:
+   - Combined Tips and Tricks into FAQ section
+   - Simplified testimonial link text and description
+   - Improved dialogue formatting in testimonial
+   - Consolidated quickstart and tutorial content into getting-started.md
+   - Removed redundant directories (quickstart/, tutorial/)
+   - Updated navigation structure in mkdocs.yml
+
+2. Navigation and Mobile Improvements:
    - Fixed nav bar for mobile viewing
    - Adjusted nav bar padding for smaller screens
    - Updated navigation menu labels to be more descriptive
 
-2. Getting Started Page Updates:
+3. Getting Started Page Updates:
    - Added new section "BirdTalk is Listening" explaining voice recognition
    - Added "Checklist Concepts" section explaining timer mode and entry behavior
    - Improved command examples and formatting
    - Clarified shorthand naming conventions
    - Reorganized sections for better flow
 
-3. Command Reference Updates:
+4. Command Reference Updates:
    - Added detailed explanations for Starting/Stopping commands
    - Clarified checklist behavior and entry ordering
    - Added more context about the `Resume` and `Upload later` commands
    - Updated hotspot selection commands with better descriptions
-   - Added link to Tips and Tricks for shorthand examples
 
-4. Installation Guide Changes:
+5. Installation Guide Changes:
    - Renamed sections to be more action-oriented
    - Improved section organization
    - Updated navigation links
-
-5. Documentation Structure:
-   - Consolidated quickstart and tutorial content into getting-started.md
-   - Removed redundant directories (quickstart/, tutorial/)
-   - Updated navigation structure in mkdocs.yml
 
 ## Completed Tasks (Feb 7, 2025)
 
@@ -311,8 +312,7 @@ birdtalk-docs/
 ├── docs/                # Documentation source files
 │   ├── index.md        # Landing page
 │   ├── getting-started.md  # Getting started guide with tutorial
-│   ├── faq.md          # Frequently Asked Questions
-│   ├── tips-and-tricks.md
+│   ├── faq.md          # Frequently Asked Questions (includes Tips and Tricks)
 │   ├── testimonial.md  # Personal experience testimonial
 │   ├── uploading-checklists.md  # Guide for uploading to eBird
 │   ├── commands/       # Command documentation
