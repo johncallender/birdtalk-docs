@@ -182,14 +182,55 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
        - Maintains proper markdown image processing
        - Adds margin between images for spacing
 
-## Current Status (Feb 2, 2025)
-Improvements to getting-started.md layout:
-- Fixed text overlapping with images by improving CSS for text wrapping
-- Removed clear:both from h3 headings to allow proper wrapping
-- Added clear-floats class for controlled section breaks
-- Positioned first image to allow "The Basics" heading to wrap
-- Forced "Essential Commands" section below first image
-- More image positioning improvements pending
+## Current Status (Feb 7, 2025)
+
+Steve's Updates:
+1. Navigation and Mobile Improvements:
+   - Fixed nav bar for mobile viewing
+   - Adjusted nav bar padding for smaller screens
+   - Updated navigation menu labels to be more descriptive
+
+2. Getting Started Page Updates:
+   - Added new section "BirdTalk is Listening" explaining voice recognition
+   - Added "Checklist Concepts" section explaining timer mode and entry behavior
+   - Improved command examples and formatting
+   - Clarified shorthand naming conventions
+   - Reorganized sections for better flow
+
+3. Command Reference Updates:
+   - Added detailed explanations for Starting/Stopping commands
+   - Clarified checklist behavior and entry ordering
+   - Added more context about the `Resume` and `Upload later` commands
+   - Updated hotspot selection commands with better descriptions
+   - Added link to Tips and Tricks for shorthand examples
+
+4. Installation Guide Changes:
+   - Renamed sections to be more action-oriented
+   - Improved section organization
+   - Updated navigation links
+
+5. Documentation Structure:
+   - Consolidated quickstart and tutorial content into getting-started.md
+   - Removed redundant directories (quickstart/, tutorial/)
+   - Updated navigation structure in mkdocs.yml
+
+Todo Items:
+1. Screenshots:
+   - Re-take the first three screenshots as a consistent sequence:
+     * 01_starting_screen.png (main screen with question mark button)
+     * 02_select_location.png (location selection for the tutorial session)
+     * 03_adding_observations.png (showing the mockingbirds, robin, and quail entries from the tutorial)
+   - Update the following screenshots to show the question mark button that was added to the BirdTalk UI:
+     * 04_sort_by_family.png (family sort mode)
+     * 06_sort_by_time.png (time sort mode)
+     * 07_select_checklist_to_upload_later.png (checklist selection)
+     * 08_checklist_marked_to_upload_later.png (after marking)
+     * 09_all_checklists_marked_to_upload_later.png (multiple marked checklists)
+     * 19_upload__completed.png (after upload)
+     * 20_checklists_deleted.png (after deletion)
+   * Note: The sort by... screenshots (04 and 06) are already in the correct place in the command reference page
+2. Documentation Review:
+   - Review all docs to look for cases where the construction 'Say "foo"' has not been replaced with 'Say `foo`'
 
 ## Current Task (Feb 1, 2025)
 Documentation restructuring in progress:
@@ -260,16 +301,18 @@ birdtalk-docs/
 │   └── birdtalk-docs-notes.md  # Project status and history
 ├── docs/                # Documentation source files
 │   ├── index.md        # Landing page
+│   ├── getting-started.md  # Getting started guide with tutorial
 │   ├── faq.md          # Frequently Asked Questions
 │   ├── tips-and-tricks.md
 │   ├── testimonial.md  # Personal experience testimonial
+│   ├── uploading-checklists.md  # Guide for uploading to eBird
 │   ├── commands/       # Command documentation
 │   │   └── reference.md
 │   ├── installation/   # Installation guides
 │   │   └── requirements-and-setup.md
-│   ├── quickstart/     # Getting started guides
-│   │   └── first-session.md
-│   ├── tutorial/       # Detailed examples
-│   │   └── example-session.md
-│   └── images/         # Screenshots and images
+│   ├── images/         # Screenshots and images
+│   │   ├── originals/  # Original high-resolution images
+│   │   └── *.png      # Resized images for documentation
+│   └── stylesheets/    # Custom CSS styles
+│       └── extra.css
 └── site/               # Generated documentation site

@@ -87,9 +87,9 @@ Shorthand examples:
 ### Navigation
 
 - Say `Choose newest` - Selects most recent entry
+- Say `Show coordinates` - Displays GPS coordinates of each point, along with altitude in meters
 - Say `Sort by family` - Groups entries by species
 - Say `Sort by time` - Shows entries chronologically
-- Say `Show coordinates` - Displays GPS coordinates of each point, along with altitude in meters
 
 <div style="text-align: center" markdown>
 <div style="display: inline-block; margin-right: 1em" markdown>

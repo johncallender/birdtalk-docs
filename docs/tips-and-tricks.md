@@ -108,7 +108,7 @@ Additional information:
 
 ### Audio Issues
 
-- Say "Time" to check which device is handling the audio
+- Say `Time` to check which device is handling the audio
 
 ## Troubleshooting Quick Fixes
 
