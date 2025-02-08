@@ -16,7 +16,7 @@ if needed)
 
 ## Setting up BirdTalk
 
-### Getting Beta Access
+### Get Beta Access
 
 1. Email your request to [stevebt@membot.com](mailto:stevebt@membot.com?subject=BirdTalk%20beta%20access):
 

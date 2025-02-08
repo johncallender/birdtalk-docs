@@ -111,6 +111,11 @@ Shorthand examples:
 
 - Say `Upload later` - Marks current checklist for later upload
 - Say `Unfreeze` - Marks an uploaded checklist as not uploaded (allows re-uploading if needed)
+- Say `Delete entire checklist` - deletes the checklist whose header line is selected.
+- Say `Delete all checklists` - remove <i>every single checklist</i> from BirdTalk, whether uploaded or not.  This is a dangerously powerful command so be very sure that's what you intend before using it.  In fact it's best not to even say this phrase near other people who are using BirdTalk, on the chance that their mic picks up your words.  As a safety measure this feature requires that you first select the top line of the first checklist in your BirdTalk display.
+
+There's nothing wrong with keeping your most recently uploaded checklists in BirdTalk for a few days, until you're completely sure the checklist made it into eBird.  However, you will want to remove old checklists eventually, as BirdTalk slows down if it is holding on to more than 20 or so checklists.
+
 
 ### Information
 
@@ -118,7 +123,11 @@ Shorthand examples:
 - Say `How long` - BirdTalk says back elapsed time
 - Say `Time` - BirdTalk says back current time
 
-## Audio and Device Control
+## Sharing
+
+- Say `Share with three` - marks the checklist as having 3 additional authors in addition to you.  
+- The total (4 people in this example) is used for the Party Size field in the uploaded checklist.
+- Edit the checklist online, after upload, and use eBird's Share button to specify with whom you are sharing.
 
 ### Device Management
 

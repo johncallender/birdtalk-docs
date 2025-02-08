@@ -1,6 +1,6 @@
 # Getting Started with BirdTalk
 
-This guide will help you start using BirdTalk effectively. It begins with a quick reference of essential features and interface elements, then provides a detailed tutorial with real-world examples.
+This guide will help you start using BirdTalk effectively. It begins with a quick reference of the most useful features and concepts, then tells you where to go to learn more.
 
 ## Starting Up
 
@@ -23,19 +23,19 @@ When you first open BirdTalk, you'll see the main screen with a list of checklis
 Before starting your birding session, test that BirdTalk can hear you.
 
 - If "Start" is at the top left, tap that to turn on the recognizer.
-- BirdTalk uses the phone's internal mic and speaker by default, or the optional Bluetooth headset, if installed (see [Installation](installation/requirements-and-setup.md)).
+- BirdTalk uses the phone's internal mic and speaker by default, or the optional Bluetooth headset (see [Setup](installation/requirements-and-setup.md) for headset details).
 - Say `Time` to verify BirdTalk hears and responds with the time.
-- For detailed audio troubleshooting, see [FAQ](faq.md)
+- For more audio troubleshooting, see the [FAQ](faq.md/#what-if-birdtalk-is-not-responding-to-my-speech)
 
 <div class="clear-floats"></div>
 
 ## BirdTalk is Listening
 
-- When BirdTalk is started, it is listening to everything you say, looking for commands it understands, and ignoring everything else.
+- When BirdTalk is started, it is listening to everything you say for commands it understands, and ignoring everything else.
 - You can talk freely to others and BirdTalk ignores it.
 - Pause for a second before and after speaking a BirdTalk command so the command doesn't blend into what you're saying to others.
-- Whenever BirdTalk understands your command, it will speak back to let you know exactly what it is doing.  For instance when you say `Robin` it will say back "American Robin".
-- Tap the "Stop" button at upper left, or say `Shut down`, to turn off BirdTalk's listening.
+- Whenever BirdTalk understands your command, it will speak back to let you know exactly what it is doing.  For instance when you say `Robin` it will say back "American Robin" so you konw exactly which species it is adding to your checklist.
+- To turn off BirdTalk's listening, tap the "Stop" button at upper left, or say `Shut down`.
 
 ## Summary of the Common Commands
 
@@ -75,6 +75,7 @@ Say `Start checklist` and BirdTalk will find your location and suggest the neare
 
 - BirdTalk reads back the chosen hotspot
 - If you prefer a different hotspot, tap the desired hotspot on the screen, or use the `Next` comamnd.
+- Then say `Share with one` if you are birding with another person, so the eBird checklist will have the right count.
 
 <div class="clear-floats"></div>
 

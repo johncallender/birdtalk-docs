@@ -4,15 +4,16 @@
 
 ### What is BirdTalk's relationship with eBird?
 
-BirdTalk was developed to answer to the question, "why can't I just speak into the eBird app to record birds?"  Now you can!  We are in talks with eBird to see if they're interested in incorporating this capability into eBird itself.
+BirdTalk was developed to answer to the question, "why can't I just speak into the eBird app to record birds?"  We are in talks with eBird to see if they're interested in incorporating this capability into eBird itself.
 
 ### What are the pros and cons of BirdTalk compared to the eBird app?
 
 In most situations BirdTalk is the more convenient way to record bird observations, but it has limitations:
 
-- BirdTalk tracks your GPS path while recording a checklist, but there's currently no way to upload that "where I walked" info to eBird.  This isn't a critical problem, but we hope to add this capability in the future.
+- BirdTalk tracks your GPS path while recording a checklist, but there's currently no way to upload that "path where I walked" info to eBird.  This isn't a critical problem, but we hope to add this capability in the future.
 - BirdTalk can't record breeding code, age, and sex information in the field because there's no way for it to upload that info to eBird.  The workaround for now is to use the `memo` feature to record this info then edit the checklist in your eBird account after uploading.  We hope to add this capability in the future.
 - In very noisy environments, BirdTalk can't understand speech very well.  When that happens the best alternative is to use the eBird app for manual data entry.  We plan to add a manual-entry option to BirdTalk for such situations.
+- BirdTalk doesn't currently allow making checklists for Personal Locations, only for hotspots.  Search for "personal location" below for how to work around this limitation.  We plan to add improved capability in this area.
 
 ### Do I need an internet connection?
 
@@ -49,15 +50,24 @@ Yes:
 - Then, later, use `Insert checklist` at appropriate points to split it into several checklists.
 - Use `Scratch` to removes checklist headers if you started a new checklist but decide to combine those entries into the previous one.
 
+### How can I make a checklist at a personal location rather than a hotspot?
+
+- BirdTalk doesn't yet allow making a checklist for a Personal Location.
+- The work-around is to start a checklist using the neareset hotspot instead.
+- Then, after completing and uploading the checklist, edit the location for that checklist on your web account at eBird.
+
 
 ## Voice Recognition
 
 ## What if BirdTalk is not responding to my speech?
 
 - Say `Time` to check that the microphone is receiving the audio
-- Make sure the Start/Stop button at upper left says "Stop" which means it is listening.
+- Make sure the volume on your phone is turned up enough to hear BirdTalk talking back to you.
+- There may be an up to 30 second delay in response the first time you turn on BirdTalk, as it loads its database from the internet.
+- Make sure the Start/Stop button at upper left says "Stop" which means it is listening.  If it says "Start", tap it to tell BirdTalk to listen.
 - Power off the Bluetooth headset and make sure the phone internal mic can hear you by saying `Time`.  Then power on the Bluetooth headset and try again.
 - This works because the most recently connected device takes control
+- Make sure there is no other app running that is controlling the mic, such as Merlin or a phone call.
 
 ### Why does BirdTalk sometimes take longer to respond?
 

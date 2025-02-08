@@ -215,7 +215,9 @@ After successful upload, BirdTalk marks the checklists as uploaded.
 </div>
 
 <div class="content-wrap" markdown="1">
-When a checklist has been successfully uploaded, you can select the checklist location header and say `Delete Checklist` to delete the checklist from BirdTalk. If you want to delete multiple checklists, select the first one and say `Delete All Checklists`.
+When a checklist has been successfully uploaded, you can select the checklist location header and say `Delete Checklist` to delete the checklist from BirdTalk.  However, if you're new to BirdTalk, it's wise to first check in your eBird account to see that the uploaded checklist is really there, before deleting it in BirdTalk.  
+
+There's nothing wrong with keeping your most recently uploaded checklists in BirdTalk for a few days until you're completely sure the checklist made it into eBird.  However, you will want to remove old checklists eventually as BirdTalk slows down if it is holding on to more than 20 or so checklists.
 </div>
 
 <div class="clear-floats"></div>
