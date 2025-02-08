@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.2">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.d7758b05.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -342,6 +342,7 @@
   
   <span class="md-ellipsis">
     About
+    
   </span>
   
 
@@ -362,6 +363,7 @@
   
   <span class="md-ellipsis">
     Why?
+    
   </span>
   
 
@@ -382,6 +384,7 @@
   
   <span class="md-ellipsis">
     Setup
+    
   </span>
   
 
@@ -402,6 +405,7 @@
   
   <span class="md-ellipsis">
     Tutorial
+    
   </span>
   
 
@@ -422,6 +426,7 @@
   
   <span class="md-ellipsis">
     Upload
+    
   </span>
   
 
@@ -442,6 +447,7 @@
   
   <span class="md-ellipsis">
     Commands
+    
   </span>
   
 
@@ -471,6 +477,7 @@
   
   <span class="md-ellipsis">
     FAQ
+    
   </span>
   
 
@@ -482,6 +489,7 @@
   
   <span class="md-ellipsis">
     FAQ
+    
   </span>
   
 
@@ -567,6 +575,15 @@
   <a href="#how-should-i-handle-a-multi-hotspot-walk" class="md-nav__link">
     <span class="md-ellipsis">
       How should I handle a multi-hotspot walk?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-make-a-checklist-at-a-personal-location-rather-than-a-hotspot" class="md-nav__link">
+    <span class="md-ellipsis">
+      How can I make a checklist at a personal location rather than a hotspot?
     </span>
   </a>
   
@@ -717,16 +734,18 @@
                   
 
 
+
 <h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
 <h2 id="general-questions">General Questions</h2>
 <h3 id="what-is-birdtalks-relationship-with-ebird">What is BirdTalk's relationship with eBird?</h3>
-<p>BirdTalk was developed to answer to the question, "why can't I just speak into the eBird app to record birds?"  Now you can!  We are in talks with eBird to see if they're interested in incorporating this capability into eBird itself.</p>
+<p>BirdTalk was developed to answer to the question, "why can't I just speak into the eBird app to record birds?"  We are in talks with eBird to see if they're interested in incorporating this capability into eBird itself.</p>
 <h3 id="what-are-the-pros-and-cons-of-birdtalk-compared-to-the-ebird-app">What are the pros and cons of BirdTalk compared to the eBird app?</h3>
 <p>In most situations BirdTalk is the more convenient way to record bird observations, but it has limitations:</p>
 <ul>
-<li>BirdTalk tracks your GPS path while recording a checklist, but there's currently no way to upload that "where I walked" info to eBird.  This isn't a critical problem, but we hope to add this capability in the future.</li>
+<li>BirdTalk tracks your GPS path while recording a checklist, but there's currently no way to upload that "path where I walked" info to eBird.  This isn't a critical problem, but we hope to add this capability in the future.</li>
 <li>BirdTalk can't record breeding code, age, and sex information in the field because there's no way for it to upload that info to eBird.  The workaround for now is to use the <code>memo</code> feature to record this info then edit the checklist in your eBird account after uploading.  We hope to add this capability in the future.</li>
 <li>In very noisy environments, BirdTalk can't understand speech very well.  When that happens the best alternative is to use the eBird app for manual data entry.  We plan to add a manual-entry option to BirdTalk for such situations.</li>
+<li>BirdTalk doesn't currently allow making checklists for Personal Locations, only for hotspots.  Search for "personal location" below for how to work around this limitation.  We plan to add improved capability in this area.</li>
 </ul>
 <h3 id="do-i-need-an-internet-connection">Do I need an internet connection?</h3>
 <p>Required for:</p>
@@ -762,13 +781,22 @@
 <li>Then, later, use <code>Insert checklist</code> at appropriate points to split it into several checklists.</li>
 <li>Use <code>Scratch</code> to removes checklist headers if you started a new checklist but decide to combine those entries into the previous one.</li>
 </ul>
+<h3 id="how-can-i-make-a-checklist-at-a-personal-location-rather-than-a-hotspot">How can I make a checklist at a personal location rather than a hotspot?</h3>
+<ul>
+<li>BirdTalk doesn't yet allow making a checklist for a Personal Location.</li>
+<li>The work-around is to start a checklist using the neareset hotspot instead.</li>
+<li>Then, after completing and uploading the checklist, edit the location for that checklist on your web account at eBird.</li>
+</ul>
 <h2 id="voice-recognition">Voice Recognition</h2>
 <h2 id="what-if-birdtalk-is-not-responding-to-my-speech">What if BirdTalk is not responding to my speech?</h2>
 <ul>
 <li>Say <code>Time</code> to check that the microphone is receiving the audio</li>
-<li>Make sure the Start/Stop button at upper left says "Stop" which means it is listening.</li>
+<li>Make sure the volume on your phone is turned up enough to hear BirdTalk talking back to you.</li>
+<li>There may be an up to 30 second delay in response the first time you turn on BirdTalk, as it loads its database from the internet.</li>
+<li>Make sure the Start/Stop button at upper left says "Stop" which means it is listening.  If it says "Start", tap it to tell BirdTalk to listen.</li>
 <li>Power off the Bluetooth headset and make sure the phone internal mic can hear you by saying <code>Time</code>.  Then power on the Bluetooth headset and try again.</li>
 <li>This works because the most recently connected device takes control</li>
+<li>Make sure there is no other app running that is controlling the mic, such as Merlin or a phone call.</li>
 </ul>
 <h3 id="why-does-birdtalk-sometimes-take-longer-to-respond">Why does BirdTalk sometimes take longer to respond?</h3>
 <ul>
@@ -861,10 +889,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.path", "search.suggest", "search.highlight", "toc.integrate"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.path", "search.suggest", "search.highlight", "toc.integrate"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      <script src="../assets/javascripts/bundle.f13b1293.min.js"></script>
       
     
   </body>
