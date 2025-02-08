@@ -10,9 +10,10 @@ The documentation is published at: https://johncallender.github.io/birdtalk-docs
 
 Key sections include:
 - Requirements and Setup - Installation instructions and system requirements
-- Quick Start Guide - Get up and running with BirdTalk
+- Getting Started - Tutorial and guide for using BirdTalk
 - Command Reference - Detailed documentation of all BirdTalk commands
-- Tips and Tricks - Best practices and advanced usage patterns
+- FAQ - Common questions, tips, and best practices
+- Uploading Checklists - Guide for uploading to eBird
 
 The documentation site features:
 - Tab-based navigation
@@ -72,16 +73,26 @@ As a maintainer (John or Steve), you can:
 
 #### File Organization
 ```
-docs/
-├── index.md                    # Landing page
-├── installation/               # Installation guides
-│   └── requirements-and-setup.md
-├── quickstart/                 # Getting started
-│   └── first-session.md
-├── commands/                   # Command documentation
-│   └── reference.md
-├── tips-and-tricks.md         # Best practices
-└── faq.md                     # Common questions
+birdtalk-docs/
+├── mkdocs.yml           # MkDocs configuration
+├── doc/                 # Project notes and background info
+│   └── birdtalk-docs-notes.md  # Project status and history
+├── docs/                # Documentation source files
+│   ├── index.md        # Landing page
+│   ├── getting-started.md  # Getting started guide with tutorial
+│   ├── faq.md          # Frequently Asked Questions (includes Tips and Tricks)
+│   ├── testimonial.md  # Personal experience testimonial
+│   ├── uploading-checklists.md  # Guide for uploading to eBird
+│   ├── commands/       # Command documentation
+│   │   └── reference.md
+│   ├── installation/   # Installation guides
+│   │   └── requirements-and-setup.md
+│   ├── images/         # Screenshots and images
+│   │   ├── originals/  # Original high-resolution images
+│   │   └── *.png      # Resized images for documentation
+│   └── stylesheets/    # Custom CSS styles
+│       └── extra.css
+└── site/               # Generated documentation site
 ```
 
 #### Adding New Content
@@ -89,7 +100,18 @@ docs/
 2. Update `mkdocs.yml` to include new pages in the navigation
 3. Use Markdown for content formatting
 4. Include code examples in fenced code blocks with language specification
-5. Add images to the `docs/assets` directory (create if needed)
+5. Add images to the `docs/images` directory:
+   - Store original high-resolution images in `docs/images/originals/`
+   - Create display versions in `docs/images/` resized to 375px width
+   - Use `sips` command for resizing:
+     ```bash
+     # For typical images where height ≤ width:
+     sips -Z 375 docs/images/originals/image.png --out docs/images/image.png
+
+     # For tall images where height > width:
+     # Calculate height to maintain aspect ratio: (original_height/original_width * 375)
+     sips --resampleHeightWidth [calculated_height] 375 docs/images/originals/image.png --out docs/images/image.png
+     ```
 
 #### Building and Deployment
 
