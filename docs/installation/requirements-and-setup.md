@@ -3,8 +3,8 @@
 ## Requirements
 
 - iPhone
-- eBird account (create at 
-<a href="https://eBird.org" target="eBird">ebird.org</a> 
+- eBird account (create at
+<a href="https://eBird.org" target="eBird">ebird.org</a>
 if needed)
 - (optional but strongly recommended) Bluetooth headset such as the
 <a href="https://www.amazon.com/SHOKZ-OpenComm2-Conduction-Headphones-Bluetooth/dp/B0C88R9FHG" target="bonecondamazon">OpenComm2 Bone Conduction Stereo Bluetooth Headset by Shokz</a>.  While BirdTalk works with your iPhone's built-in microphone, this headset adds:
@@ -61,4 +61,4 @@ If the phone asks, enable for BirdTalk's use:
 
 ## Using BirdTalk
 
-**Next**: Go to the [Getting Started](../getting-started.md) for a quick run through the most common commands.
+**Next**: Go to the [Getting Started](../getting-started.md) for a quick run through of the most common commands.
