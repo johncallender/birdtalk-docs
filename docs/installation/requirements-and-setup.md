@@ -1,4 +1,4 @@
-# BirdTalk Requirements and Installation Guide
+# Requirements and Setup
 
 ## Requirements
 
@@ -14,7 +14,7 @@ if needed)
     * Good noise isolation for the microphone
 - (optional) Wind muffs such as <a href="https://www.amazon.com/dp/B08DJ38QZG" target="windmuffamazon">Lavalier Wind Muff 2 Pack</a> for best recognition accuracy in windy environments.
 
-## Installation Process
+## Setting up BirdTalk
 
 ### Getting Beta Access
 
@@ -26,26 +26,24 @@ if needed)
 
 2. Wait for email confirmation that you've been added as a beta tester
 
-### Installing Bluetooth Headset
+### Set up Bluetooth Headset
 
 1. Pair the headset with your phone following the manufacturer's directions.
 
-### Installing TestFlight
+### Set up TestFlight
 
 1. Open the App Store on your iPhone
 2. Search for "TestFlight", the official Apple app for beta-testing
 3. Download and install the TestFlight app
 4. Sign in with the email address you use with apple.com.
 
-### Installing BirdTalk
+### Set up BirdTalk
 
 1. Open TestFlight
 2. Look for BirdTalk in available beta apps
 3. Tap "Install" next to BirdTalk
 4. Wait for installation to complete
 5. If there are any issues, contact us at [BirdTalkSupport@membot.com](mailto:BirdTalkSupport@membot.com?subject=BirdTalk%20installation)
-
-## Preparing for Field Use
 
 ### WiFi or Cellular Connectivity
 
@@ -63,4 +61,4 @@ If the phone asks, enable for BirdTalk's use:
 
 ## Using BirdTalk
 
-**Next**: Go to the [Getting Started Guide](../getting-started.md) for a quick run through the most common commands.
+**Next**: Go to the [Getting Started](../getting-started.md) for a quick run through the most common commands.

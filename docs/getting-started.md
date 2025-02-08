@@ -39,7 +39,7 @@ Before starting your birding session, test that BirdTalk can hear you.
 
 ## Summary of the Common Commands
 
-Here is a quick list of the most common commands, that you'll use in most checkilsts:
+Here is a quick list of the most common commands, that you'll use in most checklists:
 
 - Start by saying `Start checklist`
 - Add a bird sighting, for example say `Scrub Jay`
@@ -60,7 +60,7 @@ These are covered in more detail below.
 
 <div>&nbsp;</div>
 
-# Details of the Common Commands
+## Details of the Common Commands
 
 <div class="image-container" markdown>
 <figure markdown>

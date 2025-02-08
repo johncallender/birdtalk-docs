@@ -18,12 +18,12 @@ BirdTalk is an iPhone app designed to be controlled by spoken instructions, allo
 
 ## Documentation
 
-- **[Why](testimonial.md)**: Why use BirdTalk -- One birder's BirdTalk journey
-- **[Install](installation/requirements-and-setup.md)**: Everything you need to set up BirdTalk on your iPhone
-- **[Start](getting-started.md)**: Use the most commands for BirdTalk
-- **[Uploading](uploading-checklists.md)**: Step-by-step guide to uploading your checklists to eBird
-- **[Reference](commands/reference.md)**: Complete reference for all BirdTalk voice commands
-- **[Tips](tips-and-tricks.md)**: Helpful advice for getting the most out of BirdTalk
+- **[Why BirdTalk?](testimonial.md)**: Why use BirdTalk -- One birder's BirdTalk journey
+- **[Setup](installation/requirements-and-setup.md)**: Everything you need to set up BirdTalk on your iPhone
+- **[Getting Started](getting-started.md)**: Use the most commands for BirdTalk
+- **[Uploading Checklists](uploading-checklists.md)**: Step-by-step guide to uploading your checklists to eBird
+- **[Command Reference](commands/reference.md)**: Complete reference for all BirdTalk voice commands
+- **[Tips and Tricks](tips-and-tricks.md)**: Helpful advice for getting the most out of BirdTalk
 - **[FAQ](faq.md)**: Answers to frequently asked questions about BirdTalk
 
 </div>
@@ -40,4 +40,4 @@ For support or feedback, contact Steve at [stevebt@membot.com](mailto:stevebt@me
 
 <i>Steve Colwell is a birder and retired computer programmer in Santa Barbara, California.</i>
 
-**Next**: [Testimonial](testimonial.md)
+**Next**: [Why BirdTalk?](testimonial.md)

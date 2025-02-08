@@ -29,11 +29,11 @@ extra_css:
 
 nav:
   - About: index.md
-  - Why: testimonial.md
-  - Install: installation/requirements-and-setup.md
-  - Start: getting-started.md
+  - Why?: testimonial.md
+  - Setup: installation/requirements-and-setup.md
+  - Tutorial: getting-started.md
   - Upload: uploading-checklists.md
-  - Reference: commands/reference.md
+  - Commands: commands/reference.md
   - Tips: tips-and-tricks.md
   - FAQ: faq.md
 
