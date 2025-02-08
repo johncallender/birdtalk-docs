@@ -8,7 +8,7 @@ This guide walks you through the complete process of uploading your BirdTalk che
 
 When you finish a checklist, you can upload it right away. The process is straightforward:
 
-1. Select your checklist by tapping the header or saying "Select checklist"
+1. Select your checklist by tapping the header or saying `Select checklist`
 2. Tap the upload button (up arrow pointing to cloud)
 3. Follow the prompts to complete the upload (see "Upload Process" below)
 
@@ -27,8 +27,8 @@ Sometimes you might want to save checklists to upload them later. This is useful
 
 To save a checklist for later upload:
 
-1. Select your checklist by saying "Select checklist" or tapping the checklist header
-2. Say "Upload later"
+1. Select your checklist by saying `Select checklist` or tapping the checklist header
+2. Say `Upload later`
 
 <figure markdown>
   ![Marked for upload](images/08_checklist_marked_to_upload_later.png){ .screenshot }
@@ -123,14 +123,14 @@ After successful upload, BirdTalk marks the checklists as uploaded.
   <figcaption>Upload process completed</figcaption>
 </figure>
 
-When a checklist has been successfully uploaded, you can select the checklist location header and say, "Delete Checklist" to delete the checklist from BirdTalk. If you want to delete multiple checklists, select the first one and say, "Delete All Checklists".
+When a checklist has been successfully uploaded, you can select the checklist location header and say `Delete Checklist` to delete the checklist from BirdTalk. If you want to delete multiple checklists, select the first one and say `Delete All Checklists`.
 
 <figure markdown>
   ![Checklists collapsed](images/20_checklists_deleted.png){ .screenshot }
   <figcaption>Checklists deleted</figcaption>
 </figure>
 
-Note: If you need to re-upload a checklist that was already marked as successfully uploaded (for example, if there was an error during upload), you can use the "Unfreeze" command to mark it as not uploaded. See the [Command Reference](commands/reference.md) for details.
+Note: If you need to re-upload a checklist that was already marked as successfully uploaded (for example, if there was an error during upload), you can select the checklist and say `Unfreeze` to mark it as not uploaded. See the [Command Reference](commands/reference.md) for details.
 
 ## Tips for Successful Uploads
 

@@ -182,14 +182,64 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
        - Maintains proper markdown image processing
        - Adds margin between images for spacing
 
-## Current Status (Feb 2, 2025)
-Improvements to getting-started.md layout:
-- Fixed text overlapping with images by improving CSS for text wrapping
-- Removed clear:both from h3 headings to allow proper wrapping
-- Added clear-floats class for controlled section breaks
-- Positioned first image to allow "The Basics" heading to wrap
-- Forced "Essential Commands" section below first image
-- More image positioning improvements pending
+## Current Status (Feb 7, 2025)
+
+Steve's Updates:
+1. Navigation and Mobile Improvements:
+   - Fixed nav bar for mobile viewing
+   - Adjusted nav bar padding for smaller screens
+   - Updated navigation menu labels to be more descriptive
+
+2. Getting Started Page Updates:
+   - Added new section "BirdTalk is Listening" explaining voice recognition
+   - Added "Checklist Concepts" section explaining timer mode and entry behavior
+   - Improved command examples and formatting
+   - Clarified shorthand naming conventions
+   - Reorganized sections for better flow
+
+3. Command Reference Updates:
+   - Added detailed explanations for Starting/Stopping commands
+   - Clarified checklist behavior and entry ordering
+   - Added more context about the `Resume` and `Upload later` commands
+   - Updated hotspot selection commands with better descriptions
+   - Added link to Tips and Tricks for shorthand examples
+
+4. Installation Guide Changes:
+   - Renamed sections to be more action-oriented
+   - Improved section organization
+   - Updated navigation links
+
+5. Documentation Structure:
+   - Consolidated quickstart and tutorial content into getting-started.md
+   - Removed redundant directories (quickstart/, tutorial/)
+   - Updated navigation structure in mkdocs.yml
+
+## Completed Tasks (Feb 7, 2025)
+
+1. Documentation Updates:
+   - Updated all command formatting to use backticks (Say `foo`) instead of quotes
+   - Added question mark button to all BirdTalk UI screenshots
+   - Added darkened question mark button to confirmation screen
+   - Standardized all screenshot sizes to 375px width:
+     * Tutorial sequence (01-03, 05)
+     * Sort views (04, 06)
+     * Upload workflow (07-09, 19-20)
+     * Upload buttons (upload_single, upload_multiple)
+     * eBird upload screenshots (11-12, 16-18)
+
+2. Image Sizing Standards:
+   - All BirdTalk UI screenshots standardized to 375px width
+   - Images stored in two locations:
+     * docs/images/originals/ - Full resolution originals
+     * docs/images/ - 375px width versions for display
+   - Resizing method:
+     * For images where height > width: use `sips --resampleHeightWidth [calculated_height] 375`
+     * Calculate height as: original_height * (375/original_width)
+   - Special cases:
+     * Steve's photo on index.md uses custom sizing
+     * Sort view screenshots (04, 06) positioned side-by-side in command reference
+
+Note: All planned tasks have been completed. Future updates should maintain the 375px width standard for BirdTalk UI screenshots while preserving original high-resolution versions.
 
 ## Current Task (Feb 1, 2025)
 Documentation restructuring in progress:
@@ -260,16 +310,18 @@ birdtalk-docs/
 │   └── birdtalk-docs-notes.md  # Project status and history
 ├── docs/                # Documentation source files
 │   ├── index.md        # Landing page
+│   ├── getting-started.md  # Getting started guide with tutorial
 │   ├── faq.md          # Frequently Asked Questions
 │   ├── tips-and-tricks.md
 │   ├── testimonial.md  # Personal experience testimonial
+│   ├── uploading-checklists.md  # Guide for uploading to eBird
 │   ├── commands/       # Command documentation
 │   │   └── reference.md
 │   ├── installation/   # Installation guides
 │   │   └── requirements-and-setup.md
-│   ├── quickstart/     # Getting started guides
-│   │   └── first-session.md
-│   ├── tutorial/       # Detailed examples
-│   │   └── example-session.md
-│   └── images/         # Screenshots and images
+│   ├── images/         # Screenshots and images
+│   │   ├── originals/  # Original high-resolution images
+│   │   └── *.png      # Resized images for documentation
+│   └── stylesheets/    # Custom CSS styles
+│       └── extra.css
 └── site/               # Generated documentation site
