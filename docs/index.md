@@ -18,12 +18,12 @@ BirdTalk is an iPhone app designed to be controlled by spoken instructions, allo
 
 ## Documentation
 
-- **[Testimonial](testimonial.md)**: One birder's BirdTalk journey
-- **[Requirements and Installation](installation/requirements-and-setup.md)**: Everything you need to get started with BirdTalk
-- **[Getting Started](getting-started.md)**: Essential commands and detailed tutorial for using BirdTalk
-- **[Uploading Checklists](uploading-checklists.md)**: Step-by-step guide to uploading your checklists to eBird
-- **[Command Reference](commands/reference.md)**: Complete reference for all BirdTalk voice commands
-- **[Tips and Tricks](tips-and-tricks.md)**: Helpful advice for getting the most out of BirdTalk
+- **[Why](testimonial.md)**: Why use BirdTalk -- One birder's BirdTalk journey
+- **[Install](installation/requirements-and-setup.md)**: Everything you need to set up BirdTalk on your iPhone
+- **[Start](getting-started.md)**: Use the most commands for BirdTalk
+- **[Uploading](uploading-checklists.md)**: Step-by-step guide to uploading your checklists to eBird
+- **[Reference](commands/reference.md)**: Complete reference for all BirdTalk voice commands
+- **[Tips](tips-and-tricks.md)**: Helpful advice for getting the most out of BirdTalk
 - **[FAQ](faq.md)**: Answers to frequently asked questions about BirdTalk
 
 </div>

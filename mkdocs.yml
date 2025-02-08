@@ -1,4 +1,5 @@
-site_name: BirdTalk Documentation
+site_name: BirdTalk
+site_url: https://membot.com/btdoc.html
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -7,11 +8,14 @@ theme:
   features:
     - navigation.instant
     - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.tracking
-    - toc.integrate
+    - navigation.path
     - search.suggest
     - search.highlight
-    - header.autohide
+    - toc.integrate
+    #- header.autohide
   font:
     text: Roboto
   palette:
@@ -24,13 +28,13 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Home: index.md
-  - Testimonial: testimonial.md
-  - Installation: installation/requirements-and-setup.md
-  - Getting Started: getting-started.md
-  - Uploading Checklists: uploading-checklists.md
-  - Command Reference: commands/reference.md
-  - Tips and Tricks: tips-and-tricks.md
+  - About: index.md
+  - Why: testimonial.md
+  - Install: installation/requirements-and-setup.md
+  - Start: getting-started.md
+  - Upload: uploading-checklists.md
+  - Reference: commands/reference.md
+  - Tips: tips-and-tricks.md
   - FAQ: faq.md
 
 repo_url: ""  # Hide GitHub link
