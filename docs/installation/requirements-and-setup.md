@@ -6,12 +6,12 @@
 - eBird account (create at 
 <a href="https://eBird.org" target="eBird">ebird.org</a> 
 if needed)
-- (optional but strongly recommended) Bluetooth headset such as the
-<a href="https://www.amazon.com/SHOKZ-OpenComm2-Conduction-Headphones-Bluetooth/dp/B0C88R9FHG" target="bonecondamazon">OpenComm2 Bone Conduction Stereo Bluetooth Headset by Shokz</a>.  While BirdTalk works with your iPhone's built-in microphone, this headset adds:
-    * Hands-free operation of BirdTalk
-    * Boom microphone for better voice recognition
-    * Bone conduction keeps ears unobstructed for birding
-    * Good noise isolation for the microphone
+- The <a href="https://www.amazon.com/SHOKZ-OpenComm2-Conduction-Headphones-Bluetooth/dp/B0C88R9FHG" target="bonecondamazon">OpenComm2 Bone Conduction Stereo Bluetooth Headset by Shokz</a>:
+    * BirdTalk doesn't work well in the field with Airpods nor with the phone's built-in microphone.  It does work well enough in a quiet room.
+    * A noise-canceling boom microphone is essential in the field
+    * Bone-conduction headset keeps ears unobstructed for birding by ear
+    * This particular model works quite well with BirdTalk
+    * Recently, inexpensive Chinese knock-offs have appeared, but no one has yet tested one with BirdTalk.
 - (optional) Wind muffs such as <a href="https://www.amazon.com/dp/B08DJ38QZG" target="windmuffamazon">Lavalier Wind Muff 2 Pack</a> for best recognition accuracy in windy environments.
 
 ## Setting up BirdTalk
