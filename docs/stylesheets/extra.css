@@ -22,10 +22,6 @@
   }
 }
 
-.md-header__button > svg {
-    /*opacity: 0;*/
-}
-
 /* Figure styling */
 .md-typeset figure {
     padding: 0;

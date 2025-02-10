@@ -11,7 +11,7 @@ At the same time, I had my own approach to eBird that I was comfortable with. Wi
 
 "You're always staring at your phone," my wife would say when we birded together. She suggested I only enter birds every 15 minutes or so, recording them from memory during breaks in the action.
 
-I defended my continuous-updates approach. "I forget birds if I wait. And it's not like I stop birding when I update the checklist. I'm totally still using my ears even if I'm looking at my phone."
+I defended my continuous-updates approach. "I forget birds if I wait. And it's not like I stop birding when I update the checklist. I'm still using my ears even when I'm looking at my phone."
 
 ## Initial Hesitations
 
