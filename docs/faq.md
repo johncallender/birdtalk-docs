@@ -57,6 +57,13 @@ Yes:
 - The work-around is to start a checklist using the neareset hotspot instead.
 - Then, after completing and uploading the checklist, edit the location for that checklist on your web account at eBird.
 
+### How does BirdTalk handle distance where I retrace part of my path?
+
+- BirdTalk automatically figures distance according to eBird's checklist requirements.
+- This means if you retrace part of your path, that is not added to the recorded distance.
+- For instance, on a trail that is 3 miles out and 3 miles back, BirdTalk will note the total checklist distance as 3 miles.
+- It is clever about this so if there is a 1 mile loop excursion somewhere along the 3-out-and-back path, it will give a total of 4 miles for that total path, even though you walked 7 miles.
+
 ## Voice Recognition
 
 ## What if BirdTalk is not responding to my speech?
@@ -82,7 +89,6 @@ Yes:
 
 See our [recommended](installation/requirements-and-setup.md/#requirements) Bluetooth headset.
 
-
 ### How can BirdTalk understand me better in noisy environments?
 
 - Accuracy is far better when using the above noise-cancelling boom microphone
@@ -100,6 +106,11 @@ See our [recommended](installation/requirements-and-setup.md/#requirements) Blue
 - Experiment with different shorthands to find what works best for problematic species
 - Once a species is in your checklist, it gets recognition priority, and shorthand for it will work that wouldn't before
 
+### How do I enter hundreds or thousands of birds?
+
+- You must say "hundred" or "thousand" when giving large numbers.
+- Say `One hundred fifty starlings`, not "one fifty"
+- Say `One thousand two hundred starlings`, not "twelve hundred".
 
 ## Using with Other Apps
 
