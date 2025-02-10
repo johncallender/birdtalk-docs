@@ -14,7 +14,7 @@ In most situations BirdTalk is the more convenient way to record bird observatio
 - BirdTalk tracks your GPS path while recording a checklist, but there's currently no way to upload that "path where I walked" info to eBird.  This isn't a critical problem, but we hope to add this capability in the future.
 - BirdTalk can't record breeding code, age, and sex information in the field because there's no way for it to upload that info to eBird.  The workaround for now is to use the `memo` feature to record this info then edit the checklist in your eBird account after uploading.  We hope to improve this capability in the future.
 - In extremely noisy environments, BirdTalk can't understand speech very well.  When that happens the best current alternative is to use the eBird app for manual data entry.  We plan to add a manual-entry option to BirdTalk for such situations.
-- BirdTalk doesn't currently allow making checklists for Personal Locations, only for hotspots.  Search for "personal location" below for how to work around this limitation.  We plan to improve this capability in the near future.
+- BirdTalk doesn't allow making checklists for Personal Locations, only for hotspots.  Search for "personal location" below for how to work around this limitation.
 
 ### Do I need an internet connection?
 
@@ -53,7 +53,7 @@ Yes:
 
 ### How can I make a checklist at a personal location rather than a hotspot?
 
-- BirdTalk doesn't yet allow making a checklist for a Personal Location.
+- BirdTalk doesn't allow making a checklist for a Personal Location.
 - The work-around is to start a checklist using the neareset hotspot instead.
 - Then, after completing and uploading the checklist, edit the location for that checklist on your web account at eBird.
 

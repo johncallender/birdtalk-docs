@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- iPhone with iOS 18 or above
+- iPhone with iOS 15 or above
 - eBird account (create at
 <a href="https://eBird.org" target="eBird">ebird.org</a>
 if needed)
