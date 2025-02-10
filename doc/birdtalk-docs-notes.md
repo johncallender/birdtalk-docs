@@ -181,7 +181,7 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
        - Maintains proper markdown image processing
        - Adds margin between images for spacing
 
-## Current Status (Feb 7, 2025)
+## Current Status (Feb 10, 2025)
 
 Recent Updates:
 1. Documentation Structure:
@@ -191,117 +191,48 @@ Recent Updates:
    - Consolidated quickstart and tutorial content into getting-started.md
    - Removed redundant directories (quickstart/, tutorial/)
    - Updated navigation structure in mkdocs.yml
+   - Cleaned up unused CSS styles in extra.css
 
 2. Navigation and Mobile Improvements:
    - Fixed nav bar for mobile viewing
    - Adjusted nav bar padding for smaller screens
    - Updated navigation menu labels to be more descriptive
+   - Removed unnecessary header button SVG styling
 
-3. Getting Started Page Updates:
-   - Added new section "BirdTalk is Listening" explaining voice recognition
-   - Added "Checklist Concepts" section explaining timer mode and entry behavior
-   - Improved command examples and formatting
-   - Clarified shorthand naming conventions
-   - Reorganized sections for better flow
+3. Content Updates:
+   - Getting Started:
+     * Added "BirdTalk is Listening" section explaining voice recognition
+     * Added "Checklist Concepts" section explaining timer mode and entry behavior
+     * Improved command examples and formatting
+     * Clarified shorthand naming conventions
+     * Reorganized sections for better flow
 
-4. Command Reference Updates:
-   - Added detailed explanations for Starting/Stopping commands
-   - Clarified checklist behavior and entry ordering
-   - Added more context about the `Resume` and `Upload later` commands
-   - Updated hotspot selection commands with better descriptions
+   - Command Reference:
+     * Added detailed explanations for Starting/Stopping commands
+     * Clarified checklist behavior and entry ordering
+     * Added more context about the `Resume` and `Upload later` commands
+     * Updated hotspot selection commands with better descriptions
 
-5. Installation Guide Changes:
-   - Renamed sections to be more action-oriented
-   - Improved section organization
-   - Updated navigation links
+   - Installation Guide:
+     * Renamed sections to be more action-oriented
+     * Improved section organization
+     * Updated navigation links
 
-## Completed Tasks (Feb 7, 2025)
+   - Testimonial:
+     * Improved dialogue flow and readability
+     * Refined wording for better clarity
+     * Updated formatting for consistency
 
-1. Documentation Updates:
-   - Updated all command formatting to use backticks (Say `foo`) instead of quotes
-   - Added question mark button to all BirdTalk UI screenshots
-   - Added darkened question mark button to confirmation screen
-   - Standardized all screenshot sizes to 375px width:
-     * Tutorial sequence (01-03, 05)
-     * Sort views (04, 06)
-     * Upload workflow (07-09, 19-20)
-     * Upload buttons (upload_single, upload_multiple)
-     * eBird upload screenshots (11-12, 16-18)
-
-2. Image Sizing Standards:
+4. Image Standards:
    - All BirdTalk UI screenshots standardized to 375px width
    - Images stored in two locations:
      * docs/images/originals/ - Full resolution originals
      * docs/images/ - 375px width versions for display
-   - Resizing method:
-     * For images where height > width: use `sips --resampleHeightWidth [calculated_height] 375`
-     * Calculate height as: original_height * (375/original_width)
    - Special cases:
      * Steve's photo on index.md uses custom sizing
      * Sort view screenshots (04, 06) positioned side-by-side in command reference
 
-Note: All planned tasks have been completed. Future updates should maintain the 375px width standard for BirdTalk UI screenshots while preserving original high-resolution versions.
-
-## Current Task (Feb 1, 2025)
-Documentation restructuring in progress:
-- Consolidating quickstart and tutorial content into new getting-started.md
-- Removing redundant documentation files (screenshots-list.md, first-session.md, example-session.md)
-- Adding BirdTalk and TestFlight logos
-- Creating list-test.md for formatting experiments
-- Updating navigation structure in mkdocs.yml
-- Adjusting CSS styling in extra.css
-
-Current challenges:
-- Working on fixing layout issues in getting-started.md where nested bullet lists are not wrapping properly around images
-- Investigating Claude browser error related to image dimensions:
-  * All screenshots currently 800px in height
-  * While no single image exceeds 2000px limit, the combined image load may be triggering the error
-  * Potential solutions:
-    - Reduce image dimensions (e.g., resize to 600px height)
-    - Split getting-started.md into smaller pages
-    - Lazy load images or use progressive loading techniques
-    - Consider removing some redundant screenshots
-
-## Completed Tasks (Feb 5, 2025)
-- Moved personal testimonial from doc/jbc_testimonial.md to docs/testimonial.md
-- Added testimonial to navigation menu after FAQ section
-- Updated project structure to reflect testimonial move
-
-## Completed Tasks (Feb 4, 2025)
-
-1. Documentation Updates:
-   - Updated command descriptions to clarify spoken responses
-   - Removed references to "Switch" command throughout docs
-   - Updated Bluetooth device management instructions
-   - Changed submission terminology to upload
-   - Updated internet requirements section
-   - Fixed list formatting in FAQ
-   - Added underlines to links for better visibility on dimmed screens
-   - Added pinch-to-zoom instructions in Getting Started guide
-   - Added text size adjustment tips to troubleshooting section
-   - Clarified checklist upload behavior (checklists are collapsed, not removed)
-   - Added Unfreeze command documentation for re-uploading checklists
-
-2. Installation Guide (requirements-and-setup.md):
-   - Removed numbering from top-level subsections under "Installation Process"
-   - Preserved nested step numbering within each section
-
-2. Getting Started Guide (getting-started.md):
-   - Moved observation screen image up next to "Recording Birds" heading
-   - Positioned "Viewing Your List" section below the observations image
-   - Reorganized sort views section:
-     * Added bullet points for sort commands
-     * Arranged sort view images side-by-side below text
-     * Updated image captions for sort views
-   - Renamed "Basic Commands" to "Managing Observation Counts"
-   - Added consistent "Say" prefix to voice commands
-   - Improved help screen section organization
-   - Fixed image filename for clarity (sort_by_species -> sort_by_time)
-
-3. Documentation Structure:
-   - Removed redundant test file (list-test.md)
-   - Added side-by-side image layout pattern to style guide
-   - Cleaned up documentation structure
+Note: All planned tasks have been completed. Documentation is now in a polished state with consistent formatting, clear navigation, and standardized image handling.
 
 ## Project Structure
 ```
