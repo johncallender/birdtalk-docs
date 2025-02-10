@@ -69,6 +69,7 @@ Shorthand examples:
 ### Adding Comments
 
 - Say `Memo singing from oak tree` - Adds comment to selected entry
+- Don't pause more than a second or two after saying `Memo` and before saying the comment.
 - Say `Memo from scratch carrying nesting material` - Replaces existing memo
 - Say `Memo nest 10 meters north of coordinates` - Includes coordinates from when bird was first entered
 - Say `Memo nest at current coordinates` - Includes coordinates of your current position

@@ -85,7 +85,7 @@ See our [recommended](installation/requirements-and-setup.md/#requirements) Blue
 
 ### How can BirdTalk understand me better in noisy environments?
 
-- Accuracy is best when using the above noise-cancelling microphone
+- Accuracy is far better when using the above noise-cancelling boom microphone
 - Wait for quiet moments (such as when the surf abates at the shore)
 - Cup your hand around the microphone to reflect your voice more loudly into it
 - Check that the mic remains positioned close to your mouth
