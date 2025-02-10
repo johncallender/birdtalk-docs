@@ -57,7 +57,6 @@ Yes:
 - The work-around is to start a checklist using the neareset hotspot instead.
 - Then, after completing and uploading the checklist, edit the location for that checklist on your web account at eBird.
 
-
 ## Voice Recognition
 
 ## What if BirdTalk is not responding to my speech?
@@ -69,6 +68,7 @@ Yes:
 - Power off the Bluetooth headset and make sure the phone internal mic can hear you by saying `Time`.  Then power on the Bluetooth headset and try again.
 - This works because the most recently connected device takes control
 - Make sure there is no other app running that is controlling the mic, such as Merlin or a phone call
+- As a last resort, <a href="https://support.apple.com/guide/iphone/quit-and-reopen-an-app-iph83bfec492/ios">close the BirdTalk app</a> and then open it again from the Desktop.
 
 ### Why does BirdTalk sometimes take longer to respond?
 
