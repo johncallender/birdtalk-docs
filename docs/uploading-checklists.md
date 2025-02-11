@@ -2,6 +2,9 @@
 
 This guide walks you through the complete process of uploading your BirdTalk checklists to eBird, including both immediate uploads and managing saved checklists for later upload.
 
+If you're looking for upload instructions that BirdTalk displays while you are actually doing the upload, those are at <a href="https://membot.com/btupload.html">membot.com/btupload.html</a>.
+
+
 ## Upload Options
 
 <div class="image-container" markdown>

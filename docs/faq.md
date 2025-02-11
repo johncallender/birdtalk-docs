@@ -2,11 +2,17 @@
 
 ## General Questions
 
+### Why would one want to use BirdTalk?
+
+- BirdTalk makes birding more fun.  It enhances the feeing of freedom and joy from being one with nature, compared to incessantly tapping into the eBird app.
+- BirdTalk maximizes time looking at birds instead of looking at the phone, so that you can see and record more birds, more accurately, with less fuss.
+
 ### What is BirdTalk's relationship with eBird?
 
-BirdTalk was developed to answer to the question, "why can't I just speak into the eBird app to record birds?"  We are in talks with eBird to see if they're interested in incorporating this capability into eBird itself.
+We think BirdTalk's capabilities would be a perfect complement to the eBird app, so we are in talks with eBird to see if they're interested in incorporating it into the eBird app.
 
-### What are the pros and cons of BirdTalk compared to the eBird app?
+
+### What are the limitations of BirdTalk compared to the eBird app?
 
 In most situations BirdTalk is the more convenient way to record bird observations, but it has limitations:
 
