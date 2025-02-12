@@ -2,9 +2,9 @@
 
 ## General Questions
 
-### Why would one want to use BirdTalk?
+### What are the advantages of BirdTalk?
 
-- BirdTalk makes birding more fun.  It enhances the feeing of freedom and joy from being one with nature, compared to incessantly tapping into the eBird app.
+- BirdTalk makes birding more fun.  It enhances the feeling of freedom and joy from being one with nature, compared to incessantly tapping into the eBird app.
 - BirdTalk maximizes time looking at birds instead of looking at the phone, so that you can see and record more birds, more accurately, with less fuss.
 
 ### What is BirdTalk's relationship with eBird?
