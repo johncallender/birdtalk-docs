@@ -2,44 +2,35 @@
 
 ## General Questions
 
-### What are the advantages of BirdTalk?
-
-- BirdTalk makes birding more fun.  It enhances the feeling of freedom and joy from being one with nature, compared to incessantly tapping into the eBird app.
-- BirdTalk maximizes time looking at birds instead of looking at the phone, so that you can see and record more birds, more accurately, with less fuss.
-
 ### What is BirdTalk's relationship with eBird?
 
-We think BirdTalk's capabilities would be a perfect complement to the eBird app, so we are in talks with eBird to see if they're interested in incorporating it into the eBird app.
+BirdTalk's capabilities would be a perfect complement to the eBird app, so we are approaching eBird about combining them.
 
+### What are the advantages of BirdTalk?
+
+- Makes birding more fun by being "in the moment", compared to incessantly tapping into the eBird app.
+- Maximizes time looking at birds instead of the phone, so that you can see and record more birds, more accurately, with less fuss.
 
 ### What are the limitations of BirdTalk compared to the eBird app?
 
-In most situations BirdTalk is the more convenient way to record bird observations, but it has limitations:
-
-- BirdTalk currently works only within the United States and New Zealand.  By mid-2025 it will work anywhere, world-wide.
-- BirdTalk tracks your GPS path while recording a checklist, but there's currently no way to upload that "path where I walked" info to eBird.  This isn't a critical problem, but we hope to add this capability in the future.
-- BirdTalk can't record breeding code, age, and sex information in the field because there's no way for it to upload that info to eBird.  The workaround for now is to use the `memo` feature to record this info then edit the checklist in your eBird account after uploading.  We hope to improve this capability in the future.
-- In extremely noisy environments, BirdTalk can't understand speech very well.  When that happens the best current alternative is to use the eBird app for manual data entry.  We plan to add a manual-entry option to BirdTalk for such situations.
-- BirdTalk doesn't allow making checklists for Personal Locations, only for hotspots.  Search for "personal location" below for how to work around this limitation.
+- Works only within the United States.  By mid-2025 it will work anywhere, world-wide
+- Has no way to upload the following info:
+    - Locations that are not hotspots
+    - Bird sex, age, and breeding code info
+    - The track you walked while birding
+- Record such extra info as comments using the `Memo` command, then review and edit the checklist online after upload.
 
 ### Do I need an internet connection?
 
-Required for:
-
-- Initial installation and first-time setup
-- Uploading checklists
-
-Not required for:
-
-- Creating checklists in the field
-- Recording observations
-- Location recording
+- Internet is not needed in the field.
+- Records bird and location info completely offline.
+- Internet needed for initial install, and to upload checklists at the end of a day of birding.
 
 ## Using BirdTalk
 
 ### Should I edit before uploading a checklist?
 
-Yes:
+Yes!
 
 - Review all entries in your checklist to make sure no undesired species crept in during your session.
 - Fix any errors by tapping the bad item and using the editing commands:
@@ -48,7 +39,6 @@ Yes:
     - `Memo`
     - `Insert`
 - Review marked (red) entries, and say `Unmark` on each once you've added an appropriate memo.
-- Ensure you've selected the checklist location header, by tapping it or saying `Choose checklist`
 
 ### How should I handle a multi-hotspot walk?
 
@@ -81,7 +71,7 @@ Yes:
 - Power off the Bluetooth headset and make sure the phone internal mic can hear you by saying `Time`.  Then power on the Bluetooth headset and try again.
 - This works because the most recently connected device takes control
 - Make sure there is no other app running that is controlling the mic, such as Merlin or a phone call
-- As a last resort, <a href="https://support.apple.com/guide/iphone/quit-and-reopen-an-app-iph83bfec492/ios">close the BirdTalk app</a> and then open it again from the Desktop.
+- As a last resort, <a href="https://support.apple.com/guide/iphone/quit-and-reopen-an-app-iph83bfec492/ios">close the BirdTalk app</a>, re-open it, and say `Resume` to pick up where you left off.
 
 ### Why does BirdTalk sometimes take longer to respond?
 
@@ -89,7 +79,7 @@ Yes:
 - In quiet conditions: responds within 1 second
 - With background noise (wind, traffic): may take up to 4 seconds
 - Wait a few seconds after speaking in a noisy environment, to make sure BirdTalk detects the end of the command.
-- BirdTalk usually responds faster when using a noise-cancelling microphone.
+- BirdTalk responds faster when using a noise-cancelling microphone.
 
 ### Which Bluetooth headset should I use?
 
@@ -97,8 +87,8 @@ See our [recommended](installation/requirements-and-setup.md/#requirements) Blue
 
 ### How can BirdTalk understand me better in noisy environments?
 
-- Accuracy is far better when using the above noise-cancelling boom microphone
-- Wait for quiet moments (such as when the surf abates at the shore)
+- Accuracy is far better when using the above Bluetooth headset due to its noise-cancelling boom microphone
+- Wait for quiet moments (such as between surf crashes at the shore)
 - Cup your hand around the microphone to reflect your voice more loudly into it
 - Check that the mic remains positioned close to your mouth
 - Leave 3-4 seconds after speaking a command
@@ -109,10 +99,11 @@ See our [recommended](installation/requirements-and-setup.md/#requirements) Blue
 - Whispering, or whispering + cupping your hand to focus your voice into the mic, can be effective when you want to avoid disturbing birds
 - You can use single words or sub-phrases from species names, when they are unique in your area, in place of the complete name.  For instance `rump` or `yellow rump` for Yellow-rumped Warbler
 - Or use the full name for species where parts don't work, such as for `Black Scoter`
-- Experiment with different shorthands to find what works best for problematic species
+- Experiment with different forms to find what works best for each problematic species
 - Once a species is in your checklist, it gets recognition priority, and shorthand for it will work that wouldn't before
+- Please contact us about particularly troublesome species.  We can improve their recognition accuracy.
 
-### How do I enter hundreds or thousands of birds?
+### How do I enter big numbers of birds, like hundreds or thousands?
 
 - You must say "hundred" or "thousand" when giving large numbers.
 - Say `One hundred fifty starlings`, not "one fifty"
