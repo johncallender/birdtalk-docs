@@ -12,7 +12,8 @@ if needed)
     * This particular model works quite well with BirdTalk. Recently, inexpensive Chinese knock-offs have appeared, but these are so far untested.  Online reviews leave some doubt about their quality.  Caveat emptor.
     * (optional) Add wind muffs such as <a href="https://www.amazon.com/dp/B08DJ38QZG" target="windmuffamazon">Lavalier Wind Muff 2 Pack</a> for even better recognition accuracy in windy environments.
 - If the headset is a no-go for some reason, one option is the less expensive <a href="https://www.amazon.com/dp/B0CX45Z2PV" target="neckholderamazon">Neck Phone Holder</a> which allows one to position the phone near one's mouth for hands-free use.
-    * Definitely not as effective as the noise-canceling boom mic.
+    * Not as effective nor as comfortable as the noise-canceling boom mic.
+    * Is a little heavy around the neck
     * Works well in quiet locations.
     * Although BirdTalk's speaking back can be set to low volume, others nearby will hear it.
 
