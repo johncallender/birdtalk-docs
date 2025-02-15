@@ -105,11 +105,10 @@
 }
 
 .md-typeset ol > li:before {
-    content: counters(item, ".") ". ";
+    content: counters(item, ".") ".";
     counter-increment: item;
     float: left;
-    margin-left: -2em;
-    font-weight: bold;
+    margin-left: -1.2em;
 }
 
 /* Nested list styling */
@@ -119,7 +118,18 @@
 .md-typeset ol ol {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    padding-left: 1.5em;
+    padding-left: 0.5em;
+    margin-left: 0;
+    list-style: none;
+}
+.md-typeset ul ul > li:before,
+.md-typeset ol ul > li:before,
+.md-typeset ul ol > li:before,
+.md-typeset ol ol > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
 }
 
 /* Force content below floated elements */
