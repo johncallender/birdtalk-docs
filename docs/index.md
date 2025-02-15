@@ -15,7 +15,9 @@ BirdTalk is an iPhone app that understands speech, allowing you to record bird o
 - Integration with eBird
 - Bluetooth device compatibility
 
-<div class="clear-floats"></div>
+## How to Get BirdTalk
+
+If you'd like to use BirdTalk, see the [Setup](installation/requirements-and-setup.md) page for details on how to join the beta-test program.
 
 ## Documentation
 
@@ -28,16 +30,16 @@ BirdTalk is an iPhone app that understands speech, allowing you to record bird o
 
 </div>
 
-<div class="clear-floats"></div>
-
-## About BirdTalk
-
-BirdTalk is currently in beta testing. See [Setup](installation/requirements-and-setup.md) if you'd like to join the beta program.
+## Acknowledgements
 
 BirdTalk is developed by Steve Colwell with major assistance from iOS expert Lee Hasiuk.  Many thanks to the early Santa Barbara testers Mark Holmgren, Sue Cook, David Blue, and Conor McMahon, and to John Callender for documentation support.
+
+## Contact
 
 For support or feedback, contact Steve at [stevebt@membot.com](mailto:stevebt@membot.com).
 
 <i>Steve Colwell is a birder and retired computer programmer in Santa Barbara, California.</i>
+
+<div>&nbsp;</div>
 
 **Next**: [Why Use BirdTalk?](testimonial.md)

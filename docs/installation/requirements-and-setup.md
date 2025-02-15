@@ -21,16 +21,15 @@ if needed)
 
 ### Get Beta Access
 
-1. Email your request to [stevebt@membot.com](mailto:stevebt@membot.com?subject=BirdTalk%20beta%20access):
+Email your request to [stevebt@membot.com](mailto:stevebt@membot.com?subject=BirdTalk%20beta%20access):
 
-    - Include confirmation that you're willing to provide regular feedback to help improve BirdTalk
-    - Your email address will be used only for communications with you about setting up and operating BirdTalk.
-
-2. Wait for email confirmation that you've been added as a beta tester
+- Include confirmation that you're willing to provide regular feedback to help improve BirdTalk
+- Your email address will be used only for communications with you about setting up and operating BirdTalk.
+- Wait for email confirmation that you've been added as a beta tester
 
 ### Set up Bluetooth Headset
 
-1. Pair the headset with your phone following the manufacturer's directions.
+Pair the headset with your phone following the manufacturer's directions.
 
 ### Set up TestFlight
 

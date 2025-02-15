@@ -34,7 +34,7 @@ nav:
   - Tutorial: getting-started.md
   - Upload: uploading-checklists.md
   - Commands: commands/reference.md
-  - FAQ: faq.md
+  - FAQs: faq.md
 
 repo_url: ""  # Hide GitHub link
 edit_uri: ""  # Hide edit button

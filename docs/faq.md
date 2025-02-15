@@ -13,7 +13,7 @@ BirdTalk's capabilities would be a perfect complement to the eBird app, so we ar
 
 ### What are the limitations of BirdTalk compared to the eBird app?
 
-- Works only within the United States.  By mid-2025 it will work anywhere, world-wide
+- Currently works only within the United States.  By mid-2025 it will work anywhere, world-wide
 - Has no way to upload the following info:
     - Locations that are not hotspots
     - Bird sex, age, and breeding code info
