@@ -66,7 +66,12 @@ Shorthand examples:
 
 ## Comments and Memos
 
-### Adding Comments
+### Adding Checklist-Level Comments
+
+- Say `Select checklist` - Selects the entire checklist
+- Say `Memo [text]` - After selecting the checklist, adds a comment that applies to the entire checklist
+
+### Adding Entry-Level Comments
 
 - Say `Memo singing from oak tree` - Adds comment to selected entry
 - Don't pause more than a second or two after saying `Memo` and before saying the comment.
@@ -127,7 +132,7 @@ There's nothing wrong with keeping your most recently uploaded checklists in Bir
 
 ## Sharing
 
-- Say `Share with three` - marks the checklist as having 3 additional authors in addition to you.  
+- Say `Share with three` - marks the checklist as having 3 additional authors in addition to you.
 - The total (4 people in this example) is used for the Party Size field in the uploaded checklist.
 - Edit the checklist online, after upload, and use eBird's Share button to specify with whom you are sharing.
 
