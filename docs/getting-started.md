@@ -89,7 +89,7 @@ Say `Start checklist` and BirdTalk will find your location and suggest the neare
 
 ### Recording Birds
 
-Use the basic format: Say `[Number] [Species Name]`. For example:
+Here are some examples of how to record birds:
 
 - Say `Three mockingbirds`
 - Say `One robin`
