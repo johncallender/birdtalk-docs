@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- iPhone with iOS 15 or above
+- **iPhone** with iOS 15 or above
 - eBird account (create at
 <a href="https://eBird.org" target="eBird">ebird.org</a>
 if needed)
@@ -44,7 +44,8 @@ Pair the headset with your phone following the manufacturer's directions.
 2. Look for BirdTalk in available beta apps
 3. Tap "Install" next to BirdTalk
 4. Wait for installation to complete
-5. If there are any issues, contact us at [BirdTalkSupport@membot.com](mailto:BirdTalkSupport@membot.com?subject=BirdTalk%20installation)
+5. Install Siri if you haven't before.  This activates speech recognition.
+6. If there are any issues, contact us at [BirdTalkSupport@membot.com](mailto:BirdTalkSupport@membot.com?subject=BirdTalk%20installation)
 
 ### WiFi or Cellular Connectivity
 

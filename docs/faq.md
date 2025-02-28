@@ -2,23 +2,23 @@
 
 ## General Questions
 
-### What is BirdTalk's relationship with eBird?
-
-BirdTalk's capabilities would be a perfect complement to the eBird app, so we are approaching eBird about combining them.
-
 ### What are the advantages of BirdTalk?
 
-- Makes birding more fun by being "in the moment", compared to incessantly tapping into the eBird app.
+- Makes birding more fun by being "in the moment", compared to intermittently tapping into the eBird app.
 - Maximizes time looking at birds instead of the phone, so that you can see and record more birds, more accurately, with less fuss.
 
 ### What are the limitations of BirdTalk compared to the eBird app?
 
-- Currently works only within the United States.  By mid-2025 it will work anywhere, world-wide
+- Currently works only within the United States.
 - Has no way to upload the following info:
     - Locations that are not hotspots
     - Bird sex, age, and breeding code info
     - The track you walked while birding
 - Record such extra info as comments using the `Memo` command, then review and edit the checklist online after upload.
+
+### What is BirdTalk's relationship with eBird?
+
+BirdTalk acts as a replacement for the eBird app.  However, we would love to see BirdTalk's features built into the eBird app itself, so we are talking to eBird about how that could happen.
 
 ### Do I need an internet connection?
 
@@ -71,6 +71,7 @@ Yes!
 - Power off the Bluetooth headset and make sure the phone internal mic can hear you by saying `Time`.  Then power on the Bluetooth headset and try again.
 - This works because the most recently connected device takes control
 - Make sure there is no other app running that is controlling the mic, such as Merlin or a phone call
+- If you have never installed Siri, do so.  This activates speech recognition.
 - As a last resort, <a href="https://support.apple.com/guide/iphone/quit-and-reopen-an-app-iph83bfec492/ios">close the BirdTalk app</a>, re-open it, and say `Resume` to pick up where you left off.
 
 ### Why does BirdTalk sometimes take longer to respond?
