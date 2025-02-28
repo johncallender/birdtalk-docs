@@ -74,7 +74,7 @@ These are covered in more detail below.
 Say `Start checklist` and BirdTalk will find your location and suggest the nearest eBird hotspot.
 
 - BirdTalk reads back the chosen hotspot
-- If you prefer a different hotspot, tap the desired hotspot on the screen, or use the `Next` comamnd.
+- If you prefer a different hotspot, tap the desired hotspot on the screen, or use the `Next` command.
 - Then say `Share with one` if you are birding with another person, so the eBird checklist will have the right count.
 
 <div class="clear-floats"></div>
@@ -89,7 +89,7 @@ Say `Start checklist` and BirdTalk will find your location and suggest the neare
 
 ### Recording Birds
 
-Use the basic format: Say `[Number] [Species Name]`. For example:
+Here are some examples of how to record birds:
 
 - Say `Three mockingbirds`
 - Say `One robin`

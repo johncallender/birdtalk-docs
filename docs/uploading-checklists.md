@@ -199,7 +199,7 @@ Click "Done" in the upper lefthand corner, which will bring you back to BirdTalk
 
 <div class="image-container" markdown>
 <figure markdown>
-  ![Upload completed](images/19_upload__completed.png){ .screenshot }
+  ![Upload completed](images/19_upload_completed.png){ .screenshot }
   <figcaption>Upload process completed</figcaption>
 </figure>
 </div>
@@ -218,7 +218,7 @@ After successful upload, BirdTalk marks the checklists as uploaded.
 </div>
 
 <div class="content-wrap" markdown="1">
-When a checklist has been successfully uploaded, you can select the checklist location header and say `Delete Checklist` to delete the checklist from BirdTalk.  However, if you're new to BirdTalk, it's wise to first check in your eBird account to see that the uploaded checklist is really there, before deleting it in BirdTalk.  
+When a checklist has been successfully uploaded, you can select the checklist location header and say `Delete Checklist` to delete the checklist from BirdTalk.  However, if you're new to BirdTalk, it's wise to first check in your eBird account to see that the uploaded checklist is really there, before deleting it in BirdTalk.
 
 There's nothing wrong with keeping your most recently uploaded checklists in BirdTalk for a few days until you're completely sure the checklist made it into eBird.  However, you will want to remove old checklists eventually as BirdTalk slows down if it is holding on to more than 20 or so checklists.
 </div>

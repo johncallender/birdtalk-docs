@@ -46,7 +46,7 @@ Shorthand examples:
 - Say `How many species` - BirdTalk says back total species count for checklist
 - Say `How many robins` - BirdTalk says back total count for that species
 - Say `How many species today` - BirdTalk says back species count across all today's checklists
-- Say `Choose [species]` - Select most recent entry of specified species
+- Say `Choose robin` - Select most recent entry of specified species
 
 ### Adjusting Counts
 
@@ -66,7 +66,12 @@ Shorthand examples:
 
 ## Comments and Memos
 
-### Adding Comments
+### Adding Checklist-Level Comments
+
+- Say `Select checklist` - Selects the entire checklist
+- Say `Memo cloudy with light rain` - After selecting the checklist, adds a comment that applies to the entire checklist
+
+### Adding Entry-Level Comments
 
 - Say `Memo singing from oak tree` - Adds comment to selected entry
 - Don't pause more than a second or two after saying `Memo` and before saying the comment.
@@ -127,7 +132,7 @@ There's nothing wrong with keeping your most recently uploaded checklists in Bir
 
 ## Sharing
 
-- Say `Share with three` - marks the checklist as having 3 additional authors in addition to you.  
+- Say `Share with three` - marks the checklist as having 3 additional authors in addition to you.
 - The total (4 people in this example) is used for the Party Size field in the uploaded checklist.
 - Edit the checklist online, after upload, and use eBird's Share button to specify with whom you are sharing.
 
@@ -141,7 +146,7 @@ There's nothing wrong with keeping your most recently uploaded checklists in Bir
 ### System Commands
 
 - Say `Time` - BirdTalk speaks current time (also confirms it's listening)
-- Say `Feedback [text]` - Stores feedback for later transmission (note: feedback is saved but not sent immediately)
+- Say `Feedback app is having difficulty recognizing Brandt's cormorant` - Stores feedback for later transmission (note: feedback is saved but not sent immediately)
 - Say `Send feedback` - Packs all stored feedback into a file that it asks you to email to us
 
 **Next**: For more detailed advice on voice recognition, shorthand names, and troubleshooting, see the [FAQ](../faq.md).
