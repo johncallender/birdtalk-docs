@@ -180,6 +180,8 @@ During the upload process, the eBird site will show you a status page. It will s
 
 <div class="content-wrap" markdown="1">
 Upon successful upload, you'll see a confirmation screen:
+
+<span style="color: red; font-weight: bold;">Warning:</span> On this confirmation screen, do NOT click the "Delete import" link unless you want to completely remove your checklist from eBird. Despite what the name suggests, this link doesn't just clean up the listing on this page — it permanently deletes your uploaded checklist from eBird's database. Simply proceed to the next step by clicking "Done" in the upper left corner.
 </div>
 
 <div class="clear-floats"></div>

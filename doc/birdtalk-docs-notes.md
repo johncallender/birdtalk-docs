@@ -181,9 +181,15 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
        - Maintains proper markdown image processing
        - Adds margin between images for spacing
 
-## Current Status (Feb 10, 2025)
+## Current Status (Mar 4, 2025)
 
 Recent Updates:
+1. Added warning about "Delete import" link:
+   - Added a red warning label and text to the uploading-checklists.md file
+   - Warning explains that clicking "Delete import" on the eBird confirmation screen permanently deletes the uploaded checklist from eBird
+   - Placed alongside the 17_upload_successful.png image to ensure visibility
+
+Previous Updates (Feb 10, 2025):
 1. Documentation Structure:
    - Combined Tips and Tricks into FAQ section
    - Simplified testimonial link text and description
