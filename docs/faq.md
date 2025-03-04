@@ -110,7 +110,34 @@ See our [recommended](installation/requirements-and-setup.md/#requirements) Blue
 - Say `One hundred fifty starlings`, not "one fifty"
 - Say `One thousand two hundred starlings`, not "twelve hundred".
 
-## Using with Other Apps
+The iPhone can handle only two audio devices at a time:  the internal mic&speaker, and one external Bluetooth mic&speaker.  Even if you have several Bluetooth devices (such as your JBL speaker and your headset) connected, the iPhone only recognizes the one that was most recently connected to the phone, i.e. was most recently powered up.
+
+Whenever a Bluetooth device powers up and connects to the iPhone, that Bluetooth device grabs control and becomes the only accessible Bluetooth device.
+
+So for example if you are talking to BirdTalk via the headset and then you turn on your JBL, the JBL will connect to the iPhone and take control.  Suddenly you’ll have to talk to BirdTalk through the JBL and it will talk back through it.
+
+If you get in a situation where you’d like to switch audio to a different Bluetooth device, say the headset, you can do so by either turning the headset power off and then on (so that it grabs audio control); or use the phone’s Settings/Bluetooth page to disconnect other Bluetooth audio devices so control switches back to the headset, or use the Settings/Bluetooth page to disconnect and reconnect the headset, which makes it grab audio control.
+
+One tricky case is where you want to switch audio back to your headset when you’ve set the external speaker down out of reach.  Unfortunately since you’re playing back sounds through that speaker, it also means that the microphone that BirdTalk is listening on is also at that speaker.  If it’s several feet away from you it will be too inconvenient to shout your BirdTalk commands at it!
+
+So to switch from playback back to your headset for giving BirdTalk commands, you need to switch audio control away from the speaker.  Do this using the same steps mentioned above: easiest is probably to power the headset off and then on so it grabs control, but you could instead use Settings/Bluetooth on the iPhone to disconnect the external playback speaker.
+
+## Using with Other Apps/Devices
+
+### Using External Speakers
+
+- If using a Bluetooth headset with BirdTalk:
+    - Turn on the headset and control switches to it.
+    - Say `Switch` to tell BirdTalk to switch from the headset mic/speaker to the internal iPhone mic/speaker.
+    - Say `Switch` again to tell BirdTalk to switch from the internal iPhone mic/speaker back to the headset iPhone mic/speaker.
+
+- Handling multiple Bluetooth devices:
+    - *iPhone issue*: If you have two Bluetooth devices (say a headset and an external speaker), only the one most recently turned is known to the iPhone.
+    - So `Switch` goes between the internal mic/speaker and the most recently powered on Bluetooth device, ignoring any other Bluetooth devices.
+    - Turning on a Bluetooth device makes it take control as the "active" device.
+    - When you power up your external speaker, it gets control, and BirdTalk will talk and listen to you through it.
+    - To get BirdTalk back to the headset, turn the headset power off and then back on.
+    - Or power off the speaker and control returns to the last Bluetooth device, i.e. the headset.
 
 ### Phone and text notifications
 
