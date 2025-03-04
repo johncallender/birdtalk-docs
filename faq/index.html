@@ -682,14 +682,23 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#using-with-other-apps" class="md-nav__link">
+  <a href="#using-with-other-appsdevices" class="md-nav__link">
     <span class="md-ellipsis">
-      Using with Other Apps
+      Using with Other Apps/Devices
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Using with Other Apps">
+    <nav class="md-nav" aria-label="Using with Other Apps/Devices">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-external-speakers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using External Speakers
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#phone-and-text-notifications" class="md-nav__link">
@@ -869,7 +878,35 @@
 <li>Say <code>One hundred fifty starlings</code>, not "one fifty"</li>
 <li>Say <code>One thousand two hundred starlings</code>, not "twelve hundred".</li>
 </ul>
-<h2 id="using-with-other-apps">Using with Other Apps</h2>
+<p>The iPhone can handle only two audio devices at a time:  the internal mic&amp;speaker, and one external Bluetooth mic&amp;speaker.  Even if you have several Bluetooth devices (such as your JBL speaker and your headset) connected, the iPhone only recognizes the one that was most recently connected to the phone, i.e. was most recently powered up.</p>
+<p>Whenever a Bluetooth device powers up and connects to the iPhone, that Bluetooth device grabs control and becomes the only accessible Bluetooth device.</p>
+<p>So for example if you are talking to BirdTalk via the headset and then you turn on your JBL, the JBL will connect to the iPhone and take control.  Suddenly you’ll have to talk to BirdTalk through the JBL and it will talk back through it.</p>
+<p>If you get in a situation where you’d like to switch audio to a different Bluetooth device, say the headset, you can do so by either turning the headset power off and then on (so that it grabs audio control); or use the phone’s Settings/Bluetooth page to disconnect other Bluetooth audio devices so control switches back to the headset, or use the Settings/Bluetooth page to disconnect and reconnect the headset, which makes it grab audio control.</p>
+<p>One tricky case is where you want to switch audio back to your headset when you’ve set the external speaker down out of reach.  Unfortunately since you’re playing back sounds through that speaker, it also means that the microphone that BirdTalk is listening on is also at that speaker.  If it’s several feet away from you it will be too inconvenient to shout your BirdTalk commands at it!</p>
+<p>So to switch from playback back to your headset for giving BirdTalk commands, you need to switch audio control away from the speaker.  Do this using the same steps mentioned above: easiest is probably to power the headset off and then on so it grabs control, but you could instead use Settings/Bluetooth on the iPhone to disconnect the external playback speaker.</p>
+<h2 id="using-with-other-appsdevices">Using with Other Apps/Devices</h2>
+<h3 id="using-external-speakers">Using External Speakers</h3>
+<ul>
+<li>
+<p>If using a Bluetooth headset with BirdTalk:</p>
+<ul>
+<li>Turn on the headset and control switches to it.</li>
+<li>Say <code>Switch</code> to tell BirdTalk to switch from the headset mic/speaker to the internal iPhone mic/speaker.</li>
+<li>Say <code>Switch</code> again to tell BirdTalk to switch from the internal iPhone mic/speaker back to the headset iPhone mic/speaker.</li>
+</ul>
+</li>
+<li>
+<p>Handling multiple Bluetooth devices:</p>
+<ul>
+<li><em>iPhone issue</em>: If you have two Bluetooth devices (say a headset and an external speaker), only the one most recently turned is known to the iPhone.</li>
+<li>So <code>Switch</code> goes between the internal mic/speaker and the most recently powered on Bluetooth device, ignoring any other Bluetooth devices.</li>
+<li>Turning on a Bluetooth device makes it take control as the "active" device.</li>
+<li>When you power up your external speaker, it gets control, and BirdTalk will talk and listen to you through it.</li>
+<li>To get BirdTalk back to the headset, turn the headset power off and then back on.</li>
+<li>Or power off the speaker and control returns to the last Bluetooth device, i.e. the headset.</li>
+</ul>
+</li>
+</ul>
 <h3 id="phone-and-text-notifications">Phone and text notifications</h3>
 <ul>
 <li>When a phone call comes in, BirdTalk stops listening until the phone call is complete</li>
