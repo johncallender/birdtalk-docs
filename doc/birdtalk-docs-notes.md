@@ -181,9 +181,16 @@ Documentation version 1.1 is in progress, incorporating Steve Colwell's feedback
        - Maintains proper markdown image processing
        - Adds margin between images for spacing
 
-## Current Status (Mar 4, 2025)
+## Current Status (Mar 24, 2025)
 
 Recent Updates:
+1. Added clarification about creating multiple checklists before uploading:
+   - Added information to uploading-checklists.md under "Option 2: Save for Later Upload" section
+   - Added bullet points to getting-started.md under "Checklist Concepts" section
+   - Added a new FAQ entry "Can I create multiple checklists before uploading any of them?"
+   - These changes address user confusion about whether multiple checklists can be created before uploading any of them, especially when offline
+
+Previous Updates (Mar 4, 2025):
 1. Added warning about "Delete import" link:
    - Added a red warning label and text to the uploading-checklists.md file
    - Warning explains that clicking "Delete import" on the eBird confirmation screen permanently deletes the uploaded checklist from eBird

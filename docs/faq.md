@@ -47,6 +47,13 @@ Yes!
 - Then, later, use `Insert checklist` at appropriate points to split it into several checklists.
 - Use `Scratch` to removes checklist headers if you started a new checklist but decide to combine those entries into the previous one.
 
+### Can I create multiple checklists before uploading any of them?
+
+- Yes! BirdTalk saves all your checklists locally on your device, even without internet connectivity.
+- You can create and complete multiple checklists before uploading any of them to eBird.
+- Simply say `Start checklist` to begin a new checklist, even if you have other completed checklists that haven't been uploaded yet.
+- When you have internet access, you can upload all your saved checklists at once. See [Uploading Checklists](uploading-checklists.md) for details.
+
 ### How can I make a checklist at a personal location rather than a hotspot?
 
 - BirdTalk doesn't allow making a checklist for a Personal Location.
@@ -158,4 +165,3 @@ Due to a recent Merlin or iOS update, Merlin Sound ID is no longer compatible wi
 - Stores phonetic format of commands (not readable text)
 - Uses GPS data for hotspot detection and location recording
 - All data is used solely for app functionality and debugging
-

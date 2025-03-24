@@ -59,6 +59,8 @@ To save a checklist for later upload:
 
 <div class="content-wrap" markdown="1">
 You can mark multiple checklists for later upload, which is particularly useful when you're doing several short counts in one area.
+
+**Important:** BirdTalk saves all your checklists locally on your device, even without internet connectivity. You can create and complete multiple checklists before uploading any of them. When you're ready, you can upload all your saved checklists at once when you have internet access.
 </div>
 
 <div class="clear-floats"></div>

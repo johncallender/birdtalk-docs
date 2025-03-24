@@ -57,6 +57,8 @@ These are covered in more detail below.
 - You can tap the screen (or use the `choose` command) to select particular entries so you can then `scratch` or otherwise modify them.
 - When the checklist is stopped, new bird entries can no longer be added.
 - It is possible to modify entries in a stopped checklist.  We'll cover this later in [Command Reference](commands/reference.md).
+- You can create and complete multiple checklists before uploading any of them to eBird. Simply say `Start checklist` to begin a new checklist, even if you have other completed checklists that haven't been uploaded yet.
+- All checklists are saved locally on your device, even without internet connectivity. You can upload them later when you have internet access.
 
 <div>&nbsp;</div>
 
