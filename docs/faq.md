@@ -9,7 +9,6 @@
 
 ### What are the limitations of BirdTalk compared to the eBird app?
 
-- Currently works only within the United States.
 - Has no way to upload the following info:
     - Locations that are not hotspots
     - Bird sex, age, and breeding code info

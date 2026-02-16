@@ -6,10 +6,11 @@
 - eBird account (create at
 <a href="https://eBird.org" target="eBird">ebird.org</a>
 if needed)
-- The <a href="https://www.amazon.com/SHOKZ-OpenComm2-Conduction-Headphones-Bluetooth/dp/B0C88R9FHG" target="bonecondamazon">OpenComm2 Bone Conduction Stereo Bluetooth Headset by Shokz</a>:
+- The <a href="https://www.amazon.com/SHOKZ-OpenComm2-Conduction-Headphones-Bluetooth/dp/B0DFWM4TWW" target="bonecondamazon">OpenComm2 Bone Conduction Stereo Bluetooth Headset</a>:
     * A noise-canceling boom microphone is essential in the field.  Other options like Airpods or the phone's built-in microphone only work well in very quiet environments or in the car.
     * The bone-conduction headset keeps ears unobstructed for birding by ear.
-    * This particular model works quite well with BirdTalk. Recently, inexpensive Chinese knock-offs have appeared, but these are so far untested.  Online reviews leave some doubt about their quality.  Caveat emptor.
+    * This particular model works quite well with BirdTalk. Recently, inexpensive Chinese knock-offs have appeared, and we've tested several, but they are not really true bone-conduction so don't work nearly as well.
+    * The specific model linked above is the least expensive OpenComm2 but does require that you have your own USB-C source and cable for charging it.  If you don't have that you'll need one of the other OpenComm2 variations listed on that same page.
     * (optional) Add wind muffs such as <a href="https://www.amazon.com/dp/B08DJ38QZG" target="windmuffamazon">Lavalier Wind Muff 2 Pack</a> for even better recognition accuracy in windy environments.
 - If the headset is a no-go for some reason, one option is the less expensive <a href="https://www.amazon.com/dp/B0CX45Z2PV" target="neckholderamazon">Neck Phone Holder</a> which allows one to position the phone near one's mouth for hands-free use.
     * Not as effective nor as comfortable as the noise-canceling boom mic.
