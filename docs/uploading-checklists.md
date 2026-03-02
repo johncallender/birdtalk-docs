@@ -46,6 +46,8 @@ To save a checklist for later upload:
 
 1. Select your checklist by saying `Select checklist` or tapping the checklist header
 2. Say `Upload later`
+
+To remove the "ready for upload" mark from a checklist (for example, if it was staged by mistake), select the checklist and say `Don't upload`.
 </div>
 
 <div class="clear-floats"></div>

@@ -117,6 +117,7 @@ Shorthand examples:
 ### Upload Management
 
 - Say `Upload later` - Marks current checklist for later upload
+- Say `Don't upload` - Removes the "ready for upload" mark from a checklist, so it won't be included in the next upload
 - Say `Unfreeze` - Marks an uploaded checklist as not uploaded (allows re-uploading if needed)
 - Say `Delete entire checklist` - deletes the checklist whose header line is selected.
 - Say `Delete all checklists` - remove <i>every single checklist</i> from BirdTalk, whether uploaded or not.  This is a dangerously powerful command so be very sure that's what you intend before using it.  In fact it's best not to even say this phrase near other people who are using BirdTalk, on the chance that their mic picks up your words.  As a safety measure this feature requires that you first select the top line of the first checklist in your BirdTalk display.
