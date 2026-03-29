@@ -76,7 +76,7 @@ Yes!
 - Make sure the Start/Stop button at upper left says "Stop" which means it is listening.  If it says "Start", tap it to tell BirdTalk to listen.
 - Power off the Bluetooth headset and make sure the phone internal mic can hear you by saying `Time`.  Then power on the Bluetooth headset and try again.
 - This works because the most recently connected device takes control
-- Make sure there is no other app running that is controlling the mic, such as Merlin or a phone call
+- Make sure there is no other app running that is controlling the mic, such as a phone call
 - If you have never installed Siri, do so.  This activates speech recognition.
 - As a last resort, <a href="https://support.apple.com/guide/iphone/quit-and-reopen-an-app-iph83bfec492/ios">close the BirdTalk app</a>, re-open it, and say `Resume` to pick up where you left off.
 
@@ -151,9 +151,9 @@ So to switch from playback back to your headset for giving BirdTalk commands, yo
 - If BirdTalk stop responding after a call or notification, tap "Stop" at upper left then tap "Start" to resume listening
 - Usually you must then say `Resume` to pick up with the last-active checklist
 
-### Note About Merlin Sound ID
+### Can I use Merlin Sound ID with BirdTalk?
 
-Due to a recent Merlin or iOS update, Merlin Sound ID is no longer compatible with BirdTalk. The apps cannot run simultaneously.  Hopefully they'll soon fix Merlin to again allow other apps to share the microphone with it.
+Yes! As of late December 2025, Merlin Sound ID works with BirdTalk again. The two apps can now run simultaneously.
 
 
 ## Privacy and Data
